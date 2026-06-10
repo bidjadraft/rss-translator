@@ -453,9 +453,9 @@ def process_feed(feed_url):
         skipped_count = 0
         
         if not last_id:
-            logging.info(f"First time processing '{feed_name}'. Processing latest {MAX_POSTS} posts.")
-            latest_entries = entries_sorted[-MAX_POSTS:]
-            new_entries_to_process = latest_entries
+            logging.info(f"First time processing '{feed_name}'. Processing latest post only.")
+            latest_entry = entries_sorted[-1]
+            new_entries_to_process = [latest_entry]
         else:
             last_index = -1
             for i, entry in enumerate(entries_sorted):
@@ -468,9 +468,9 @@ def process_feed(feed_url):
                 new_entries_to_process = entries_sorted[last_index + 1:]
                 logging.info(f"Found {len(new_entries_to_process)} new posts in {feed_name}")
             else:
-                logging.warning(f"Last ID not found. Processing latest {MAX_POSTS} posts.")
-                latest_entries = entries_sorted[-MAX_POSTS:]
-                new_entries_to_process = latest_entries
+                logging.warning(f"Last ID not found. Processing latest post only.")
+                latest_entry = entries_sorted[-1]
+                new_entries_to_process = [latest_entry]
         
         if new_entries_to_process:
             for entry in new_entries_to_process:
