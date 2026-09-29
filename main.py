@@ -183,13 +183,14 @@ def load_existing_entries(feed_name):
                     # إزالة سطر المصدر المضاف سابقًا حتى لا يتكرر عند إعادة الكتابة
                     desc_clean = desc_raw.split('<br><br>المصدر:')[0]
 
+                    # ===== إصلاح: المصدر الحقيقي محفوظ في وسم source =====
                     entry = {
                         'title': item.findtext('title', ''),
                         'translated_title': item.findtext('title', ''),
                         'link': item.findtext('link', ''),
                         'published': item.findtext('pubDate', ''),
                         'processed_text': desc_clean,
-                        'feed_source': feed_name
+                        'feed_source': item.findtext('source', '') or feed_name
                     }
 
                     enclosure = item.find('enclosure')
@@ -242,6 +243,10 @@ def create_rss_xml(feed_name, entries):
 
         pub_date = entry.get('published', datetime.now().strftime('%a, %d %b %Y %H:%M:%S GMT'))
         ET.SubElement(item, 'pubDate').text = pub_date
+
+        # ===== حفظ المصدر الحقيقي داخل الملف =====
+        if entry.get('feed_source'):
+            ET.SubElement(item, 'source').text = entry['feed_source']
 
         # الوصف + سطر المصدر برابط قابل للنقر إلى المنشور الأصلي
         description = entry.get('processed_text', '')
