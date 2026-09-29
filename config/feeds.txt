@@ -3,7 +3,5 @@ https://www.theverge.com/rss/index.xml
 https://techcrunch.com/feed/
 https://www.androidauthority.com/feed/
 https://proton.me/blog/feed.xml
-https://blog.google/rss/
 https://ente.com/rss.xml
-https://www.reddit.com/r/degoogle/search.rss?q=flair_name%3A%22News+Article%22&restrict_sr=1&sort=new
 https://f-droid.org/feed.xml
