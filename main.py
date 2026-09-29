@@ -218,6 +218,7 @@ def create_rss_xml(feed_name, entries):
 
     channel = ET.SubElement(rss, 'channel')
 
+    # ===== عنوان الخلاصة: All News (وليس Merged RSS Feeds) =====
     if MERGE_FEEDS:
         ET.SubElement(channel, 'title').text = "All News"
         ET.SubElement(channel, 'description').text = f"All news from {len(RSS_FEEDS)} sources, translated & summarized"
@@ -232,12 +233,8 @@ def create_rss_xml(feed_name, entries):
     for entry in entries:
         item = ET.SubElement(channel, 'item')
 
-        description = entry.get('processed_text', '')
-
-        # بدون عنوان منفصل — العنوان مقتطع من الملخص (title إلزامي في RSS 2.0)
-        title = description[:120].strip() or "News"
-        if len(description) > 120:
-            title = title.rsplit(' ', 1)[0] + "…"
+        # العنوان المترجم كعنوان للمنشور
+        title = entry.get('translated_title') or entry.get('title') or "News"
         ET.SubElement(item, 'title').text = title
 
         link = entry.get('link', '')
@@ -247,6 +244,8 @@ def create_rss_xml(feed_name, entries):
         ET.SubElement(item, 'pubDate').text = pub_date
 
         # الوصف + سطر المصدر برابط قابل للنقر إلى المنشور الأصلي
+        description = entry.get('processed_text', '')
+
         source_name = entry.get('feed_source', '')
         if link:
             source_line = f'<br><br>المصدر: <a href="{link}">{source_name or link}</a>'
@@ -511,6 +510,10 @@ def process_feed(feed_url):
                         skipped_count += 1
                         continue
 
+                    # ترجمة العنوان
+                    title_switcher = OllamaModelSwitcher(OLLAMA_MODELS)
+                    translated_title = translate_title(entry.get('title', 'No Title'), title_switcher)
+
                     image_url = None
                     if 'media_content' in entry and entry['media_content']:
                         image_url = entry['media_content'][0].get('url', '')
@@ -520,7 +523,7 @@ def process_feed(feed_url):
 
                     processed_entry = {
                         'title': entry.get('title', 'No Title'),
-                        'translated_title': entry.get('title', 'No Title'),
+                        'translated_title': translated_title,
                         'link': post_url,
                         'published': entry.get('published', ''),
                         'processed_text': processed_text,
