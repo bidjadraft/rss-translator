@@ -2,10 +2,26 @@
 <rss version="2.0">
   <channel>
     <title>All News</title>
-    <description>All news from 3 sources, translated &amp; summarized</description>
+    <description>All news from 4 sources, translated &amp; summarized</description>
     <link>https://github.com/bidjadraft/rss-translator</link>
     <language>arabic</language>
-    <lastBuildDate>Tue, 29 Sep 2026 22:02:38 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 23:13:26 GMT</lastBuildDate>
+    <item>
+      <title>الإنترنت مقت convinced بأن xAI لإيلون ماسك قد سخر من إطلاق &quot;Dots&quot; الخاص بـOpenAI</title>
+      <link>https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/</link>
+      <pubDate>Tue, 29 Sep 2026 22:20:59 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>قبل أن تعلن شركة OpenAI عن إطلاق وكيلها الذكي الجديد المسمى Dots يوم الثلاثاء، كانت شركة xAI التابعة لإيلون ماسك قد سجلت بالفعل اسم النطاق &quot;dot.com&quot;، والذي يوجه الآن الزوار إلى صفحة تنزيل شات بوت Grok. كما أن توجيه النطاق إلى Grok يُشير إلى أن الشركة قد تستغل العلامة التجارية لتقوية حضورها في السوق.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2025/02/elon-musk-election-afd-purple.jpg?resize=1200,826" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>من المحتمل أن سيارتك وتطبيقها المحمول يُسلمان جميع أنواع البيانات إلى شركات التكنولوجيا</title>
+      <link>https://techcrunch.com/2026/09/29/your-car-and-its-mobile-app-are-probably-handing-over-all-kinds-of-data-to-tech-companies/</link>
+      <pubDate>Tue, 29 Sep 2026 22:18:35 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>اكتشف باحثون من جامعة نورث إيسترن أن السيارات وتطبيقاتها المرافقة تنقل بيانات مفصلة بشكل منتظم إلى عدد من أكبر شركات التكنولوجيا. وأوضح الباحثون أن هذه الأنظمة تجمع معلومات حول موقع السيارة، سلوك السائق، وحالة النظام، ثم تُرسل هذه البيانات إلى شركات مثل جوجل وآبل، ما يثير مخاوف حول خصوصية المستخدمين وأمان المعلومات المتبادلة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/09/29/your-car-and-its-mobile-app-are-probably-handing-over-all-kinds-of-data-to-tech-companies/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2024/12/rip-transportation-2024.jpg?resize=1200,800" type="image/jpeg"/>
+    </item>
     <item>
       <title>إليس AI المدعومة من a16z تجمع 350 مليون دولار، وتضاعف تقييمها إلى 4 مليارات.</title>
       <link>https://techcrunch.com/2026/09/29/a16z-backed-eliseai-raises-350m-doubles-valuation-to-4b/</link>
@@ -15,12 +31,28 @@
       <enclosure url="https://techcrunch.com/wp-content/uploads/2024/04/GettyImages-1469304638.jpg?resize=1200,669" type="image/jpeg"/>
     </item>
     <item>
+      <title>جوجل تقول إن تجمّد صور Google المزعج قد تم إصلاحه أخيرًا</title>
+      <link>https://www.androidauthority.com/google-photos-fix-3717114/</link>
+      <pubDate>Tue, 29 Sep 2026 21:15:29 +0000</pubDate>
+      <source>android_authority</source>
+      <description>أعلنت الشركة أنه لا توجد حاجة بعد الآن لأي حلول بديلة، حيث تم تبسيط العملية وإزالة جميع التعقيدات، مما يجعل التنفيذ مباشرةً دون الاعتماد على أي حيل أو طرق مؤقتة. هذا التغيير يضمن كفاءة أعلى ويوفر الوقت والجهد للمستخدمين، وبذلك يصبح النظام أكثر استقرارًا وموثوقية. كما سيسهم ذلك في تحسين الأداء العام وتلبية احتياجات السوق بسرعة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.androidauthority.com/google-photos-fix-3717114/&quot;&gt;android_authority&lt;/a&gt;</description>
+      <enclosure url="https://www.androidauthority.com/wp-content/uploads/2026/07/google-photos-july-2026-redesign.jpg" type="image/jpeg"/>
+    </item>
+    <item>
       <title>تحديد موعد وكيفيات دفع تكلفة الحج</title>
       <link>https://www.ennaharonline.com/%d8%aa%d8%ad%d8%af%d9%8a%d8%af-%d9%85%d9%88%d8%b9%d8%af-%d9%88%d9%83%d9%8a%d9%81%d9%8a%d8%a7%d8%aa-%d8%af%d9%81%d8%b9-%d8%aa%d9%83%d9%84%d9%81%d8%a9-%d8%a7%d9%84%d8%ad%d8%ac/</link>
       <pubDate>Tue, 29 Sep 2026 20:43:40 +0000</pubDate>
       <source>النهار_أونلاين</source>
       <description>أصدر الديوان الوطني للحج والعمرة بياناً اليوم يحدد بدء دفع تكلفة الحج لموسم 1448هـ/2027م، التي تبلغ 82 مليون سنتيم، حيث يبدأ الدفع في الأول من أكتوبر 2026 ويستمر حتى 29 أكتوبر 2026. وأوضح الديوان إمكانيات السداد عبر الدفع الإلكتروني عبر البوابة الجزائرية وغيرها من الوسائل المتاحة. كما يُقبل الدفع عبر البطاقات البنكية أو التحويل المصرفي.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.ennaharonline.com/%d8%aa%d8%ad%d8%af%d9%8a%d8%af-%d9%85%d9%88%d8%b9%d8%af-%d9%88%d9%83%d9%8a%d9%81%d9%8a%d8%a7%d8%aa-%d8%af%d9%81%d8%b9-%d8%aa%d9%83%d9%84%d9%81%d8%a9-%d8%a7%d9%84%d8%ad%d8%ac/&quot;&gt;النهار_أونلاين&lt;/a&gt;</description>
       <enclosure url="https://www.ennaharonline.com/wp-content/uploads/2026/09/13.png" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>ترامب يأمر الحكومة الأمريكية بأن تُطلق على الذكاء الاصطناعي «الذكاء الفائق»</title>
+      <link>https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai</link>
+      <pubDate>2026-09-29T18:25:45-04:00</pubDate>
+      <source>the_verge</source>
+      <description>قررت الإدارة التنفيذية الأمريكية عدم الإشارة إلى مفهوم «الذكاء الاصطناعي» مستقبلاً، بل ستستعمل مصطلح «الذكاء الفائق» في جميع المواقع الرسمية والوثائق الصحفية بعد أمر تنفيذي جديد وقعّه الرئيس دونالد ترامب. وقد أوضح ترامب أن كلمة «فائق» هي الأنسب والأبسط لتصنيف هذه التكنولوجيا. وسيتم اعتماد هذا المصطلح في جميع السياسات الرسمية وكذلك في البيانات الصحفية المستقبلية، ما يعكس تحولاً في طريقة وصف التكنولوجيا المتقدمة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2250207971.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;amp;w=1200" type="image/jpeg"/>
     </item>
     <item>
       <title>i3 المعاد تصميمه من بي إم دبليو يضمن مدى يصل إلى ٤٦٨ ميلاً</title>
