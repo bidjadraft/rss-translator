@@ -179,13 +179,17 @@ def load_existing_entries(feed_name):
 
             if channel is not None:
                 for item in channel.findall('item'):
+                    desc_raw = item.findtext('description', '')
+                    # إزالة سطر المصدر المضاف سابقًا حتى لا يتكرر عند إعادة الكتابة
+                    desc_clean = desc_raw.split('<br><br>المصدر:')[0]
+
                     entry = {
                         'title': item.findtext('title', ''),
                         'translated_title': item.findtext('title', ''),
                         'link': item.findtext('link', ''),
                         'published': item.findtext('pubDate', ''),
-                        'processed_text': item.findtext('description', ''),
-                        'feed_source': item.findtext('source', feed_name) if MERGE_FEEDS else feed_name
+                        'processed_text': desc_clean,
+                        'feed_source': feed_name
                     }
 
                     enclosure = item.find('enclosure')
@@ -215,20 +219,25 @@ def create_rss_xml(feed_name, entries):
     channel = ET.SubElement(rss, 'channel')
 
     if MERGE_FEEDS:
-        ET.SubElement(channel, 'title').text = "Merged RSS Feeds"
-        ET.SubElement(channel, 'description').text = f"Merged feeds from {len(RSS_FEEDS)} sources"
+        ET.SubElement(channel, 'title').text = "All News"
+        ET.SubElement(channel, 'description').text = f"All news from {len(RSS_FEEDS)} sources, translated & summarized"
     else:
         ET.SubElement(channel, 'title').text = f"{feed_name} - Processed Feed"
         ET.SubElement(channel, 'description').text = f"Processed RSS feed from {feed_name}"
 
-    ET.SubElement(channel, 'link').text = f"https://github.com/bidjadraft/rss-translator"
+    ET.SubElement(channel, 'link').text = "https://github.com/bidjadraft/rss-translator"
     ET.SubElement(channel, 'language').text = LANGUAGE
     ET.SubElement(channel, 'lastBuildDate').text = datetime.now().strftime('%a, %d %b %Y %H:%M:%S GMT')
 
     for entry in entries:
         item = ET.SubElement(channel, 'item')
 
-        title = entry.get('translated_title', entry.get('title', 'No Title'))
+        description = entry.get('processed_text', '')
+
+        # بدون عنوان منفصل — العنوان مقتطع من الملخص (title إلزامي في RSS 2.0)
+        title = description[:120].strip() or "News"
+        if len(description) > 120:
+            title = title.rsplit(' ', 1)[0] + "…"
         ET.SubElement(item, 'title').text = title
 
         link = entry.get('link', '')
@@ -237,11 +246,14 @@ def create_rss_xml(feed_name, entries):
         pub_date = entry.get('published', datetime.now().strftime('%a, %d %b %Y %H:%M:%S GMT'))
         ET.SubElement(item, 'pubDate').text = pub_date
 
-        description = entry.get('processed_text', '')
-        ET.SubElement(item, 'description').text = description
+        # الوصف + سطر المصدر برابط قابل للنقر إلى المنشور الأصلي
+        source_name = entry.get('feed_source', '')
+        if link:
+            source_line = f'<br><br>المصدر: <a href="{link}">{source_name or link}</a>'
+        else:
+            source_line = f'<br><br>المصدر: {source_name}'
 
-        if MERGE_FEEDS and entry.get('feed_source'):
-            ET.SubElement(item, 'source').text = entry['feed_source']
+        ET.SubElement(item, 'description').text = description + source_line
 
         if entry.get('image_url'):
             ET.SubElement(item, 'enclosure', {
@@ -341,7 +353,6 @@ Title: {title}"""
 
 
 def process_with_ollama(text, model_switcher):
-    # ===== إصلاح: التعريفات كانت مفقودة وتسبب NameError =====
     if not OLLAMA_API_KEY:
         logging.error("OLLAMA_API_KEY is not set.")
         return None
@@ -500,9 +511,6 @@ def process_feed(feed_url):
                         skipped_count += 1
                         continue
 
-                    title_switcher = OllamaModelSwitcher(OLLAMA_MODELS)
-                    translated_title = translate_title(entry.get('title', 'No Title'), title_switcher)
-
                     image_url = None
                     if 'media_content' in entry and entry['media_content']:
                         image_url = entry['media_content'][0].get('url', '')
@@ -512,7 +520,7 @@ def process_feed(feed_url):
 
                     processed_entry = {
                         'title': entry.get('title', 'No Title'),
-                        'translated_title': translated_title,
+                        'translated_title': entry.get('title', 'No Title'),
                         'link': post_url,
                         'published': entry.get('published', ''),
                         'processed_text': processed_text,
