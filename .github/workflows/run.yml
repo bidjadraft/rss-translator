@@ -29,6 +29,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Ensure required files exist
+        run: |
+          mkdir -p config rss
+          # إنشاء ملف التتبع إن لم يكن موجودًا (سبب خطأ exit 128)
+          [ -f config/last_post.json ] || echo '{}' > config/last_post.json
+
       - name: Run Apps Bot
         run: python main.py
 
@@ -40,6 +46,11 @@ jobs:
       - name: Commit and push changes
         run: |
           git add config/last_post.json
-          git add rss/*.xml
-          git diff --cached --quiet || git commit -m "Auto-update: Bot execution - $(date +%Y-%m-%d_%H:%M:%S)"
+          # لا نفشل إذا لم توجد ملفات XML بعد
+          git add rss/*.xml 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "لا تغييرات جديدة — تخطي الـ commit"
+            exit 0
+          fi
+          git commit -m "Auto-update: Bot execution - $(date +%Y-%m-%d_%H:%M:%S)"
           git push
