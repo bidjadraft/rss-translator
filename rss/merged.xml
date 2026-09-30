@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>All News</title>
+    <description>All news from 11 sources</description>
+    <link>https://github.com/bidjadraft/rss-translator</link>
+    <language>arabic</language>
+    <lastBuildDate>Wed, 30 Sep 2026 09:13:06 GMT</lastBuildDate>
+    <item>
+      <title>هولندا اختارت NixOS، وفرنسا كانت تستخدمه بالفعل</title>
+      <link>https://feed.itsfoss.com/link/24361/17478137/france-nixos-move</link>
+      <pubDate>Wed, 30 Sep 2026 08:03:37 +0530</pubDate>
+      <source>its_foss</source>
+      <description>وكالة فرنسية رقمية، التي تدير العديد من المشاريع التقنية، قامت منذ عدة أشهر بتجربة نظام التشغيل NixOS على الحواسيب الداخلية للموظفين، مستفيدةً من منصة Sécurix المفتوحة المصدر والمُعَزَّزة بأمان متقدم، مما يضمن استقرار البيئة البرمجية وتحديثات موثوقة مع تعزيز الحماية ضد التهديدات الإلكترونية. كما ساهمت هذه الخطوة في تقليل تكاليف الصيانة وتوحيد عمليات التكوين عبر فريق تقنية المعلومات، مما يعزز كفاءة العمل ويسرّع تبني حلول سحابية مستقبلية.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://feed.itsfoss.com/link/24361/17478137/france-nixos-move&quot;&gt;its_foss&lt;/a&gt;</description>
+      <enclosure url="https://itsfoss.com/content/images/2026/09/france-securix-nix-os-banner.png" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>آبل باي تُطلق أخيرًا في الهند بعد سنوات من الانتظار</title>
+      <link>https://techcrunch.com/2026/09/29/apple-pay-set-to-launch-in-india-with-axis-bank-today-sources-say/</link>
+      <pubDate>Wed, 30 Sep 2026 04:08:00 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>قررت عدة بنوك هندية كبرى تأجيل توفير خدمة Apple Pay للمستخدمين في المرحلة الأولى، مشيرةً إلى الحاجة إلى مزيد من التقييم الفني والتنظيمي قبل اعتماد نظام الدفع الرقمي، ما قد يؤثر على سرعات انتشار هذه التقنية في السوق الهندي، ويجعل الهند تتأخر عن دول أخرى قد اعتمدتها بالفعل. وبينما يتطلع المستهلكون إلى خيارات دفع أسرع وأكثر أمانًا، فإن هذا التأخير قد يدفعهم لاستخدام بدائل محلية.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/09/29/apple-pay-set-to-launch-in-india-with-axis-bank-today-sources-say/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2024/03/GettyImages-1814216780-e1711055311427.jpg?resize=1200,674" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>وثائقك الورقية تنتمي إلى Locker أيضًا</title>
+      <link>https://ente.com/blog/locker-document-scanner/</link>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+      <source>ente_-_feed</source>
+      <description>أصبح بإمكان تطبيق Locker الآن مسح المستندات الورقية وتحويلها إلى ملفات PDF مباشرة داخل التطبيق، دون الحاجة لاستخدام برامج خارجية أو الخروج من الواجهة. تُسهم هذه الميزة في تسهيل تنظيم الملفات وتوفير الوقت للمستخدمين الذين يرغبون في توثيق المستندات بسرعة وأمان. كما يدعم التطبيق حفظ الصور الممسوحة بجودة عالية وإمكانية مشاركة ملفات PDF عبر البريد أو التطبيقات الأخرى.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://ente.com/blog/locker-document-scanner/&quot;&gt;ente_-_feed&lt;/a&gt;</description>
+      <enclosure url="https://ente.com/og-images/locker-document-scanner.png" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>أدوات تقنية القراصنة: ما تقوم به وكيفية البقاء بأمان</title>
+      <link>https://proton.me/blog/hacker-tech-tools</link>
+      <pubDate>Tue, 29 Sep 2026 18:07:00 GMT</pubDate>
+      <source>the_proton_blog</source>
+      <description>تعلم كيف يمكن لأدوات القرصنة مثل كابلات USB المدمرة، مسجلات المفاتيح، وقارئات RFID أن تستهدف الأنظمة، واكتشف الإجراءات الوقائية الضرورية لتأمين الأجهزة، بما في ذلك فحص الأجهزة قبل الاستخدام، تفعيل برامج الحماية، تحديث الأنظمة بانتظام، وتجنب توصيل ملحقات غير موثوقة. إضافة إلى ذلك يُنصح باستخدام كلمات سر قوية، تفعيل المصادقة الثنائية، وتشفير البيانات الحساسة لتقليل مخاطر الاختراق.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://proton.me/blog/hacker-tech-tools&quot;&gt;the_proton_blog&lt;/a&gt;</description>
+      <enclosure url="https://pmecdn.protonweb.com/image-transformation/?s=c&amp;amp;image=images/w_2560,h_1440,c_scale/f_auto,q_auto/v1790697967/wp-pme/hacker-tools-01d/hacker-tools-01d.jpg?_i=AA" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>نوتسنوك موبايل v3.4.13</title>
+      <link>https://notesnook.com/blog/notesnook-mobile-v3.4.13</link>
+      <pubDate>Tue, 15 Sep 2026 11:20:56 GMT</pubDate>
+      <source>notesnook_blog</source>
+      <description>إصدار Notesnook Mobile v3.4.13 يقدّم تحسينات ملحوظة في معالجة المرفقات وتبادلها، كما يُصلّح مشكلة نسخ عناوين URL إلى الحافظة، ويحدّث مكتبة React Native sodium إلى نسخة أحدث لضمان أمان أفضل وأداء أكثر استقرارًا. يشمل التحديث تحسين استجابة واجهة المستخدم عند تحميل الملفات الكبيرة، وإضافة إشعارات فورية عند اكتمال المشاركة، بالإضافة إلى تحسين توافق التطبيق مع أنظمة iOS وAndroid الأخيرة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://notesnook.com/blog/notesnook-mobile-v3.4.13&quot;&gt;notesnook_blog&lt;/a&gt;</description>
+    </item>
+    <item>
+      <title>الصندوق واللمحات، أغسطس 2026</title>
+      <link>https://blog.joinmastodon.org/2026/09/trunk-tidbits-august-2026/</link>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+      <source>mastodon_blog</source>
+      <description>في الإصدار الـ 29 من Trunks &amp; Tidbits يعلن فريق ماستودون عن إطلاق Mastodon 4.7 مع تحسينات تقنية غير مرئية، وتحديثات الأمان للمصادر 4.7.1 و4.6.7 و4.5.17 و4.4.24. يُستعد الإصدار 5.0 بواجهة جديدة، وتم دمج 197 طلب تعديل من 11 مساهمًا في أغسطس 2026، بما فيها تحسينات للبحث، وإدارة حذف الحسابات، وتحديثات لتطبيقات iOS وAndroid. يدعو الفريق إلى الدعم المالي.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://blog.joinmastodon.org/2026/09/trunk-tidbits-august-2026/&quot;&gt;mastodon_blog&lt;/a&gt;</description>
+    </item>
+    <item>
+      <title>Kagi Translate عاد (مُحدَّث)</title>
+      <link>https://blog.kagi.com/translate-is-back</link>
+      <pubDate>Thu, 10 Sep 2026 11:13:10 GMT</pubDate>
+      <source>kagi_blog</source>
+      <description>نُقدّر جميع التعليقات التي وصلتنا حول تغييرات خدمة Kagi Translate. بعد مراجعة ملاحظات المستخدمين، أُعلن أن خاصية الترجمة ستظل متوفرة ضمن الخطط Starter وProfessional وFamily وTeam وUltimate، وستُطبّق وفق سياسة الاستخدام العادل لضمان استمراريتها دون رسوم إضافية. تم تعديل هذا المنشور لتوضيح هذا القرار وتأكيد التزامنا بسياسة الاستخدام العادل، وبهذا يضمن جميع المشتركين الاستفادة من الترجمة دون قيود صارمة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://blog.kagi.com/translate-is-back&quot;&gt;kagi_blog&lt;/a&gt;</description>
+      <enclosure url="https://blog.kagi.com/og-image.png" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>ما يكشفه هاكاثون طلب البيتزا عن ربط وكلاء الذكاء الاصطناعي بالإنترنت</title>
+      <link>https://brave.com/blog/alphasignal-hackathon/</link>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <source>braves_latest_news_on_brave</source>
+      <description>شارك المتسابقون في هاكاثون نظمته النشرة الإخبارية الشهيرة للذكاء الاصطناعي AlphaSignal، حيث استخدموا واجهة برمجة تطبيقات Brave Search لتصميم وكيل ذاتي القدرة، وتمكنوا من جعله ينفذ مهامًا في العالم الواقعي بثبات وموثوقية، مما أبرز إمكانات التكامل بين البحث الذكي والأنظمة المستقلة وتحديات تطبيقها العملية. كما قاموا باختبار الأداء، جمعوا بيانات الاستخدام، وحللوا النتائج لتحديد نقاط القوة والضعف في العملية.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://brave.com/blog/alphasignal-hackathon/&quot;&gt;braves_latest_news_on_brave&lt;/a&gt;</description>
+      <enclosure url="https://brave.com/blog/alphasignal-hackathon/images/featured.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>العودة إلى النسخ الاحتياطية: مراجعة العام</title>
+      <link>https://signal.org/blog/backup-improvements/</link>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <source>signal_blog</source>
+      <description>في سبتمبر الماضي قدمنا طريقة اختيارية جديدة لعمل نسخ احتياطي آمن ومُآلي لبيانات سيجنال، كي تستعيد الرسائل والذكريات إذا فقدت جهازاً. بعد استماعنا لملاحظات المستخدمين، أجرينا تحسينات كثيرة طوال العام. الآن أُطلقت نسخة iOS 8.30 التي تُفعّل النسخ الاحتياطي الآمن على جميع المنصات، وتضم تحسينات في الأداء وسهولة استعادة النسخ، مع ملخص للتغييرات منذ الإطلاق الأول.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://signal.org/blog/backup-improvements/&quot;&gt;signal_blog&lt;/a&gt;</description>
+      <enclosure url="https://signal.org/blog/images/backup-improvements-opengraph.png" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>سام ألتمان يقول إن أوبن إيه آي لن تُصبح شركةً عامةً حتى تكون نماذجها آمنة.</title>
+      <link>https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety</link>
+      <pubDate>2026-09-29T20:19:13-04:00</pubDate>
+      <source>the_verge</source>
+      <description>منذ أشهر يتساءل المستثمرون عن موعد طباعة أسهم أوبن إيه آي. صرّح الرئيس سام ألتمان أن الاكتتاب لن يحدث إلا عندما تكون الشركة قادرة على تقديم تعهدات أقوى بشأن أمان النماذج، ولا توجد مواعيد محددة حالياً. وأكد أنهم سيواصلون تقدم الذكاء الاصطناعي، لكنهم يراقبون التحسينات السريعة وقدرتها على التأثير، ويؤكد ضرورة إجراء اختبارات صارمة قبل أي طرح عام.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK201_SAM_ALTMAN_CVIRGINIA2D_717b98.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;amp;w=1200" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>F-Droid 2.0: فصل جديد من أجل حرية أندرويد</title>
+      <link>https://f-droid.org/en/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html</link>
+      <pubDate>2026-09-24T00:00:00+00:00</pubDate>
+      <source>f-droid</source>
+      <description>بعد عام من الجهد، أُطلقت F-Droid 2.0 بواجهة حديثة وإعادة تصميم كاملة لتسهيل اكتشاف التطبيقات وتثبيتها وإدارتها. يضم ثلاثة أقسام رئيسية (اكتشف، بحث، تطبيقاتي)، وفئات مخصصة، بحث محسّن يدعم اللغات الآسيوية، وتصفية متقدمة، وتثبيت موحد أسرع. التحديثات تُجرى تلقائياً بعد 14 نسخة اختبارية، ويُبنى على Kotlin‑Compose لتسريع التطوير، مع الحفاظ على الخصوصية عبر Tor ومميزات الطوارئ، بفضل مجتمع المطورين والمانحين.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://f-droid.org/en/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html&quot;&gt;f-droid&lt;/a&gt;</description>
+      <enclosure url="https://f-droid.org/assets/fdroid-logo_bfHl7nsLHOUQxzdU8-rGIhn4bAgl6z7k2mA3fWoCyT4=.png" type="image/jpeg"/>
+    </item>
+  </channel>
+</rss>
