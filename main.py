@@ -30,6 +30,13 @@ config.read(CONFIG_FILE, encoding='utf-8')
 # المفتاح من متغير البيئة أولًا، وإلا من config.ini
 OLLAMA_API_KEY = os.getenv("OLLAMA_API_KEY") or config.get('credentials', 'ollama_api_key', fallback=None)
 
+# ===== إعدادات Mastodon (يفضَّل وضعها في GitHub Secrets) =====
+MASTODON_ACCESS_TOKEN = os.getenv("MASTODON_ACCESS_TOKEN") or config.get(
+    'credentials', 'mastodon_access_token', fallback=None)
+MASTODON_API_BASE_URL = os.getenv("MASTODON_API_BASE_URL") or config.get(
+    'credentials', 'mastodon_api_base_url', fallback='https://mastodon.social')
+MASTODON_CHAR_LIMIT = 500
+
 models_raw = config.get('models', 'ollama_models', fallback='gpt-oss:120b-cloud')
 if ',' in models_raw:
     OLLAMA_MODELS = [model.strip() for model in models_raw.split(',') if model.strip()]
@@ -183,7 +190,6 @@ def load_existing_entries(feed_name):
                     # إزالة سطر المصدر المضاف سابقًا حتى لا يتكرر عند إعادة الكتابة
                     desc_clean = desc_raw.split('<br><br>المصدر:')[0]
 
-                    # ===== إصلاح: المصدر الحقيقي محفوظ في وسم source =====
                     entry = {
                         'title': item.findtext('title', ''),
                         'translated_title': item.findtext('title', ''),
@@ -219,7 +225,6 @@ def create_rss_xml(feed_name, entries):
 
     channel = ET.SubElement(rss, 'channel')
 
-    # ===== عنوان الخلاصة: All News (وليس Merged RSS Feeds) =====
     if MERGE_FEEDS:
         ET.SubElement(channel, 'title').text = "All News"
         ET.SubElement(channel, 'description').text = f"All news from {len(RSS_FEEDS)} sources, translated & summarized"
@@ -244,11 +249,11 @@ def create_rss_xml(feed_name, entries):
         pub_date = entry.get('published', datetime.now().strftime('%a, %d %b %Y %H:%M:%S GMT'))
         ET.SubElement(item, 'pubDate').text = pub_date
 
-        # ===== حفظ المصدر الحقيقي داخل الملف =====
+        # حفظ المصدر الحقيقي داخل الملف
         if entry.get('feed_source'):
             ET.SubElement(item, 'source').text = entry['feed_source']
 
-        # الوصف + سطر المصدر برابط قابل للنقر إلى المنشور الأصلي
+        # الوصف + سطر المصدر (يبقى في RSS كما هو — لا يتغير)
         description = entry.get('processed_text', '')
 
         source_name = entry.get('feed_source', '')
@@ -365,6 +370,7 @@ def process_with_ollama(text, model_switcher):
         prompt = f"""Translate the following text to {LANGUAGE}. Translate it completely and accurately.
 
 IMPORTANT RULES:
+
 1. Translate the FULL text without summarizing or shortening
 2. Do NOT add any hashtags
 3. Return ONLY the translation without any additional comments or notes
@@ -376,6 +382,7 @@ Original text: {text}"""
         prompt = f"""Summarize the following text in one paragraph in {LANGUAGE}. Keep it between 50-70 words. Include key details and do not be too brief.
 
 IMPORTANT RULES:
+
 1. Write the summary in {LANGUAGE} language
 2. Do NOT add any hashtags
 3. Return ONLY the summary text without any additional comments or notes
@@ -450,6 +457,74 @@ Original text: {text}"""
     return None
 
 
+# ===================== Mastodon (منشورات خاصة) =====================
+
+def upload_media_to_mastodon(image_url):
+    """رفع الصورة إلى Mastodon وإرجاع معرفها (بدون أي فلترة محتوى)"""
+    if not MASTODON_ACCESS_TOKEN or not MASTODON_API_BASE_URL:
+        return None
+    try:
+        r = requests.get(image_url, headers=USER_AGENT_HEADER, timeout=10)
+        r.raise_for_status()
+
+        files = {'file': ('image.jpg', r.content)}
+        headers = {"Authorization": f"Bearer {MASTODON_ACCESS_TOKEN}"}
+
+        r2 = requests.post(f"{MASTODON_API_BASE_URL}/api/v2/media",
+                           headers=headers, files=files, timeout=20)
+        r2.raise_for_status()
+
+        return r2.json().get('id')
+    except requests.exceptions.RequestException as e:
+        logging.error(f"Failed to upload Mastodon media: {e}")
+        return None
+
+
+def post_to_mastodon(text, image_url=None):
+    """نشر النص على Mastodon كمنشور مباشر (direct) لا يراه أحد سواك
+    - النص فقط (processed_text) بدون سطر المصدر وبدون اسم الخلاصة
+    - الصورة تُرفع وتُرفق إن وُجدت، بدون فلترة
+    """
+    if not MASTODON_ACCESS_TOKEN or not MASTODON_API_BASE_URL:
+        logging.warning("⚠️ Mastodon not configured. Skipping post.")
+        return False
+
+    # إزالة أي @مذكرات لضمان عدم رؤية أي حساب آخر للمنشور المباشر
+    text = re.sub(r'(?<!\w)@[\w\-]+', '', text).strip()
+
+    if len(text) > MASTODON_CHAR_LIMIT:
+        logging.error(f"❌ Text exceeds {MASTODON_CHAR_LIMIT} chars "
+                      f"({len(text)}). Skipping Mastodon post.")
+        return False
+
+    logging.info(f"📏 Mastodon text: {len(text)}/{MASTODON_CHAR_LIMIT} chars")
+
+    headers = {"Authorization": f"Bearer {MASTODON_ACCESS_TOKEN}"}
+    data = {
+        "status": text,
+        "visibility": "direct",   # لا يراه أحد سواك
+    }
+
+    if image_url:
+        media_id = upload_media_to_mastodon(image_url)
+        if media_id:
+            data["media_ids[]"] = [media_id]
+        else:
+            logging.warning("⚠️ Image upload failed. Posting text-only.")
+
+    try:
+        r = requests.post(f"{MASTODON_API_BASE_URL}/api/v1/statuses",
+                          headers=headers, data=data, timeout=20)
+        if r.status_code == 200:
+            logging.info("✅ Posted to Mastodon (direct, with image if any).")
+            return True
+        logging.error(f"Failed to post to Mastodon: {r.status_code} - {r.text}")
+        return False
+    except Exception as e:
+        logging.error(f"Failed to post to Mastodon: {e}")
+        return False
+
+
 def process_feed(feed_url):
     try:
         logging.info(f"{'='*60}")
@@ -492,7 +567,7 @@ def process_feed(feed_url):
                 new_entries_to_process = entries_sorted[last_index + 1:]
                 logging.info(f"Found {len(new_entries_to_process)} new posts in {feed_name}")
             else:
-                logging.warning(f"Last ID not found. Processing latest post only.")
+                logging.warning("Last ID not found. Processing latest post only.")
                 latest_entry = entries_sorted[-1]
                 new_entries_to_process = [latest_entry]
 
@@ -519,12 +594,16 @@ def process_feed(feed_url):
                     title_switcher = OllamaModelSwitcher(OLLAMA_MODELS)
                     translated_title = translate_title(entry.get('title', 'No Title'), title_switcher)
 
+                    # استخراج الصورة (بدون فلترة)
                     image_url = None
                     if 'media_content' in entry and entry['media_content']:
                         image_url = entry['media_content'][0].get('url', '')
 
                     if not image_url and post_url:
                         image_url = extract_image_from_url(post_url)
+
+                    # ===== النشر إلى Mastodon: النص فقط (بدون مصدر وبدون اسم خلاصة) مع الصورة =====
+                    post_to_mastodon(processed_text, image_url)
 
                     processed_entry = {
                         'title': entry.get('title', 'No Title'),
