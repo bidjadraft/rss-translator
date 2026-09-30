@@ -27,44 +27,40 @@ TRACKER_FILE = os.path.join(CONFIG_DIR, "last_post.json")
 config = configparser.ConfigParser()
 config.read(CONFIG_FILE, encoding='utf-8')
 
-# المفتاح من متغير البيئة أولًا، وإلا من config.ini
-OLLAMA_API_KEY = os.getenv("OLLAMA_API_KEY") or config.get('credentials', 'ollama_api_key', fallback=None)
+# ===== المفاتيح: من متغيرات البيئة (GitHub Secrets) فقط =====
+OLLAMA_API_KEY = os.getenv("OLLAMA_API_KEY")
+MASTODON_ACCESS_TOKEN = os.getenv("MASTODON_ACCESS_TOKEN")
 
-# ===== إعدادات Mastodon (يفضَّل وضعها في GitHub Secrets) =====
-MASTODON_ACCESS_TOKEN = os.getenv("MASTODON_ACCESS_TOKEN") or config.get(
-    'credentials', 'mastodon_access_token', fallback=None)
-MASTODON_API_BASE_URL = os.getenv("MASTODON_API_BASE_URL") or config.get(
-    'credentials', 'mastodon_api_base_url', fallback='https://mastodon.social')
+# ===== إعدادات Mastodon: الخادم الرسمي مثبّت في الكود =====
+MASTODON_API_BASE_URL = "https://mastodon.social"
 MASTODON_CHAR_LIMIT = 500
 
+# ===== النماذج =====
 models_raw = config.get('models', 'ollama_models', fallback='gpt-oss:120b-cloud')
 if ',' in models_raw:
-    OLLAMA_MODELS = [model.strip() for model in models_raw.split(',') if model.strip()]
+    OLLAMA_MODELS = [m.strip() for m in models_raw.split(',') if m.strip()]
 elif '\n' in models_raw:
-    OLLAMA_MODELS = [model.strip() for model in models_raw.split('\n') if model.strip() and not model.strip().startswith('[')]
+    OLLAMA_MODELS = [m.strip() for m in models_raw.split('\n')
+                     if m.strip() and not m.strip().startswith('[')]
 else:
     OLLAMA_MODELS = [models_raw.strip()] if models_raw.strip() else []
 
-if not OLLAMA_API_KEY:
-    logging.error("OLLAMA_API_KEY not found (env var or config.ini)")
-    exit(1)
-
 if not OLLAMA_MODELS:
-    logging.error("No Ollama models found in config.ini")
+    logging.error("❌ No Ollama models found in config.ini")
     exit(1)
 
-logging.info(f"Loaded {len(OLLAMA_MODELS)} Ollama models: {OLLAMA_MODELS}")
+logging.info(f"📋 Loaded {len(OLLAMA_MODELS)} Ollama models")
 
+# ===== الإعدادات =====
 LANGUAGE = config.get('settings', 'language', fallback='arabic')
 CONTENT_TYPE = config.get('settings', 'type', fallback='summary')
-MAX_POSTS = config.getint('settings', 'max_posts', fallback=20)
+MAX_POSTS = config.getint('settings', 'max_post', fallback=20)
 MERGE_FEEDS = config.get('settings', 'merge_feeds', fallback='yes').lower() == 'yes'
 
-logging.info(f"Language: {LANGUAGE}")
-logging.info(f"Content type: {CONTENT_TYPE}")
-logging.info(f"Max posts per feed: {MAX_POSTS}")
-logging.info(f"Merge feeds: {MERGE_FEEDS}")
+logging.info(f"🌐 Language: {LANGUAGE} | Type: {CONTENT_TYPE}")
+logging.info(f"📊 Max posts: {MAX_POSTS} | Merge: {MERGE_FEEDS}")
 
+# ===== الخلاصات =====
 RSS_FEEDS = []
 if os.path.exists(FEEDS_FILE):
     with open(FEEDS_FILE, 'r', encoding='utf-8') as f:
@@ -73,21 +69,21 @@ if os.path.exists(FEEDS_FILE):
             if feed_url and not feed_url.startswith('#') and feed_url.startswith('http'):
                 RSS_FEEDS.append(feed_url)
 else:
-    logging.error(f"Feeds file not found: {FEEDS_FILE}")
     with open(FEEDS_FILE, 'w', encoding='utf-8') as f:
-        f.write("# RSS Feeds List\n")
-        f.write("https://feed.alternativeto.net/news/all\n")
+        f.write("# RSS Feeds List\nhttps://feed.alternativeto.net/news/all\n")
     RSS_FEEDS = ["https://feed.alternativeto.net/news/all"]
-    logging.info("Created default feeds.txt file")
+    logging.info("📝 Created default feeds.txt")
 
 if not RSS_FEEDS:
-    logging.error("No RSS feeds configured. Please add feeds to config/feeds.txt")
+    logging.error("❌ No RSS feeds configured in config/feeds.txt")
     exit(1)
 
-logging.info(f"Loaded {len(RSS_FEEDS)} RSS feeds")
+logging.info(f"📡 Loaded {len(RSS_FEEDS)} RSS feeds")
 
 USER_AGENT_HEADER = {'User-Agent': 'Mozilla/5.0'}
 
+
+# ===================== أدوات =====================
 
 class OllamaModelSwitcher:
     def __init__(self, models):
@@ -116,7 +112,7 @@ def load_tracker():
             with open(TRACKER_FILE, 'r', encoding='utf-8') as f:
                 return json.load(f)
         except Exception as e:
-            logging.error(f"Error reading tracker file: {e}")
+            logging.error(f"❌ Error reading tracker: {e}")
     return {}
 
 
@@ -124,21 +120,18 @@ def save_tracker(tracker_data):
     try:
         with open(TRACKER_FILE, 'w', encoding='utf-8') as f:
             json.dump(tracker_data, f, indent=2, ensure_ascii=False)
-        logging.info("Tracker saved successfully")
     except Exception as e:
-        logging.error(f"Failed to write tracker file: {e}")
+        logging.error(f"❌ Failed to write tracker: {e}")
 
 
 def normalize_url(url):
     if not url or not isinstance(url, str):
         return ""
-
     url = url.strip()
     while url.endswith('//'):
         url = url[:-1]
     if url.endswith('/'):
         url = url[:-1]
-
     return url
 
 
@@ -146,28 +139,28 @@ def extract_feed_name(feed_url, feed_data=None):
     try:
         if feed_data and hasattr(feed_data, 'feed'):
             if hasattr(feed_data.feed, 'title') and feed_data.feed.title:
-                name = feed_data.feed.title
-                name = re.sub(r'[^\w\s-]', '', name)
+                name = re.sub(r'[^\w\s-]', '', feed_data.feed.title)
                 name = name.strip().replace(' ', '_').lower()
                 if name and len(name) < 50:
                     return name
 
         parsed = urlparse(feed_url)
         domain = parsed.netloc.replace('www.', '')
-        domain_parts = domain.split('.')
-
-        if len(domain_parts) >= 2:
-            name = domain_parts[-2] if domain_parts[-2] not in ['com', 'org', 'net', 'io', 'co'] else domain_parts[-3] if len(domain_parts) >= 3 else domain_parts[0]
+        parts = domain.split('.')
+        if len(parts) >= 2:
+            name = parts[-2] if parts[-2] not in ['com', 'org', 'net', 'io', 'co'] \
+                else (parts[-3] if len(parts) >= 3 else parts[0])
         else:
-            name = domain_parts[0]
+            name = parts[0]
 
-        name = re.sub(r'[^\w\s-]', '', name)
-        name = name.strip().lower()
-
-        return name
+        return re.sub(r'[^\w\s-]', '', name).strip().lower()
     except Exception as e:
-        logging.warning(f"Failed to extract feed name: {e}")
+        logging.warning(f"⚠️ Failed to extract feed name: {e}")
         return f"feed_{abs(hash(feed_url)) % 10000}"
+
+
+def clean_html(raw_html):
+    return re.sub(r'<[^>]+>', '', raw_html).strip()
 
 
 def load_existing_entries(feed_name):
@@ -181,13 +174,12 @@ def load_existing_entries(feed_name):
     if os.path.exists(xml_file):
         try:
             tree = ET.parse(xml_file)
-            root = tree.getroot()
-            channel = root.find('channel')
+            channel = tree.getroot().find('channel')
 
             if channel is not None:
                 for item in channel.findall('item'):
                     desc_raw = item.findtext('description', '')
-                    # إزالة سطر المصدر المضاف سابقًا حتى لا يتكرر عند إعادة الكتابة
+                    # إزالة سطر المصدر المضاف سابقًا حتى لا يتكرر
                     desc_clean = desc_raw.split('<br><br>المصدر:')[0]
 
                     entry = {
@@ -205,92 +197,17 @@ def load_existing_entries(feed_name):
 
                     existing_entries.append(entry)
 
-                logging.info(f"Loaded {len(existing_entries)} existing entries from {xml_file}")
+                logging.info(f"📖 Loaded {len(existing_entries)} existing entries")
         except Exception as e:
-            logging.error(f"Error loading existing XML file: {e}")
+            logging.error(f"❌ Error loading existing XML: {e}")
 
     return existing_entries
 
 
-def create_rss_xml(feed_name, entries):
-    if MERGE_FEEDS:
-        xml_file = os.path.join(RSS_DIR, "merged.xml")
-    else:
-        xml_file = os.path.join(RSS_DIR, f"{feed_name}.xml")
-
-    entries = entries[-MAX_POSTS:]
-
-    rss = ET.Element('rss')
-    rss.set('version', '2.0')
-
-    channel = ET.SubElement(rss, 'channel')
-
-    if MERGE_FEEDS:
-        ET.SubElement(channel, 'title').text = "All News"
-        ET.SubElement(channel, 'description').text = f"All news from {len(RSS_FEEDS)} sources, translated & summarized"
-    else:
-        ET.SubElement(channel, 'title').text = f"{feed_name} - Processed Feed"
-        ET.SubElement(channel, 'description').text = f"Processed RSS feed from {feed_name}"
-
-    ET.SubElement(channel, 'link').text = "https://github.com/bidjadraft/rss-translator"
-    ET.SubElement(channel, 'language').text = LANGUAGE
-    ET.SubElement(channel, 'lastBuildDate').text = datetime.now().strftime('%a, %d %b %Y %H:%M:%S GMT')
-
-    for entry in entries:
-        item = ET.SubElement(channel, 'item')
-
-        # العنوان المترجم كعنوان للمنشور
-        title = entry.get('translated_title') or entry.get('title') or "News"
-        ET.SubElement(item, 'title').text = title
-
-        link = entry.get('link', '')
-        ET.SubElement(item, 'link').text = link
-
-        pub_date = entry.get('published', datetime.now().strftime('%a, %d %b %Y %H:%M:%S GMT'))
-        ET.SubElement(item, 'pubDate').text = pub_date
-
-        # حفظ المصدر الحقيقي داخل الملف
-        if entry.get('feed_source'):
-            ET.SubElement(item, 'source').text = entry['feed_source']
-
-        # الوصف + سطر المصدر (يبقى في RSS كما هو — لا يتغير)
-        description = entry.get('processed_text', '')
-
-        source_name = entry.get('feed_source', '')
-        if link:
-            source_line = f'<br><br>المصدر: <a href="{link}">{source_name or link}</a>'
-        else:
-            source_line = f'<br><br>المصدر: {source_name}'
-
-        ET.SubElement(item, 'description').text = description + source_line
-
-        if entry.get('image_url'):
-            ET.SubElement(item, 'enclosure', {
-                'url': entry['image_url'],
-                'type': 'image/jpeg'
-            })
-
-    xml_str = ET.tostring(rss, encoding='unicode')
-    dom = minidom.parseString(xml_str)
-    pretty_xml = dom.toprettyxml(indent='  ', encoding='utf-8')
-
-    with open(xml_file, 'wb') as f:
-        f.write(pretty_xml)
-
-    logging.info(f"Created RSS XML file with {len(entries)} entries: {xml_file}")
-    return xml_file
-
-
-def clean_html(raw_html):
-    return re.sub(r'<[^>]+>', '', raw_html).strip()
-
-
 def extract_image_from_url(url):
     try:
-        logging.info(f"Fetching image from: {url}")
         response = requests.get(url, headers=USER_AGENT_HEADER, timeout=15)
         response.raise_for_status()
-
         html = response.text
 
         patterns = [
@@ -305,58 +222,48 @@ def extract_image_from_url(url):
             if match:
                 image_url = match.group(1)
                 if image_url.startswith('http'):
-                    logging.info(f"Found image: {image_url}")
+                    logging.info(f"🖼️ Found image: {image_url}")
                     return image_url
 
-        logging.warning(f"No image found for: {url}")
         return None
-
     except Exception as e:
-        logging.error(f"Failed to extract image from {url}: {e}")
+        logging.error(f"❌ Failed to extract image from {url}: {e}")
         return None
 
+
+# ===================== Ollama =====================
 
 def translate_title(title, model_switcher):
     if LANGUAGE == 'english':
         return title
 
-    prompt = f"""Translate the following title to {LANGUAGE}. Return ONLY the translated title without any additional text or comments.
-
-Title: {title}"""
+    prompt = (f"Translate the following title to {LANGUAGE}. "
+              f"Return ONLY the translated title without any additional text.\n\n"
+              f"Title: {title}")
 
     url = "https://ollama.com/api/generate"
     headers = {"Authorization": f"Bearer {OLLAMA_API_KEY}"}
 
-    attempted_models = 0
-
-    while attempted_models < len(OLLAMA_MODELS):
+    attempted = 0
+    while attempted < len(OLLAMA_MODELS):
         current_model = model_switcher.get_current_model()
-        attempted_models += 1
-
-        payload = {
-            "model": current_model,
-            "prompt": prompt,
-            "stream": False
-        }
+        attempted += 1
 
         try:
-            r = requests.post(url, headers=headers, json=payload, timeout=30)
+            r = requests.post(url, headers=headers,
+                              json={"model": current_model, "prompt": prompt, "stream": False},
+                              timeout=30)
             if r.status_code == 200:
-                data = r.json()
-                translated = data.get("response", "").strip()
+                translated = r.json().get("response", "").strip()
                 if translated:
                     return translated
 
-            logging.warning(f"Title translation failed with model {current_model}")
-            next_model = model_switcher.get_next_model()
-            if not next_model:
-                break
-
+            logging.warning(f"⚠️ Title translation failed with {current_model}")
         except Exception as e:
-            logging.error(f"Title translation error with model {current_model}: {e}")
-            next_model = model_switcher.get_next_model()
-            if not next_model:
-                break
+            logging.error(f"❌ Title translation error with {current_model}: {e}")
+
+        if not model_switcher.get_next_model():
+            break
 
     return title
 
@@ -373,7 +280,7 @@ IMPORTANT RULES:
 
 1. Translate the FULL text without summarizing or shortening
 2. Do NOT add any hashtags
-3. Return ONLY the translation without any additional comments or notes
+3. Return ONLY the translation without any additional comments
 4. Preserve the original meaning accurately
 5. If translating to Arabic, make sure the translation is natural and fluent
 
@@ -396,72 +303,55 @@ Original text: {text}"""
     url = "https://ollama.com/api/generate"
     headers = {"Authorization": f"Bearer {OLLAMA_API_KEY}"}
 
-    attempted_models = 0
-
-    while attempted_models < len(OLLAMA_MODELS):
+    attempted = 0
+    while attempted < len(OLLAMA_MODELS):
         current_model = model_switcher.get_current_model()
-        attempted_models += 1
+        attempted += 1
 
-        payload = {
-            "model": current_model,
-            "prompt": prompt,
-            "stream": False
-        }
-
-        logging.info(f"Ollama attempt {attempted_models}/{len(OLLAMA_MODELS)}: Using model: {current_model}")
+        logging.info(f"🔧 Ollama attempt {attempted}/{len(OLLAMA_MODELS)}: {current_model}")
 
         try:
-            r = requests.post(url, headers=headers, json=payload, timeout=90)
+            r = requests.post(url, headers=headers,
+                              json={"model": current_model, "prompt": prompt, "stream": False},
+                              timeout=90)
 
             if r.status_code != 200:
-                logging.error(f"Ollama API error with model {current_model}: {r.status_code}")
-                next_model = model_switcher.get_next_model()
-                if next_model:
-                    continue
-                return None
+                logging.error(f"❌ Ollama API error with {current_model}: {r.status_code}")
+                if not model_switcher.get_next_model():
+                    return None
+                continue
 
-            data = r.json()
-            result = data.get("response", "").strip()
-
+            result = r.json().get("response", "").strip()
             if not result:
-                logging.error(f"Empty response from model {current_model}")
-                next_model = model_switcher.get_next_model()
-                if next_model:
-                    continue
-                return None
+                logging.error(f"❌ Empty response from {current_model}")
+                if not model_switcher.get_next_model():
+                    return None
+                continue
 
+            # إزالة أي هاشتاغات تسللت
             result = re.sub(r'#\w+\s*', '', result).strip()
 
-            if CONTENT_TYPE == 'summary' and LANGUAGE == 'arabic':
-                first_word = result.split()[0] if result.split() else ""
-                if first_word and not re.match(r'^[\u0600-\u06FF]', first_word):
-                    logging.warning(f"Text starts with non-Arabic word: '{first_word}'")
-
-            char_count = len(result)
-            logging.info(f"Processing successful with model: {current_model}")
-            logging.info(f"Characters: {char_count}")
-
-            if char_count > 500:
-                logging.warning(f"Text exceeds 500 chars ({char_count}). Truncating...")
+            if len(result) > 500:
+                logging.warning(f"⚠️ Text exceeds 500 chars ({len(result)}). Truncating...")
                 result = result[:497] + "..."
 
+            logging.info(f"✅ Processing successful | {len(result)} chars")
             return result
 
         except Exception as e:
-            logging.error(f"Ollama API failed with model {current_model}: {e}")
-            next_model = model_switcher.get_next_model()
-            if next_model:
-                continue
-            return None
+            logging.error(f"❌ Ollama API failed with {current_model}: {e}")
+            if not model_switcher.get_next_model():
+                return None
+            continue
 
     return None
 
 
-# ===================== Mastodon (منشورات خاصة) =====================
+# ===================== Mastodon (منشورات خاصة direct) =====================
 
 def upload_media_to_mastodon(image_url):
-    """رفع الصورة إلى Mastodon وإرجاع معرفها (بدون أي فلترة محتوى)"""
-    if not MASTODON_ACCESS_TOKEN or not MASTODON_API_BASE_URL:
+    """رفع الصورة إلى mastodon.social وإرجاع معرفها — بدون أي فلترة محتوى"""
+    if not MASTODON_ACCESS_TOKEN:
         return None
     try:
         r = requests.get(image_url, headers=USER_AGENT_HEADER, timeout=10)
@@ -476,25 +366,24 @@ def upload_media_to_mastodon(image_url):
 
         return r2.json().get('id')
     except requests.exceptions.RequestException as e:
-        logging.error(f"Failed to upload Mastodon media: {e}")
+        logging.error(f"❌ Failed to upload Mastodon media: {e}")
         return None
 
 
 def post_to_mastodon(text, image_url=None):
-    """نشر النص على Mastodon كمنشور مباشر (direct) لا يراه أحد سواك
+    """نشر النص على mastodon.social كمنشور مباشر (direct) لا يراه أحد سواك
     - النص فقط (processed_text) بدون سطر المصدر وبدون اسم الخلاصة
-    - الصورة تُرفع وتُرفق إن وُجدت، بدون فلترة
+    - الصورة تُرفع وتُرفق إن وُجدت
     """
-    if not MASTODON_ACCESS_TOKEN or not MASTODON_API_BASE_URL:
-        logging.warning("⚠️ Mastodon not configured. Skipping post.")
+    if not MASTODON_ACCESS_TOKEN:
+        logging.warning("⚠️ Mastodon not configured (MASTODON_ACCESS_TOKEN missing). Skipping post.")
         return False
 
     # إزالة أي @مذكرات لضمان عدم رؤية أي حساب آخر للمنشور المباشر
     text = re.sub(r'(?<!\w)@[\w\-]+', '', text).strip()
 
     if len(text) > MASTODON_CHAR_LIMIT:
-        logging.error(f"❌ Text exceeds {MASTODON_CHAR_LIMIT} chars "
-                      f"({len(text)}). Skipping Mastodon post.")
+        logging.error(f"❌ Text exceeds {MASTODON_CHAR_LIMIT} chars ({len(text)}). Skipping.")
         return False
 
     logging.info(f"📏 Mastodon text: {len(text)}/{MASTODON_CHAR_LIMIT} chars")
@@ -502,7 +391,7 @@ def post_to_mastodon(text, image_url=None):
     headers = {"Authorization": f"Bearer {MASTODON_ACCESS_TOKEN}"}
     data = {
         "status": text,
-        "visibility": "direct",   # لا يراه أحد سواك
+        "visibility": "direct",   # 👈 لا يراه أحد سواك
     }
 
     if image_url:
@@ -518,30 +407,100 @@ def post_to_mastodon(text, image_url=None):
         if r.status_code == 200:
             logging.info("✅ Posted to Mastodon (direct, with image if any).")
             return True
-        logging.error(f"Failed to post to Mastodon: {r.status_code} - {r.text}")
+        logging.error(f"❌ Failed to post to Mastodon: {r.status_code} - {r.text}")
         return False
     except Exception as e:
-        logging.error(f"Failed to post to Mastodon: {e}")
+        logging.error(f"❌ Failed to post to Mastodon: {e}")
         return False
 
+
+# ===================== RSS XML =====================
+
+def create_rss_xml(feed_name, entries):
+    if MERGE_FEEDS:
+        xml_file = os.path.join(RSS_DIR, "merged.xml")
+    else:
+        xml_file = os.path.join(RSS_DIR, f"{feed_name}.xml")
+
+    entries = entries[-MAX_POSTS:]
+
+    rss = ET.Element('rss')
+    rss.set('version', '2.0')
+
+    channel = ET.SubElement(rss, 'channel')
+
+    if MERGE_FEEDS:
+        ET.SubElement(channel, 'title').text = "All News"
+        ET.SubElement(channel, 'description').text = f"All news from {len(RSS_FEEDS)} sources"
+    else:
+        ET.SubElement(channel, 'title').text = f"{feed_name} - Processed Feed"
+        ET.SubElement(channel, 'description').text = f"Processed RSS feed from {feed_name}"
+
+    ET.SubElement(channel, 'link').text = "https://github.com/bidjadraft/rss-translator"
+    ET.SubElement(channel, 'language').text = LANGUAGE
+    ET.SubElement(channel, 'lastBuildDate').text = datetime.now().strftime('%a, %d %b %Y %H:%M:%S GMT')
+
+    for entry in entries:
+        item = ET.SubElement(channel, 'item')
+
+        title = entry.get('translated_title') or entry.get('title') or "News"
+        ET.SubElement(item, 'title').text = title
+
+        link = entry.get('link', '')
+        ET.SubElement(item, 'link').text = link
+
+        pub_date = entry.get('published') or datetime.now().strftime('%a, %d %b %Y %H:%M:%S GMT')
+        ET.SubElement(item, 'pubDate').text = pub_date
+
+        if entry.get('feed_source'):
+            ET.SubElement(item, 'source').text = entry['feed_source']
+
+        # الوصف + سطر المصدر (يبقى في RSS — لا يُنشر في Mastodon)
+        description = entry.get('processed_text', '')
+
+        source_name = entry.get('feed_source', '')
+        if link:
+            source_line = f'<br><br>المصدر: <a href="{link}">{source_name or link}</a>'
+        else:
+            source_line = f'<br><br>المصدر: {source_name}'
+
+        ET.SubElement(item, 'description').text = description + source_line
+
+        if entry.get('image_url'):
+            ET.SubElement(item, 'enclosure', {
+                'url': entry['image_url'],
+                'type': 'image/jpeg'
+            })
+
+    xml_str = ET.tostring(rss, encoding='unicode')
+    pretty_xml = minidom.parseString(xml_str).toprettyxml(indent='  ', encoding='utf-8')
+
+    with open(xml_file, 'wb') as f:
+        f.write(pretty_xml)
+
+    logging.info(f"📄 Created RSS XML with {len(entries)} entries: {xml_file}")
+    return xml_file
+
+
+# ===================== المعالجة الرئيسية =====================
 
 def process_feed(feed_url):
     try:
         logging.info(f"{'='*60}")
-        logging.info(f"Processing feed: {feed_url}")
+        logging.info(f"🔄 Processing feed: {feed_url}")
 
         feed = feedparser.parse(feed_url)
 
         if not feed.entries:
-            logging.warning(f"No entries found in {feed_url}")
+            logging.warning(f"⚠️ No entries found in {feed_url}")
             return
 
         feed_name = extract_feed_name(feed_url, feed)
-        logging.info(f"Feed name: {feed_name}")
+        logging.info(f"📛 Feed name: {feed_name}")
 
         tracker_data = load_tracker()
         last_id = tracker_data.get(feed_name, "")
-        logging.info(f"Last processed ID for {feed_name}: '{last_id}'")
+        logging.info(f"📌 Last processed ID for {feed_name}: '{last_id}'")
 
         entries_sorted = sorted(feed.entries,
                                key=lambda e: e.get('published_parsed') or e.get('updated_parsed') or (0,))
@@ -552,9 +511,8 @@ def process_feed(feed_url):
         skipped_count = 0
 
         if not last_id:
-            logging.info(f"First time processing '{feed_name}'. Processing latest post only.")
-            latest_entry = entries_sorted[-1]
-            new_entries_to_process = [latest_entry]
+            logging.info(f"🆕 First time processing '{feed_name}'. Processing latest post only.")
+            new_entries_to_process = [entries_sorted[-1]]
         else:
             last_index = -1
             for i, entry in enumerate(entries_sorted):
@@ -565,11 +523,10 @@ def process_feed(feed_url):
 
             if last_index >= 0:
                 new_entries_to_process = entries_sorted[last_index + 1:]
-                logging.info(f"Found {len(new_entries_to_process)} new posts in {feed_name}")
+                logging.info(f"✨ Found {len(new_entries_to_process)} new posts in {feed_name}")
             else:
-                logging.warning("Last ID not found. Processing latest post only.")
-                latest_entry = entries_sorted[-1]
-                new_entries_to_process = [latest_entry]
+                logging.warning("⚠️ Last ID not found. Processing latest post only.")
+                new_entries_to_process = [entries_sorted[-1]]
 
         if new_entries_to_process:
             for entry in new_entries_to_process:
@@ -577,16 +534,17 @@ def process_feed(feed_url):
                     post_id = normalize_url(entry.get('guid') or entry.get('id') or entry.get('link'))
                     post_url = entry.get('link', '')
 
-                    logging.info(f"Processing post: {post_id}")
+                    logging.info(f"🎯 Processing post: {post_id}")
 
                     desc = entry.get('summary', '') or entry.get('description', '')
                     desc_text = clean_html(desc)
 
+                    # التلخيص/الترجمة عبر Ollama
                     model_switcher = OllamaModelSwitcher(OLLAMA_MODELS)
                     processed_text = process_with_ollama(desc_text, model_switcher)
 
                     if not processed_text:
-                        logging.warning(f"AI processing failed for post: {post_id}. Skipping this post.")
+                        logging.warning(f"⚠️ AI processing failed for: {post_id}. Skipping.")
                         skipped_count += 1
                         continue
 
@@ -596,13 +554,14 @@ def process_feed(feed_url):
 
                     # استخراج الصورة (بدون فلترة)
                     image_url = None
-                    if 'media_content' in entry and entry['media_content']:
-                        image_url = entry['media_content'][0].get('url', '')
+                    media_content = entry.get('media_content', [])
+                    if media_content:
+                        image_url = media_content[0].get('url', '')
 
                     if not image_url and post_url:
                         image_url = extract_image_from_url(post_url)
 
-                    # ===== النشر إلى Mastodon: النص فقط (بدون مصدر وبدون اسم خلاصة) مع الصورة =====
+                    # ===== النشر إلى Mastodon: النص فقط (بلا مصدر وبلا اسم خلاصة) مع الصورة =====
                     post_to_mastodon(processed_text, image_url)
 
                     processed_entry = {
@@ -619,10 +578,10 @@ def process_feed(feed_url):
                     tracker_data[feed_name] = post_id
                     processed_count += 1
 
-                    logging.info(f"Successfully processed post: {entry.get('title', 'No Title')[:50]}...")
+                    logging.info(f"✅ Successfully processed: {entry.get('title', 'No Title')[:50]}...")
 
                 except Exception as e:
-                    logging.error(f"Failed to process individual post: {e}")
+                    logging.error(f"❌ Failed to process individual post: {e}")
                     skipped_count += 1
                     continue
 
@@ -630,31 +589,28 @@ def process_feed(feed_url):
             existing_entries.sort(key=lambda e: e.get('published', ''), reverse=True)
             create_rss_xml(feed_name, existing_entries)
             save_tracker(tracker_data)
-            logging.info(f"Processed: {processed_count} | Skipped: {skipped_count} | Total in XML: {min(len(existing_entries), MAX_POSTS)}")
+            logging.info(f"📊 Processed: {processed_count} | Skipped: {skipped_count} "
+                         f"| Total in XML: {min(len(existing_entries), MAX_POSTS)}")
         else:
-            logging.info(f"No entries to save for {feed_name}")
+            logging.info(f"📭 No entries to save for {feed_name}")
 
     except Exception as e:
-        logging.error(f"Failed to process feed {feed_url}: {e}")
+        logging.error(f"❌ Failed to process feed {feed_url}: {e}")
 
 
 def main():
-    logging.info("Starting Apps Bot with Ollama…")
-    logging.info(f"Loaded {len(OLLAMA_MODELS)} models: {OLLAMA_MODELS}")
-    logging.info(f"Processing {len(RSS_FEEDS)} RSS feeds")
-    logging.info(f"Language: {LANGUAGE}")
-    logging.info(f"Content type: {CONTENT_TYPE}")
-    logging.info(f"Max posts per feed: {MAX_POSTS}")
-    logging.info(f"Merge feeds: {MERGE_FEEDS}")
+    logging.info("🚀 Starting Apps Bot with Ollama…")
+    logging.info(f"📋 Models: {OLLAMA_MODELS}")
+    logging.info(f"📡 Feeds: {len(RSS_FEEDS)} | 🌐 Language: {LANGUAGE} | 📝 Type: {CONTENT_TYPE}")
 
     for feed_url in RSS_FEEDS:
         process_feed(feed_url)
         time.sleep(2)
 
     logging.info(f"{'='*60}")
-    logging.info("All feeds processed successfully!")
-    logging.info(f"RSS files saved in: {RSS_DIR}")
-    logging.info(f"Tracker file: {TRACKER_FILE}")
+    logging.info("🎉 All feeds processed successfully!")
+    logging.info(f"📄 RSS files saved in: {RSS_DIR}")
+    logging.info(f"💾 Tracker file: {TRACKER_FILE}")
 
 
 if __name__ == "__main__":
