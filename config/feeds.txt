@@ -1,7 +1,8 @@
-https://www.ennaharonline.com/feed/
-https://www.theverge.com/rss/index.xml
-https://techcrunch.com/feed/
-https://www.androidauthority.com/feed/
 https://proton.me/blog/feed.xml
 https://ente.com/rss.xml
 https://f-droid.org/feed.xml
+https://brave.com/blog/index.xml
+https://notesnook.com/feed.xml
+https://blog.kagi.com/rss.xml
+https://signal.org/blog/rss.xml
+https://alternativeto.net/feeds/news/
