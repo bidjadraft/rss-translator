@@ -5,7 +5,55 @@
     <description>All news from 11 sources</description>
     <link>https://github.com/bidjadraft/rss-translator</link>
     <language>arabic</language>
-    <lastBuildDate>Wed, 30 Sep 2026 09:13:06 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 13:50:48 GMT</lastBuildDate>
+    <item>
+      <title>مايكروسوفت جعلت حاويات WSL متاحة للجميع</title>
+      <link>https://feed.itsfoss.com/link/24361/17480952/wslc-general-availability</link>
+      <pubDate>Wed, 30 Sep 2026 17:49:57 +0530</pubDate>
+      <source>its_foss</source>
+      <description>كانت الميزة سابقًا في مرحلة المعاينة العامة، لكنها الآن توفر أوامر جديدة، ودعمًا لشبكة Consommé، بالإضافة إلى التحكم في سجلات Intune عبر سياسات مخصصة، ما يُسهل إدارة الأجهزة والبيانات بأمان أكبر ويعزز تكامل الحلول السحابية مع البنية التحتية للمؤسسات. وتشمل التحسينات واجهة مبسطة تسمح للمسؤولين بتطبيق السياسات بسرعة، وتقارير تفصيلية عن حالة النظام وتوافقه مع المعايير الأمنية، مما يقلل وقت الاستجابة للحوادث ويحسن كفاءة الصيانة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://feed.itsfoss.com/link/24361/17480952/wslc-general-availability&quot;&gt;its_foss&lt;/a&gt;</description>
+      <enclosure url="https://itsfoss.com/content/images/2026/09/wslc-general-availability-banner.png" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>جهاز Fire TV Stick 4K الجديد من أمازون يأتي بجهاز تحكم جيد فعلاً</title>
+      <link>https://techcrunch.com/2026/09/30/amazons-new-fire-tv-stick-4k-comes-with-an-actually-good-remote/</link>
+      <pubDate>Wed, 30 Sep 2026 13:43:54 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>أطلقت أمازون نسخةً محسّنة من جهاز Fire TV Stick 4K تتميز بجسمٍ أنحف وأداء أسرع، لكن أبرز التحسين هو الريموت الجديد المصمم لتسهيل الاستخدام، حيث يضم إضاءة خلفية وعناصر تحكم مريحة تجعل التصفح في الظلام أكثر بساطة وفعالية. الجهاز يدعم بث 4K HDR بتقنية Dolby Vision، ويتصل بشبكة Wi‑Fi 6 لتحسين التحميل، كما يضم زرًا للتحكم الصوتي يتيح البحث عبر الأوامر الصوتية.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/09/30/amazons-new-fire-tv-stick-4k-comes-with-an-actually-good-remote/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/09/fire-tv-stick-4k-ftv-remote-hero-amazonnews-ck92916.jpg?resize=1200,675" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>تشارتَر سبيس تجمع 5 ملايين دولار لتوفير التأمين للنجوم</title>
+      <link>https://techcrunch.com/2026/09/30/charter-space-raises-5m-to-bring-insurance-to-the-stars/</link>
+      <pubDate>Wed, 30 Sep 2026 13:00:00 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>توضح شركة تشارتر على موقعها أن الشركات الفضائية غالبًا ما تواجه صعوبة في الحصول على تغطية تأمينية، لأن شركات التأمين التقليدية تُفزع من المصطلحات العلمية المعقدة التي تُستخدم في هذا القطاع وتتعاطى معها بشكل سلبي، مما يجعلها ترفض أو تُقيد العقود بصورة غير ملائمة، وتؤدي هذه المخاوف إلى تأخير المشاريع وزيادة تكلفتها، ما يحد من نمو الصناعة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/09/30/charter-space-raises-5m-to-bring-insurance-to-the-stars/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/09/charter-space-founders.jpg?resize=1200,800" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>تطبيق Tinder يتكيّف مع مستقبل اجتماعي للتعارف في الحياة الواقعية مع ميزة “التجمعات الجماعية”</title>
+      <link>https://techcrunch.com/2026/09/30/tinder-adapts-to-a-social-irl-dating-future-with-group-hangouts-feature/</link>
+      <pubDate>Wed, 30 Sep 2026 13:00:00 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>مع تزايد تعب الجيل الأصغر من التمرير اللانهائي على التطبيقات، تسعى منصات المواعدة لتقديم تجارب أكثر اجتماعية ومرتبطة بالحياة الواقعية. أعلن تطبيق Tinder يوم الأربعاء عن خاصية “Group Hangouts” التي تسمح لأصدقاء المستخدمين بإنشاء مجموعات، اختيار نشاط مشترك، وتحديد مواعيد للقاءات شخصية، لتقليل الاعتماد على الدردشة النصية وتعزيز التفاعل الفعلي بين الأفراد.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/09/30/tinder-adapts-to-a-social-irl-dating-future-with-group-hangouts-feature/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/09/Group-Hangouts-Press-Asset.png?w=1200" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>اثنان من خريجي جوجل يجمعان 11.3 مليون دولار لدعم الشركات الناشئة في مجال الذكاء الاصطناعي التي ستدفع لها المؤسسات فعليًا</title>
+      <link>https://techcrunch.com/2026/09/30/bag-ventures-sets-its-eyes-deeper-into-the-ai-stack/</link>
+      <pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>أعلنت شركة BAG Ventures إغلاق صندوقها الأول بمبلغ 11.3 مليون دولار، يهدف إلى تمويل مشاريع وتقنيات الذكاء الاصطناعي عبر مراحل مختلفة. يركز الصندوق على الشركات الناشئة التي تطوّر حلولاً مبتكرة في التعلم الآلي، الرؤية الحاسوبية، معالجة اللغة الطبيعية وتطبيقات الذكاء الاصطناعي في الصناعات المتنوعة. يُدار الصندوق من قبل فريق خبراء من خلفيات تقنية واستثمارية، ويستهدف فرصاً في أمريكا الشمالية وأوروبا والشرق الأوسط.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/09/30/bag-ventures-sets-its-eyes-deeper-into-the-ai-stack/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/09/BAG-ventures.png?resize=1200,800" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>آير بي إن بي يضيف البحث بالذكاء الاصطناعي، ومزيدًا من الميزات الاجتماعية</title>
+      <link>https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features/</link>
+      <pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>أعلنت شركة Airbnb عن توسيع عروضها لتشمل خدمات جديدة مثل توصيل الطعام وخدمات الغسيل في عدد محدد من المدن والمناطق المختارة، حيث تسعى إلى تعزيز تجربة الضيوف وتوفير حلول شاملة تلبي احتياجاتهم اليومية بجانب الإقامات التقليدية، وتعتبر هذه الخطوة جزءاً من استراتيجية الشركة لتوسيع نطاق الخدمات المُقدمة وتعزيز الراحة والملاءمة للمستأجرين.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/09/en-US-AIFeatures-UnifiedSearch.jpeg?resize=1200,800" type="image/jpeg"/>
+    </item>
     <item>
       <title>هولندا اختارت NixOS، وفرنسا كانت تستخدمه بالفعل</title>
       <link>https://feed.itsfoss.com/link/24361/17478137/france-nixos-move</link>
@@ -75,6 +123,70 @@
       <source>signal_blog</source>
       <description>في سبتمبر الماضي قدمنا طريقة اختيارية جديدة لعمل نسخ احتياطي آمن ومُآلي لبيانات سيجنال، كي تستعيد الرسائل والذكريات إذا فقدت جهازاً. بعد استماعنا لملاحظات المستخدمين، أجرينا تحسينات كثيرة طوال العام. الآن أُطلقت نسخة iOS 8.30 التي تُفعّل النسخ الاحتياطي الآمن على جميع المنصات، وتضم تحسينات في الأداء وسهولة استعادة النسخ، مع ملخص للتغييرات منذ الإطلاق الأول.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://signal.org/blog/backup-improvements/&quot;&gt;signal_blog&lt;/a&gt;</description>
       <enclosure url="https://signal.org/blog/images/backup-improvements-opengraph.png" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>جهاز Fire TV Stick 4K الجديد من أمازون يمكنه سحب الطاقة مباشرةً من التلفاز</title>
+      <link>https://www.theverge.com/streaming/1002597/amazon-fire-tv-stick-4k-direct-power</link>
+      <pubDate>2026-09-30T09:00:16-04:00</pubDate>
+      <source>the_verge</source>
+      <description>أعلنت أمازون عن جهاز Fire TV Stick 4K الجديد الذي أصبح أسهل في التركيب مقارنةً بالإصدارات السابقة، حيث لم يعد يحتاج إلى محول طاقة منفصل. يمكن تشغيله مباشرةً من منفذ USB في التلفاز، وهو نفس الطريقة التي اعتمدتها النسخة المحدثة من Fire TV Stick ذات المستوى المبتدئ التي أُطلقت في بداية العام.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/streaming/1002597/amazon-fire-tv-stick-4k-direct-power&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/fire-tv-stick-4k_ftv-remote_hero_1920x1080.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C3.4613147178592%2C100%2C93.077370564282&amp;amp;w=1200" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>سونو أيس ألترا هي السماعات التي كان ينبغي على سونو أن تصنعها في المرة الأولى</title>
+      <link>https://www.theverge.com/tech/1002122/sonos-ace-ultra-headphones-review</link>
+      <pubDate>2026-09-30T09:00:00-04:00</pubDate>
+      <source>the_verge</source>
+      <description>كان من المفترض أن تكون سماعات سونوس آيس الأصلية إنجازًا ملحوظًا في فئة منتجات جديدة، لكنّها طغى عليها إعادة تصميم تطبيق سونوس الفاشلة التي أرهقت المستخدمين. رغم جودة التصنيع، والصوت الجيد، والراحة الفائقة، لم تُظهر السامعات قيمتها كمنتج سونوس حقيقي؛ إذ كان الميزة الرئيسية لها مجرد تحويل الصوت من سونوس ساوندبار إلى الأذن، ما قلل من جاذبيتها.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/tech/1002122/sonos-ace-ultra-headphones-review&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268780_Sonos_Ace_Ultra_P_JHiggins_6.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.737425760868%2C100%2C78.525148478264&amp;amp;w=1200" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>بطاطا بالهواء</title>
+      <link>https://www.theverge.com/report/1002172/potato-by-air-wing-drone-delivery</link>
+      <pubDate>2026-09-30T09:00:00-04:00</pubDate>
+      <source>the_verge</source>
+      <description>طائرة توصيل Wing Hummingbird 7000W‑B خفيفة لا تتجاوز وزنها 15 رطلاً، وتتميز بـ16 مروحةً؛ أربعة للتحرك الأفقي واثنا عشر للارتفاع والهبوط. تصل سرعتها القصوى إلى 60 ميلاً في الساعة، وتستطيع حمل ما يصل إلى 2.7 رطل، وتغطي دائرة توصيل تقارب ستة أميال. كما حصلت على ترخيص التشغيل من إدارة الطيران الفيدرالية (FAA).&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/report/1002172/potato-by-air-wing-drone-delivery&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Potato_drone_v3.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;amp;w=1200" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>ستتمكن قريبًا من طلب DoorDash عبر الرسائل النصية</title>
+      <link>https://www.theverge.com/tech/1002545/doordash-text-orders-drones-retail-returns-availability</link>
+      <pubDate>2026-09-30T09:00:00-04:00</pubDate>
+      <source>the_verge</source>
+      <description>أعلنت شركة DoorDash عن توسيع خدماتها لتشمل طلبات عبر الرسائل النصية، توصيلات بطائرات بدون طيار، وإرجاع المشتريات من المتاجر. تعتمد خاصية الطلب بالرسائل على روبوت الدردشة الذكي Ask DoorDash الذي أُضيف للتطبيق في يونيو، حيث يقدّم توصيات، يسهّل التصفح، ويتيح إتمام الطلب دون فتح التطبيق. تسهم هذه الابتكارات في تحسين تجربة العملاء وتوفير حلول لوجستية أسرع وأكثر مرونة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/tech/1002545/doordash-text-orders-drones-retail-returns-availability&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DoorDash-text-ordering-retail-returns.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;amp;w=1200" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>إليك كيف سيُشرف قادة التقنية على سلامة الذكاء الاصطناعي بأنفسهم في إطار اتفاق ترامب</title>
+      <link>https://www.theverge.com/ai-artificial-intelligence/1002584/trump-us-ai-safety-deal-self-regulation-tech-execs</link>
+      <pubDate>2026-09-30T08:24:32-04:00</pubDate>
+      <source>the_verge</source>
+      <description>أعلنت الإدارة الأمريكية يوم أمس عن تفاصيل الاتفاقية &quot;المُلزمة أخلاقياً&quot; لضمان سلامة الذكاء الاصطناعي، حيث وافق كبار التنفيذيين على تنظيم تقنياتهم ذاتياً. سُميت الاتفاقية رسمياً &quot;الالتزام المشترك بمسؤوليات الحدود المتقدمة&quot;، ونشرها مؤسس التكنولوجيا ومستشار الرئيس ديفيد ساكس على الإنترنت، وقد تم توقيعها من قبل عدة قادة في قطاع التقنية وتعهدوا بالالتزام بمعايير الشفافية والاختبار المستمر.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/ai-artificial-intelligence/1002584/trump-us-ai-safety-deal-self-regulation-tech-execs&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2297269621.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.752607989199%2C100%2C78.494784021602&amp;amp;w=1200" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>سامسونج تجدد جهاز Galaxy Tab S Plus البالغ عامين</title>
+      <link>https://www.theverge.com/tech/1002533/samsung-galaxy-tab-s12-plus-ultra-android-tablets-specs-price</link>
+      <pubDate>2026-09-30T08:00:00-04:00</pubDate>
+      <source>the_verge</source>
+      <description>منذ إطلاق سلسلة Galaxy Tab S10، تقوم سامسونج بتحديث طراز Ultra الرائد كل عام، بينما تتناوب بين النسخ العادية ونسخ Plus. وبالتالي، تضم سلسلة Galaxy Tab S12 لهذا العام موديل Ultra يقتصر على تحسينات قليلة مقارنة بـ Tab S11 Ultra السابق، بينما يأتي موديل Plus بتجديد كبير يشمل تحسين المعالج، الشاشة، وعمر البطارية مقارنة بالنموذج الذي مضى عليه عامين.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/tech/1002533/samsung-galaxy-tab-s12-plus-ultra-android-tablets-specs-price&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/samsung-galaxy-tab-s12-plus-ultra-hero.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.741906587151%2C100%2C78.516186825698&amp;amp;w=1200" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>السمارت تاج الجديد من سامسونج أصغر، يدوم لفترة أطول، ويعمل مع هواتف iPhone</title>
+      <link>https://www.theverge.com/tech/1002552/samsung-galaxy-smarttag-3-design-battery-price-features</link>
+      <pubDate>2026-09-30T08:00:00-04:00</pubDate>
+      <source>the_verge</source>
+      <description>أعلنت سامسونج عن الجيل الثالث من متعقّب البلوتوث Galaxy SmartTag 3، الذي يجمع بين تصميم أصغر وعمر بطارية محسّن، إضافةً إلى مجموعة من الميزات الجديدة في التتبع والبرمجيات. يدعم الآن مشاركة المعلومات عبر أنظمة تشغيل مختلفة لتسهيل التعاون بين الأصدقاء والعائلة، وقد استُخدم في تصميمه شكل الـ«سكويركل» المستدير المربّع وفقاً للتسريبات.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/tech/1002552/samsung-galaxy-smarttag-3-design-battery-price-features&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/samsung-galaxy-smarttag-3-hero.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.741906587151%2C100%2C78.516186825698&amp;amp;w=1200" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>من المتوقع أن تُطلق Apple جهاز &quot;HomePad&quot; في 13 أكتوبر</title>
+      <link>https://www.theverge.com/news/1002563/apple-smart-home-hub-homepad-rumor-launch-date</link>
+      <pubDate>2026-09-30T07:11:24-04:00</pubDate>
+      <source>the_verge</source>
+      <description>ستكشف شركة أبل عن مركز ذكي للمنزل في 13 أكتوبر، وفقًا لما ذكر مارك جورمان من بلومبرغ. سيُعرض الجهاز الجديد إلى جانب HomePod mini المحسن وجهاز Apple TV المحدث، وتُدمج فيهما تقنية Siri المدعومة بالذكاء الاصطناعي التي طورتها أبل مؤخرًا. يُتوقع أن يكون المركز بمثابة محور تحكم متكامل للمنزل الذكي.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/news/1002563/apple-smart-home-hub-homepad-rumor-launch-date&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK071_APPLE_H.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;amp;w=1200" type="image/jpeg"/>
     </item>
     <item>
       <title>سام ألتمان يقول إن أوبن إيه آي لن تُصبح شركةً عامةً حتى تكون نماذجها آمنة.</title>
