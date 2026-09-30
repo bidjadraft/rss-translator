@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>All News</title>
+    <description>All news from 8 sources, translated &amp; summarized</description>
+    <link>https://github.com/bidjadraft/rss-translator</link>
+    <language>arabic</language>
+    <lastBuildDate>Wed, 30 Sep 2026 00:12:52 GMT</lastBuildDate>
+    <item>
+      <title>وثائقك الورقية تنتمي إلى Locker أيضًا</title>
+      <link>https://ente.com/blog/locker-document-scanner/</link>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+      <source>ente_-_feed</source>
+      <description>أعلنت Locker عن إضافة ميزة جديدة تسمح للمستخدمين بمسح المستندات الورقية وتحويلها إلى ملفات PDF مباشرة داخل التطبيق، دون الحاجة إلى الانتقال إلى برنامج آخر أو فتح تطبيق منفصل. هذه الخاصية تسهل حفظ المستندات الرقمية وتوفير الوقت، وتدعم جودة عالية للصور وتسمح بتعديل الصفحات قبل الحفظ، مما يجعلها أداة مثالية للطلاب والمهنيين لتوثيق أوراقهم بسرعة وسهولة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://ente.com/blog/locker-document-scanner/&quot;&gt;ente_-_feed&lt;/a&gt;</description>
+      <enclosure url="https://ente.com/og-images/locker-document-scanner.png" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>أدوات التقنية للهاكر: ما هي وما تقوم به وكيفية البقاء آمناً</title>
+      <link>https://proton.me/blog/hacker-tech-tools</link>
+      <pubDate>Tue, 29 Sep 2026 18:07:00 GMT</pubDate>
+      <source>the_proton_blog</source>
+      <description>تعرّف على أدوات القراصنة مثل كابلات USB الخبيثة، مسجلات المفاتيح، وقارئات RFID التي تستهدف الأنظمة، وتعرف على الأساليب الوقائية لحماية أجهزتك من هذه الهجمات، بما في ذلك فحص الأجهزة قبل الاتصال، استخدام برامج مراقبة النشاط، وتفعيل سياسات أمان الشبكة للحد من الاختراقات. كما يُنصح بتحديث الأنظمة بانتظام، وتفعيل التشفير على البيانات المخزنة، وتجنب توصيل ملحقات غير موثوقة، بالإضافة إلى التدريب المستمر للمستخدمين على التعرف على سلوكيات غير عادية.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://proton.me/blog/hacker-tech-tools&quot;&gt;the_proton_blog&lt;/a&gt;</description>
+      <enclosure url="https://pmecdn.protonweb.com/image-transformation/?s=c&amp;amp;image=images/w_2560,h_1440,c_scale/f_auto,q_auto/v1790697967/wp-pme/hacker-tools-01d/hacker-tools-01d.jpg?_i=AA" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>ملخص سبتمبر من AlternativeTo: شارات جديدة، إخفاء التطبيقات بحسب الوسم، قوائم مُحسّنة والمزيد</title>
+      <link>https://alternativeto.net/news/2026/9/alternativeto-september-recap-new-badges-hide-apps-by-tag-revamped-lists-and-more/</link>
+      <pubDate>Tue, 29 Sep 2026 16:26:15 GMT</pubDate>
+      <source>news_-_alternativetonet</source>
+      <description>أطلقت AlternativeTo مجموعة شارات قابلة للدمج مع مصمم تصاميم متعددة، وأضافت روابط اجتماعية مثل Mastodon وBluesky وThreads وغيرها. سمحت للمستخدمين بإخفاء التطبيقات حسب الوسوم وحفظ الفلاتر المفضلة كإعدادات افتراضية. تم تحسين زر الحفظ بنقرة واحدة، وتجديد قوائم التطبيقات بواجهات غلاف وعناصر قابلة للطي. كما طورت الرسائل الخاصة لتصبح كصندوق بريد كامل، وأضافت متابعة المستخدمين والبحث بالكلمات المفتاحية في الأخبار، إلى جانب تحسينات بصرية عامة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://alternativeto.net/news/2026/9/alternativeto-september-recap-new-badges-hide-apps-by-tag-revamped-lists-and-more/&quot;&gt;news_-_alternativetonet&lt;/a&gt;</description>
+      <enclosure url="https://img.alternativeto.net/news/1200x630/jpeg/1790641066033.png" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>نوتسنوك موبايل v3.4.13</title>
+      <link>https://notesnook.com/blog/notesnook-mobile-v3.4.13</link>
+      <pubDate>Tue, 15 Sep 2026 11:20:56 GMT</pubDate>
+      <source>notesnook_blog</source>
+      <description>أطلقت Notesnook Mobile الإصدار 3.4.13، حيث تم تحسين طريقة معالجة المرفقات ومشاركتها، وإصلاح مشكلة نسخ الروابط إلى الحافظة، بالإضافة إلى تحديث مكتبة React Native التي تدعم تشفير Sodium لتحسين الأداء والأمان. كما يضمن التحديث توافقًا أفضل مع أنظمة iOS وAndroid، ويعزز استقرار التطبيق مع تقليل الأخطاء. هذه التحسينات تدعم تجربة تحرير النصوص وتبادل المعلومات بسلاسة أكبر للمستخدمين.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://notesnook.com/blog/notesnook-mobile-v3.4.13&quot;&gt;notesnook_blog&lt;/a&gt;</description>
+    </item>
+    <item>
+      <title>Kagi Translate عاد (محدّث)</title>
+      <link>https://blog.kagi.com/translate-is-back</link>
+      <pubDate>Thu, 10 Sep 2026 11:13:10 GMT</pubDate>
+      <source>kagi_blog</source>
+      <description>نُعرب عن بالغ امتناننا لجميع التعليقات التي تلقيناها حول التعديلات الأخيرة في خاصية Kagi Translate. تم تعديل هذا الإعلان لتوضيح أن خدمة الترجمة ستستمر في التوفر ضمن جميع خططنا – Starter وProfessional وFamily وTeam وUltimate – وفقاً لسياسة الاستخدام العادل التي تضمن بقاء الميزة متاحة للمستخدمين دون قيود غير مبررة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://blog.kagi.com/translate-is-back&quot;&gt;kagi_blog&lt;/a&gt;</description>
+      <enclosure url="https://blog.kagi.com/og-image.png" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>ما يكشفه هاكاثون طلب البيتزا عن ربط وكلاء الذكاء الاصطناعي بالويب</title>
+      <link>https://brave.com/blog/alphasignal-hackathon/</link>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <source>braves_latest_news_on_brave</source>
+      <description>شارك متسابقو الهاكاثون الذي نظمته نشرة AlphaSignal الشهيرة في مجال الذكاء الاصطناعي باستخدام واجهة برمجة تطبيقات Brave Search لتصميم وكيل ذكي مستقل، وتمكّنوا من جعل هذا الوكيل يعمل بثبات في بيئات العالم الحقيقي، مما أثبت قدرة الأدوات المفتوحة على تمكين تطبيقات عملية للذكاء الاصطناعي. كما نجحوا في دمج وظائف البحث والتصفية لتوسيع نطاق مهام الوكيل، مستفيدين من إمكانات الفهرسة السريعة والخصوصية التي توفرها Brave.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://brave.com/blog/alphasignal-hackathon/&quot;&gt;braves_latest_news_on_brave&lt;/a&gt;</description>
+      <enclosure url="https://brave.com/blog/alphasignal-hackathon/images/featured.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>العودة إلى النسخ الاحتياطية: مراجعة عام</title>
+      <link>https://signal.org/blog/backup-improvements/</link>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <source>signal_blog</source>
+      <description>في سبتمبر الماضي أطلقنا طريقة اختيارية لعمل نسخ احتياطي آمن تلقائي لبيانات سيجنال، لتسهيل استعادة الرسائل والذكريات إذا فقد أحد أجهزتك. بعد عام من جمع الملاحظات، أجرينا عدة تحسينات وأطلقنا الآن النسخة 8.30 لنظام iOS التي توفر النسخ الاحتياطي الآمن على جميع المنصات، مع تقديم نظرة شاملة على كل ما تغير منذ الإطلاق الأول.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://signal.org/blog/backup-improvements/&quot;&gt;signal_blog&lt;/a&gt;</description>
+      <enclosure url="https://signal.org/blog/images/backup-improvements-opengraph.png" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>F-Droid 2.0: فصل جديد لحرية أندرويد</title>
+      <link>https://f-droid.org/en/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html</link>
+      <pubDate>2026-09-24T00:00:00+00:00</pubDate>
+      <source>f-droid</source>
+      <description>بعد أكثر من عام من التطوير، أُعلن عن إطلاق F‑Droid 2.0، إعادة تصميم شاملة للتطبيق الرسمي وشبه أكبر تحديث منذ عشر سنوات. يدمج واجهة حديثة، تحسينات اكتشاف التطبيقات، تصنيف متنوع، بحث ذكي يدعم لغات CJK، وفلاتر قوية، وتثبيت تلقائي أسرع بفضل API الجديد. تم بناءه بـ Kotlin وJetpack Compose لتسهيل الصيانة وإشراك مساهمين جدد، مع الحفاظ على الخصوصية عبر Tor وخيارات الطوارئ. rollout يبدأ خلال الأسابيع المقبلة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://f-droid.org/en/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html&quot;&gt;f-droid&lt;/a&gt;</description>
+      <enclosure url="https://f-droid.org/assets/fdroid-logo_bfHl7nsLHOUQxzdU8-rGIhn4bAgl6z7k2mA3fWoCyT4=.png" type="image/jpeg"/>
+    </item>
+  </channel>
+</rss>
