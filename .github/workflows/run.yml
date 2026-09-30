@@ -2,24 +2,21 @@ name: Apps Bot
 
 on:
   schedule:
-    - cron: '0 */3 * * *'	
+    - cron: '0 3 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  run-apps-bot:
-    name: Run Apps Bot
+  run-bot:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
@@ -29,28 +26,22 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Ensure required files exist
+      - name: Ensure required directories and files
         run: |
           mkdir -p config rss
-          # إنشاء ملف التتبع إن لم يكن موجودًا (سبب خطأ exit 128)
           [ -f config/last_post.json ] || echo '{}' > config/last_post.json
+          [ -f config/feeds.txt ] || printf '# RSS Feeds List\n' > config/feeds.txt
 
       - name: Run Apps Bot
+        env:
+          OLLAMA_API_KEY: ${{ secrets.OLLAMA_API_KEY }}
+          MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
         run: python main.py
 
-      - name: Configure git user
+      - name: Commit and push RSS files
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Commit and push changes
-        run: |
-          git add config/last_post.json
-          # لا نفشل إذا لم توجد ملفات XML بعد
-          git add rss/*.xml 2>/dev/null || true
-          if git diff --cached --quiet; then
-            echo "لا تغييرات جديدة — تخطي الـ commit"
-            exit 0
-          fi
-          git commit -m "Auto-update: Bot execution - $(date +%Y-%m-%d_%H:%M:%S)"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add rss/ config/last_post.json
+          git commit -m "Update RSS feeds and tracker [skip ci]" || echo "No changes to commit"
           git push
