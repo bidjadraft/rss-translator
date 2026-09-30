@@ -5,4 +5,5 @@ https://brave.com/blog/index.xml
 https://notesnook.com/feed.xml
 https://blog.kagi.com/rss.xml
 https://signal.org/blog/rss.xml
-https://alternativeto.net/feeds/news/
+https://blog.joinmastodon.org/index.xml
+https://feed.itsfoss.com/
