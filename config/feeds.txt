@@ -7,3 +7,5 @@ https://blog.kagi.com/rss.xml
 https://signal.org/blog/rss.xml
 https://blog.joinmastodon.org/index.xml
 https://feed.itsfoss.com/
+https://techcrunch.com/feed/
+https://www.theverge.com/rss/index.xml
