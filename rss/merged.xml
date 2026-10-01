@@ -5,31 +5,7 @@
     <description>All news from 11 sources</description>
     <link>https://github.com/bidjadraft/rss-translator</link>
     <language>arabic</language>
-    <lastBuildDate>Thu, 01 Oct 2026 00:18:24 GMT</lastBuildDate>
-    <item>
-      <title>المدير التنفيذي للمصنع يتهم مستشار مجلس إدارته في شركة رأس المال المخاطر بالتجسس لصالح Cognition</title>
-      <link>https://techcrunch.com/2026/09/30/factory-ceo-just-accused-his-vc-board-advisor-of-spying-for-cognition/</link>
-      <pubDate>Wed, 30 Sep 2026 20:39:09 +0000</pubDate>
-      <source>techcrunch</source>
-      <description>انضم كريس ديغنان، المستثمر المخاطر ومستشار مجلس الإدارة السابق لشركة Factory AI، إلى منافستها Cognition كمسؤول إيرادات أول، ما أثار جدلاً واسعاً على منصة X حيث انتقد المستخدمون التحول الوظيفي وأبدوا مخاوفهم من تأثير ذلك على المنافسة والسرية التجارية. وجاء الانتقاد بسبب مخاوف من نقل معرفة تقنية حساسة إلى خصم مباشر، بالإضافة إلى تساؤلات حول مدى الالتزام بأخلاقيات الصناعة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/09/30/factory-ceo-just-accused-his-vc-board-advisor-of-spying-for-cognition/&quot;&gt;techcrunch&lt;/a&gt;</description>
-      <enclosure url="https://techcrunch.com/wp-content/uploads/2019/01/facebook-research-vpn-project-atlas.jpg?resize=1200,675" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>هل فحص الجسم من Neko Health يستحق ذلك؟ شركة الناشئة للملياردير المؤسس لسبوتيفاي وصلت إلى أمريكا</title>
-      <link>https://techcrunch.com/video/is-neko-healths-body-scan-worth-it-spotify-billionaires-startup-has-come-to-america/</link>
-      <pubDate>Wed, 30 Sep 2026 20:20:02 +0000</pubDate>
-      <source>techcrunch</source>
-      <description>أعلن مؤسّس سبوتيفاي دانيال إيك عن جمع شركة نيكو هيلث ٧٠٠ مليون دولار لتطوير تقنية مسح جسمية متقدمة، في الوقت الذي تُطوّر فيه ميدجورني ماسحًا خاصًا بها وتجمع فنكشن هيلث أموالاً كبيرة لتوسيع منصتها للوقاية الصحية. يناقش بودكاست TechCrunch Equity سبب إقبال المستثمرين الضخم على هذا المجال الجديد وتساءلات حول جدوى هذه الاستثمارات.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/video/is-neko-healths-body-scan-worth-it-spotify-billionaires-startup-has-come-to-america/&quot;&gt;techcrunch&lt;/a&gt;</description>
-      <enclosure url="https://techcrunch.com/wp-content/uploads/2023/02/neko-founders.jpeg?resize=1200,800" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>سرق القراصنة ملايين سجلات الأفراد العسكريين الأمريكيين خلال اختراق بيانات استمر عدة أشهر.</title>
-      <link>https://techcrunch.com/2026/09/30/hackers-stole-millions-of-us-military-personnel-records-during-months-long-data-breach/</link>
-      <pubDate>Wed, 30 Sep 2026 19:29:08 +0000</pubDate>
-      <source>techcrunch</source>
-      <description>الوزارة أبلغت ملايين الأفراد العسكريين الحاليين والسابقين أن معلوماتهم الشخصية، بما فيها الاسم والعنوان وتواريخ الميلاد، قد سُرقت في اختراق إلكتروني استمر لعدة شهور، وأعلنت أن التحقيق لا يزال جارياً لتحديد مصدر الاختراق وحجم الأضرار، كما وجهت التعليمات للمتضررين باتخاذ إجراءات وقائية مثل مراقبة الحسابات وتحسين كلمات المرور. وبالإضافة إلى ذلك، نصحو المتضررين بالتواصل مع مراكز الدعم المتخصصة للحصول على مساعدة إضافية.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/09/30/hackers-stole-millions-of-us-military-personnel-records-during-months-long-data-breach/&quot;&gt;techcrunch&lt;/a&gt;</description>
-      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/09/pentagon-dod-2026-2288897667.jpg?resize=1200,869" type="image/jpeg"/>
-    </item>
+    <lastBuildDate>Thu, 01 Oct 2026 09:39:22 GMT</lastBuildDate>
     <item>
       <title>استراتيجية درون DoorDash بدأت على الأرض</title>
       <link>https://techcrunch.com/2026/09/30/doordashs-drone-strategy-started-on-the-ground/</link>
@@ -291,6 +267,30 @@
       <source>signal_blog</source>
       <description>في سبتمبر الماضي قدمنا طريقة اختيارية جديدة لعمل نسخ احتياطي آمن ومُآلي لبيانات سيجنال، كي تستعيد الرسائل والذكريات إذا فقدت جهازاً. بعد استماعنا لملاحظات المستخدمين، أجرينا تحسينات كثيرة طوال العام. الآن أُطلقت نسخة iOS 8.30 التي تُفعّل النسخ الاحتياطي الآمن على جميع المنصات، وتضم تحسينات في الأداء وسهولة استعادة النسخ، مع ملخص للتغييرات منذ الإطلاق الأول.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://signal.org/blog/backup-improvements/&quot;&gt;signal_blog&lt;/a&gt;</description>
       <enclosure url="https://signal.org/blog/images/backup-improvements-opengraph.png" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>الضجيج من أحدث جاذبة في يونيفرسال أغضب السكان الأغنياء بسرعة</title>
+      <link>https://www.theverge.com/entertainment/1003182/universal-hollywood-fast-and-furious-rollercoaster-noise</link>
+      <pubDate>2026-10-01T05:00:04-04:00</pubDate>
+      <source>the_verge</source>
+      <description>تعهدت يونيفرسال ستوديوز هوليوود بإنشاء حاجز صوتي إضافي حول أحدث جذبة لها استجابةً لشكاوى السكان المحليين من الصراخ المروع للركاب. خلال اجتماع حضره نحو 350 شخصًا أمس، أعلن مسؤولو المتنزه أن لعبة «Fast &amp; Furious: Hollywood Drift» لن تُشغل بين الثامنة والتاسعة صباحًا طوال الفترة المتبقية من الموسم. من المقرر أن يكتمل الحاجز بنهاية الربع الأول من 2027 لتقليل الضوضاء على الأحياء المجاورة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/entertainment/1003182/universal-hollywood-fast-and-furious-rollercoaster-noise&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2295022328.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.738315863554%2C100%2C78.523368272891&amp;amp;w=1200" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>جهاز X Fold 6 من فيفو يُشعرك بالحنين عن غير قصد</title>
+      <link>https://www.theverge.com/tech/1002680/vivo-x-fold-6-global-release-specs-cameras</link>
+      <pubDate>2026-09-30T22:00:00-04:00</pubDate>
+      <source>the_verge</source>
+      <description>أصدرت فيفو هاتفها القابل للطي X Fold 6 في يونيو بالصين، وكان يُنظر إليه كجهاز عادي بين موديلاتها القابلة للطي. الآن مع استعداده للإطلاق العالمي، يلاحظ أن حجمه ونسبة الأبعاد تبدو قديمة مقارنةً بالمنافسين، حيث يبقى مماثلاً لحجم وإبعاد طرازات فيفو القابلة للطي السابقة ومعظم الأجهزة القابلة للطي الأخرى في السوق العالمية.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/tech/1002680/vivo-x-fold-6-global-release-specs-cameras&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/vivo-x-fold-6-09.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.723395278369%2C100%2C78.553209443262&amp;amp;w=1200" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>غروكيبيديا إيلون ماسك لديها تصميم «مُجدد حديثًا»</title>
+      <link>https://www.theverge.com/tech/1003068/elon-musk-grokipedia-v-0-3-spacexai</link>
+      <pubDate>2026-09-30T20:23:45-04:00</pubDate>
+      <source>the_verge</source>
+      <description>أعلن بنجي تايلور، رئيس التصميم في SpaceXAI، أن Grokipedia—المنافس المدعوم بالذكاء الاصطناعي لويكيبيديا—عاد لتلقي التعديلات اليوم مع تحديث الإصدار 0.3، حيث تم إدخال تحسينات تصميمية تشمل شعارًا جديدًا وتجديد واجهة الصفحة الرئيسية وصفحة التعديلات الحية، مما يمنح المنصة مظهرًا أكثر حداثة وجاذبية للمستخدمين. وكانت الواجهة السابقة بسيطة جدًا، استُبدلت الآن بتصميم متجاوب يدعم القراءة السريعة ويوفر أدوات تحرير فورية.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/tech/1003068/elon-musk-grokipedia-v-0-3-spacexai&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Screenshot-2026-09-30-at-5.16.09-PM.png?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C16.442283719771%2C100%2C67.115432560459&amp;amp;w=1200" type="image/jpeg"/>
     </item>
     <item>
       <title>باراماونت الجديد والأضخم لديه مدير تنفيذي مشارك جديد</title>
