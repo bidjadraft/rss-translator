@@ -5,14 +5,22 @@
     <description>All news from 11 sources</description>
     <link>https://github.com/bidjadraft/rss-translator</link>
     <language>arabic</language>
-    <lastBuildDate>Wed, 30 Sep 2026 19:47:58 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 00:18:24 GMT</lastBuildDate>
     <item>
-      <title>النشرة الأسبوعية للذكاء الاصطناعي المحلي #4: التفاصيل الدقيقة لتشغيل الذكاء الاصطناعي محليًا</title>
-      <link>https://feed.itsfoss.com/link/24361/17481812/local-ai-weekly-4</link>
-      <pubDate>Wed, 30 Sep 2026 20:55:06 +0530</pubDate>
-      <source>its_foss</source>
-      <description>يتوفر الآن مساعد ذكي يعمل محليًا على سطح المكتب مخصص لبيئة KDE Plasma، يتيح للمستخدمين الاستفادة من تقنيات الذكاء الاصطناعي دون الحاجة إلى اتصال سحابي، مما يحافظ على خصوصيتهم وسرعة الاستجابة. يمكن تنشيطه بسهولة من خلال اختصار أو أمر نصي، ويطبق مهام متنوعة كإدارة النوافذ والبحث السريع، ويمكن تعديل إعداداته الشخصية وفقًا لتفضيلات المستخدم.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://feed.itsfoss.com/link/24361/17481812/local-ai-weekly-4&quot;&gt;its_foss&lt;/a&gt;</description>
-      <enclosure url="https://itsfoss.com/content/images/2026/09/local-ai-weekly-4.png" type="image/jpeg"/>
+      <title>المدير التنفيذي للمصنع يتهم مستشار مجلس إدارته في شركة رأس المال المخاطر بالتجسس لصالح Cognition</title>
+      <link>https://techcrunch.com/2026/09/30/factory-ceo-just-accused-his-vc-board-advisor-of-spying-for-cognition/</link>
+      <pubDate>Wed, 30 Sep 2026 20:39:09 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>انضم كريس ديغنان، المستثمر المخاطر ومستشار مجلس الإدارة السابق لشركة Factory AI، إلى منافستها Cognition كمسؤول إيرادات أول، ما أثار جدلاً واسعاً على منصة X حيث انتقد المستخدمون التحول الوظيفي وأبدوا مخاوفهم من تأثير ذلك على المنافسة والسرية التجارية. وجاء الانتقاد بسبب مخاوف من نقل معرفة تقنية حساسة إلى خصم مباشر، بالإضافة إلى تساؤلات حول مدى الالتزام بأخلاقيات الصناعة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/09/30/factory-ceo-just-accused-his-vc-board-advisor-of-spying-for-cognition/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2019/01/facebook-research-vpn-project-atlas.jpg?resize=1200,675" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>هل فحص الجسم من Neko Health يستحق ذلك؟ شركة الناشئة للملياردير المؤسس لسبوتيفاي وصلت إلى أمريكا</title>
+      <link>https://techcrunch.com/video/is-neko-healths-body-scan-worth-it-spotify-billionaires-startup-has-come-to-america/</link>
+      <pubDate>Wed, 30 Sep 2026 20:20:02 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>أعلن مؤسّس سبوتيفاي دانيال إيك عن جمع شركة نيكو هيلث ٧٠٠ مليون دولار لتطوير تقنية مسح جسمية متقدمة، في الوقت الذي تُطوّر فيه ميدجورني ماسحًا خاصًا بها وتجمع فنكشن هيلث أموالاً كبيرة لتوسيع منصتها للوقاية الصحية. يناقش بودكاست TechCrunch Equity سبب إقبال المستثمرين الضخم على هذا المجال الجديد وتساءلات حول جدوى هذه الاستثمارات.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/video/is-neko-healths-body-scan-worth-it-spotify-billionaires-startup-has-come-to-america/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2023/02/neko-founders.jpeg?resize=1200,800" type="image/jpeg"/>
     </item>
     <item>
       <title>سرق القراصنة ملايين سجلات الأفراد العسكريين الأمريكيين خلال اختراق بيانات استمر عدة أشهر.</title>
@@ -283,6 +291,30 @@
       <source>signal_blog</source>
       <description>في سبتمبر الماضي قدمنا طريقة اختيارية جديدة لعمل نسخ احتياطي آمن ومُآلي لبيانات سيجنال، كي تستعيد الرسائل والذكريات إذا فقدت جهازاً. بعد استماعنا لملاحظات المستخدمين، أجرينا تحسينات كثيرة طوال العام. الآن أُطلقت نسخة iOS 8.30 التي تُفعّل النسخ الاحتياطي الآمن على جميع المنصات، وتضم تحسينات في الأداء وسهولة استعادة النسخ، مع ملخص للتغييرات منذ الإطلاق الأول.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://signal.org/blog/backup-improvements/&quot;&gt;signal_blog&lt;/a&gt;</description>
       <enclosure url="https://signal.org/blog/images/backup-improvements-opengraph.png" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>باراماونت الجديد والأضخم لديه مدير تنفيذي مشارك جديد</title>
+      <link>https://www.theverge.com/news/1003037/paramount-david-ellison-co-ceo-ynon-kriez</link>
+      <pubDate>2026-09-30T19:08:49-04:00</pubDate>
+      <source>the_verge</source>
+      <description>أعلنت شركة باراماونت عن تعيين ينون كريز، الرئيس السابق لماتيل، كمدير تنفيذي مشارك إلى جانب ديفيد إلسون، في إطار إكمال صفقة الاندماج بقيمة 110 مليارات دولار مع وارنر براذرز ديسكفري. وأكدت باراماونت أن إلسون سيكثّف جهوده على الاستراتيجية طويلة الأجل والرؤية الإبداعية للشركة، بينما سيتولى كريز مسؤولية العمليات اليومية وتكامل الأنشطة بعد الدمج، مع التركيز على توسيع المحتوى وتطوير المنصات الرقمية.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/news/1003037/paramount-david-ellison-co-ceo-ynon-kriez&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2279296662.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C14.391733659663%2C100%2C71.216532680673&amp;amp;w=1200" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>نيوْن يتحدى A24 بإعلان فيلم لقاعدة بيانات SCP تحت رخصة المشاع الإبداعي</title>
+      <link>https://www.theverge.com/entertainment/1002958/neon-a24-creative-commons-scp-foundation-movie</link>
+      <pubDate>2026-09-30T16:45:00-04:00</pubDate>
+      <source>the_verge</source>
+      <description>أثار استحواذ شركة A24 لإنتاج فيلمٍ مقتبس من مؤسسة SCP غضب أحد أكبر مجتمعات الرعب على الإنترنت، حيث أعلنت عن المشروع دون استشارة فريق SCP Wiki ولم تُلتزم بنشره تحت رخصة المشاع الإبداعي المطلوبة. وفي الوقت نفسه، استغلت شركة Neon الفرصة لتسويق المشروع كميزة علاقات عامة سهلة. أدى ذلك إلى انتقادات حادة من المتابعين ودعوات لإلغاء التعاون.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/entertainment/1002958/neon-a24-creative-commons-scp-foundation-movie&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/SCP-X-NEON.png?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C3.4385907504363%2C100%2C93.122818499127&amp;amp;w=1200" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>جوجل تعلن عن جيميني 4 وتقول إنه قادر لدرجة أن «الدفاعيين السيبرانيين الموثوق بهم» فقط يمكنهم الحصول عليه الآن</title>
+      <link>https://www.theverge.com/tech/1002980/google-gemini-4-argon</link>
+      <pubDate>2026-09-30T16:41:41-04:00</pubDate>
+      <source>the_verge</source>
+      <description>أعلنت شركة جوجل اليوم عن إطلاق نموذج الذكاء الاصطناعي الجديد &quot;جيميني 4 أرجون&quot;، الذي يحقق أداءً متقدماً في سير العمل المعقد مثل هندسة البرمجيات، والعمل المؤسسي في المجالات القانونية والمالية، بالإضافة إلى الدفاع السيبراني. وذكّر كوراي كافوكجولو، كبير مهندسي الذكاء ومسؤول DeepMind التنفيذي، أن الوصول إلى النموذج سيظل مقيداً في المرحلة الأولى، حيث سيُتاح فقط لشركاء مختارين وشركات كبرى لتجربة قدراته قبل الإطلاق التجاري.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/tech/1002980/google-gemini-4-argon&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK093_Google_02.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;amp;w=1200" type="image/jpeg"/>
     </item>
     <item>
       <title>تاماغوتشي الذكاء الاصطناعي قادم</title>
