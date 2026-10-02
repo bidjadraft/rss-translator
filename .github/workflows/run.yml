@@ -36,7 +36,6 @@ jobs:
         env:
           OLLAMA_API_KEY: ${{ secrets.OLLAMA_API_KEY }}
           MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
-          SUBSTACK_COOKIES: ${{ secrets.SUBSTACK_COOKIES }}
         run: python main.py
 
       - name: Commit and push RSS files
