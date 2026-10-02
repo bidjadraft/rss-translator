@@ -5,15 +5,7 @@
     <description>All news from 11 sources</description>
     <link>https://github.com/bidjadraft/rss-translator</link>
     <language>arabic</language>
-    <lastBuildDate>Fri, 02 Oct 2026 03:19:56 GMT</lastBuildDate>
-    <item>
-      <title>ما يكشفه هاكاثون طلب البيتزا عن ربط وكلاء الذكاء الاصطناعي بالإنترنت</title>
-      <link>https://brave.com/blog/alphasignal-hackathon/</link>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-      <source>braves_latest_news_on_brave</source>
-      <description>شارك المتسابقون في هاكاثون نظمته النشرة الإخبارية الشهيرة للذكاء الاصطناعي AlphaSignal، حيث استخدموا واجهة برمجة تطبيقات Brave Search لتصميم وكيل ذاتي القدرة، وتمكنوا من جعله ينفذ مهامًا في العالم الواقعي بثبات وموثوقية، مما أبرز إمكانات التكامل بين البحث الذكي والأنظمة المستقلة وتحديات تطبيقها العملية. كما قاموا باختبار الأداء، جمعوا بيانات الاستخدام، وحللوا النتائج لتحديد نقاط القوة والضعف في العملية.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://brave.com/blog/alphasignal-hackathon/&quot;&gt;braves_latest_news_on_brave&lt;/a&gt;</description>
-      <enclosure url="https://brave.com/blog/alphasignal-hackathon/images/featured.jpg" type="image/jpeg"/>
-    </item>
+    <lastBuildDate>Fri, 02 Oct 2026 11:38:54 GMT</lastBuildDate>
     <item>
       <title>ليفت تدفع 272.5 مليون دولار لتسوية دعوى قضائية بشأن طريقة تصنيفها للسائقين</title>
       <link>https://techcrunch.com/2026/10/01/lyft-is-paying-272-5m-to-settle-lawsuit-over-how-it-classified-drivers/</link>
@@ -229,6 +221,14 @@
       <source>techcrunch</source>
       <description>يُعقد مؤتمر TechCrunch Disrupt 2026 حول سؤال رئيسي: كيف تبني شركة مستدامة في عصر الذكاء الاصطناعي؟ يضمن البرنامج والمتحدثون المختارون من خبراء الصناعة ورواد الشركات الناجحة مناقشات عميقة حول استراتيجيات النمو، الابتكار التقني، الإدارة الرشيدة، وتحديات التنافس في بيئة تتسارع فيها التطورات، وتستعرض أحدث تقنيات الذكاء الاصطناعي لتزويد رواد الأعمال بأدوات عملية لتحقيق استقرار ونجاح طويل الأمد.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/01/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/&quot;&gt;techcrunch&lt;/a&gt;</description>
       <enclosure url="https://techcrunch.com/wp-content/uploads/2026/08/54885169397_78fc033af7_k-1.jpg?resize=1200,800" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>صانع الموسيقى بالذكاء الاصطناعي Suno الآن يولد كلمات منطوقة</title>
+      <link>https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability</link>
+      <pubDate>2026-10-02T05:42:19-04:00</pubDate>
+      <source>the_verge</source>
+      <description>أطلقت شركة Suno، التي اشتهرت بتقنية الموسيقى الذكية، ميزة جديدة تمكّن المستخدمين من توليد أصوات محكية بناءً على نصوص أو أوصاف محددة. تُتاح ميزة الكلام الآن في نسخة تجريبية عامة عبر مواقع الشركة وتطبيقاتها المحمولة، وتسمح بإنشاء التعليق الصوتي والموسيقى الخلفية في آنٍ واحد، مؤكدين أن الموسيقى ستظل ركيزة أساسية في خدماتهم.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Suno-AI-voices.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;amp;w=1200" type="image/jpeg"/>
     </item>
     <item>
       <title>تقارير تفيد أن أبل تطور كاميرا منزلية ذكية لا تسجل الفيديو</title>
