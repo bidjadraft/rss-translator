@@ -2,10 +2,18 @@
 <rss version="2.0">
   <channel>
     <title>All News</title>
-    <description>All news from 1 sources</description>
+    <description>All news from 11 sources</description>
     <link>https://github.com/bidjadraft/rss-translator</link>
     <language>arabic</language>
-    <lastBuildDate>Fri, 02 Oct 2026 13:12:12 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 17:09:16 GMT</lastBuildDate>
+    <item>
+      <title>أرسل وكيل Muse AI من ميتا شخصًا غريبًا تمامًا إلى منزل المستخدم</title>
+      <link>https://proton.me/blog/meta-muse-ai-home-address</link>
+      <pubDate>Wed, 30 Sep 2026 20:02:37 GMT</pubDate>
+      <source>the_proton_blog</source>
+      <description>أفصَح وكيل الذكاء الاصطناعي &quot;ميوز&quot; الخاص بشركة ميتا عن عطلٍ أدى إلى إرسال عنوان منزل البائع في فيسبوك ماركيتبل إلى المشتري دون طلب الموافقة. وقع الخطأ عندما طلب المشتري معلومات الشحن، فقام الوكيل بتزويده بالموقع الكامل بدلاً من تفاصيل عامة، مما أثار مخاوف حول خصوصية المستخدمين وأجبر ميتا على مراجعة سياسات الأمان للذكاء الاصطناعي.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://proton.me/blog/meta-muse-ai-home-address&quot;&gt;the_proton_blog&lt;/a&gt;</description>
+      <enclosure url="https://pmecdn.protonweb.com/image-transformation/?s=c&amp;amp;image=images/f_auto,q_auto/v1758041061/wp-pme/meta_blog_post/meta_blog_post.png?_i=AA" type="image/jpeg"/>
+    </item>
     <item>
       <title>وثائقك الورقية تنتمي إلى اللوكر أيضًا</title>
       <link>https://ente.com/blog/locker-document-scanner/</link>
@@ -61,6 +69,14 @@
       <enclosure url="https://itsfoss.com/content/images/2026/10/yt-dlp-ifpi-banner.png" type="image/jpeg"/>
     </item>
     <item>
+      <title>ما هو الذكاء الاصطناعي الاستباقي؟</title>
+      <link>https://proton.me/blog/proactive-ai</link>
+      <pubDate>Thu, 01 Oct 2026 08:27:14 GMT</pubDate>
+      <source>the_proton_blog</source>
+      <description>الذكاء الاصطناعي الاستباقي يعمل دون طلب مسبق ويستمد قوته لتشغيل نظامي Muse وInstinct من ميتا، حيث يرسل مقترحات وإجراءات تلقائية للمستخدمين. يشرح النص آلية عمل الوكلاء الاستباقيين وكيفية تجميعهم للبيانات، موضحًا أن هذا النوع من الذكاء قد يهدد الخصوصية عبر مراقبة سلوكيات المستخدم وتخزين معلومات حساسة. وتشير التقديرات إلى أن تكاليف الخصوصية قد ترتفع بصورة ملحوظة، بينما لا يزال المستخدمون يواجهون صعوبة في التحكم بالبيانات التي يجمعها هذا الذكاء.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://proton.me/blog/proactive-ai&quot;&gt;the_proton_blog&lt;/a&gt;</description>
+      <enclosure url="https://pmecdn.protonweb.com/image-transformation/?s=c&amp;amp;image=images/f_auto,q_auto/v1790834701/wp-pme/20260928-what-is-proactive-ai_/20260928-what-is-proactive-ai_.jpg?_i=AA" type="image/jpeg"/>
+    </item>
+    <item>
       <title>العودة إلى النسخ الاحتياطية: عام في المراجعة</title>
       <link>https://signal.org/blog/backup-improvements/</link>
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
@@ -69,12 +85,124 @@
       <enclosure url="https://signal.org/blog/images/backup-improvements-opengraph.png" type="image/jpeg"/>
     </item>
     <item>
+      <title>مختبرات سيركت بريكر تأمل في جعل الذكاء الاصطناعي أكثر أمانًا لأطفالك (ولك)</title>
+      <link>https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/</link>
+      <pubDate>Fri, 02 Oct 2026 17:00:00 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>في ظل النقاش المتزايد حول خطر الذكاء الاصطناعي على مستقبل البشرية، ينسى البعض أن التكنولوجيا قد ألقت بظلالها سابقةً على الصحة النفسية لبعض الأفراد. شركة Circuit Breaker Labs استجابت لهذا القلق بابتكار &quot;دمى اختبار الاصطدام&quot; التي صُممت لمحاكاة التأثيرات النفسية للذكاء الاصطناعي وتوفير بيئة آمنة للبحث والتطوير؛ هدفها تقليل الضرر النفسي وتقييم ردود الفعل في سيناريوهات مختلفة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/10/Circuit-Labs-founders-2.jpeg?resize=1200,1037" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>بارامونت ووارنر بروس ديسكوفري ستصبحان سكاي دانس</title>
+      <link>https://techcrunch.com/2026/10/02/paramount-and-warner-bros-discovery-to-become-skydance/</link>
+      <pubDate>Fri, 02 Oct 2026 15:53:50 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>تُقدر قيمة الصفقة بحوالى 110 مليار دولار وتُعد من أكبر الصفقات الاقتصادية العالمية. وفقًا للمصادر، من المتوقع إتمامها في السادس من أكتوبر، ما سيسمح للشركات المعنية بالبدء في تنفيذ الخطط المشتركة والاستفادة من التمويل الضخم. تبقى الموافقات التنظيمية الأخيرة هي العائق الوحيد قبل إغلاق الصفقة. ستؤثر هذه الصفقة بشكل كبير على الأسواق المالية وتفتح آفاقًا جديدة للتعاون الدولي.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/paramount-and-warner-bros-discovery-to-become-skydance/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2023/02/GettyImages-1334236014.jpg?resize=1200,804" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>البابا ليو الرابع عشر ليس من محبي الفن المُنتج بالذكاء الاصطناعي</title>
+      <link>https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art/</link>
+      <pubDate>Fri, 02 Oct 2026 15:39:41 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>أشار البابا في بيان صريح إلى وجود فرق وجودي قبل الفرق الجمالي بين الفن وما يمكن للآلات إنتاجه عبر حسابات إحصائية تستند إلى ملايين الصور التي خلقها بشرٌ آخرون. وأعرب عن قلقه أن الخوارزميات تفتقر إلى شرارة الإنسانية التي تميز الإبداع البشري، مؤكدًا أن الروح الفنية لا يمكن استنساخها بالبرمجيات.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2025/06/Screenshot-2025-06-18-at-10.00.59AM.png?w=950" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>التطبيق الجديد لـ Laytr يتيح لك حفظ أي شيء تجده على الإنترنت، ليس فقط المقالات للقراءة</title>
+      <link>https://techcrunch.com/2026/10/02/laytrs-new-app-lets-you-save-anything-you-find-online-not-just-articles-to-read/</link>
+      <pubDate>Fri, 02 Oct 2026 15:31:20 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>تطبيق لايتّر يتيح للمستخدمين حفظ المقالات، الوصفات، لقطات الشاشة، الفيديوهات، ملفات PDF وغير ذلك للرجوع إليها لاحقًا؛ حيث يبقى الأرشيف خاصًا ومحمياً، ويتزامن تلقائيًا عبر جميع أجهزة آبل مثل الآيفون والآيباد وماك، مما يوفر تنظيمًا سهلاً للمواد الرقمية دون الحاجة لمشاركتها. كما يدعم البحث داخل المحتوى وتوزيع المجلدات حسب الفئات، وإمكانية مشاركة الروابط المختارة بشكل آمن.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/laytrs-new-app-lets-you-save-anything-you-find-online-not-just-articles-to-read/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/10/laytr2.jpg?resize=1200,738" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>TechCrunch Disrupt 2026: جاس خيرا من بلاكستون حول بناء الجيل القادم من عمالقة الذكاء الاصطناعي</title>
+      <link>https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/</link>
+      <pubDate>Fri, 02 Oct 2026 15:00:00 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>ستتولى جاس خيرا من مجموعة بلاكستون مرحلة الـ Builders في مؤتمر TechCrunch Disrupt 2026 لتقديم رؤى حول بناء الذكاء الاصطناعي الجيل القادم وتطبيقاته في التمويل والتقنية. يُدعى روّاد الصناعة وروّاد الأعمال للمشاركة في جلسات حوارية وعروض توضيحية. يمكن للمشاركين التسجيل الآن للحصول على تذكرة، وسيحصلون على خصم 50 ٪ على التذكرة الثانية عند الشراء.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/05/Disrupt-2025-Builders-Stage-Crowd.png?resize=1200,800" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>نطاق .si في سلوفينيا يشهد ارتفاعًا في التسجيلات بعد أمر ترامب «الذكاء الفائق»</title>
+      <link>https://techcrunch.com/2026/10/02/slovenias-si-domain-sees-a-surge-in-registrations-after-trumps-super-intelligence-order/</link>
+      <pubDate>Fri, 02 Oct 2026 14:47:46 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>تشهد اسم النطاق .si طلبًا غير مسبوق منذ صدور أمر تنفيذي رئاسي من الرئيس ترامب يهدف إلى تعزيز القدرة الاستخبارية. أدى هذا القرار إلى زيادة ملحوظة في رغبة الشركات والمؤسسات في حجز واستخدام هذا النطاق كجزء من استراتيجياتها الرقمية، مما أدى إلى تكثيف عمليات التسجيل والاهتمام العالمي به كأداة تجارية استراتيجية.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/slovenias-si-domain-sees-a-surge-in-registrations-after-trumps-super-intelligence-order/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2297572109.jpg?w=1024" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>TechCrunch Disrupt 2026: كارييم أمين من كلاي حول صعود مهندس GTM</title>
+      <link>https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer/</link>
+      <pubDate>Fri, 02 Oct 2026 14:30:00 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>انضم كرييم أمين، المؤسس المشارك والرئيس التنفيذي لشركة كلاي، إلى منصة الذكاء الاصطناعي في مؤتمر TechCrunch Disrupt 2026 ليتحدث عن صعود مهندسي استراتيجية السوق (GTM). يدعو الحدث الحضور لتسجيل تذاكرهم والاستفادة من عرض خاص يتيح الحصول على تذكرة ثانية بخصم خمسين بالمئة، مما يشجع على حضور أكثر مشاركة وتفاعل وإثراء المجال.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/10/TCD26_1-Kareem-Amin_Speaker-16x9-Dark.png?resize=1200,675" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>آخر 24 ساعة: اعرض في TechCrunch Disrupt 2026 وتواصل مع أكثر من 10,000 قائد تقني</title>
+      <link>https://techcrunch.com/2026/10/02/last-24-hours-exhibit-at-techcrunch-disrupt-2026-and-reach-10000-tech-leaders/</link>
+      <pubDate>Fri, 02 Oct 2026 14:00:00 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>اليوم هو آخر فرصة لتأمين طاولة معرضك في TechCrunch Disrupt 2026 في هذا الحدث العالمي. سيُعقد الحدث من 13 إلى 15 أكتوبر في قاعة موسكوني ويست بسان فرانسيسكو، حيث يتوقع حضور أكثر من عشرة آلاف مؤسس، ومستثمر، ومشغل، وقادة تقني يبحثون عن الشركات والمنتجات والأفكار والموهوبين. السؤال الآن: هل سيكتشفون مشروعك الناشئ؟&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/last-24-hours-exhibit-at-techcrunch-disrupt-2026-and-reach-10000-tech-leaders/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2023/07/expo_hall.png?resize=1200,675" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>أقل من 24 ساعة لتقديم طلب لفعالية جانبية في قمة المؤسسين 2026</title>
+      <link>https://techcrunch.com/2026/10/02/less-than-24-hours-to-apply-for-a-side-event-at-founder-summit-2026/</link>
+      <pubDate>Fri, 02 Oct 2026 14:00:00 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>الساعة تدق والوقت ينفد؛ لم يتبق سوى أقل من ٢٤ ساعة لتقديم طلب استضافة حدث جانبي خلال قمة TechCrunch Founder Summit ٢٠٢٦. تنتهي التقديمات الليلة عند منتصف الليل بتوقيت الباسيفيك. استغل فرصة التواصل مع مجتمع الشركات الناشئة في بوسطن بين ١ و٧ نوفمبر عبر تنظيمك لحدث جانبي يجمع مجتمعك ويُطلق حواراً مؤثراً يدفع الابتكار قدمًا.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/less-than-24-hours-to-apply-for-a-side-event-at-founder-summit-2026/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/10/55522542519_2c01b6b734_o.jpg?resize=1200,800" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>تسلا تحافظ على زخم مبيعاتها من السيارات الكهربائية رغم المشكلات في الولايات المتحدة</title>
+      <link>https://techcrunch.com/2026/10/02/tesla-sustains-its-ev-sales-momentum-despite-us-troubles/</link>
+      <pubDate>Fri, 02 Oct 2026 13:39:23 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>سجلت الشركة تسليم أكثر من 486,000 وحدة من السيارات الكهربائية في الربع الثالث، وهو انخفاض مقارنةً بالرقم القياسي للعام السابق، إلا أن الاتجاه يبقى إيجابيًا مع توقعات بارتفاع المبيعات في الفترات القادمة وتحسين حصتها السوقية بفضل الاستثمارات المتواصلة في التكنولوجيا والبنية التحتية، ويعكس ذلك نجاح استراتيجية الشركة في توسيع الإنتاج وتلبية الطلب المتزايد على المركبات النظيفة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/tesla-sustains-its-ev-sales-momentum-despite-us-troubles/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2024/04/GettyImages-1246103921.jpg?resize=1200,789" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>عملاق السجلات الطبية إبيك يوقف تطوير المنتج لإصلاح الثغرات الأمنية التي تعرض بيانات المرضى للخطر</title>
+      <link>https://techcrunch.com/2026/10/02/medical-records-giant-epic-pauses-product-development-to-fix-security-bugs-that-risk-patients-data/</link>
+      <pubDate>Fri, 02 Oct 2026 13:23:09 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>تعلن شركة البرمجيات الضخمة في مجال التقنية الصحية، المطورة لنظام MyChart الشهير الذي يتيح للمرضى الوصول إلى سجلاتهم الطبية، أنها ستركز جهودها خلال الأسابيع القليلة المقبلة على إصلاح الثغرات الأمنية في البرنامج، سعيًا لتعزيز حماية البيانات الطبية وضمان سلامتها للمستخدمين. وفي إطار التزامها بسياسات الأمان العالمية وتلبية لمتطلبات الهيئات التنظيمية، ستقوم فرق الهندسة بتحديث الأكواد وإجراء اختبارات اختراق داخلية لضمان عدم وجود ثغرات مستقبلية.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/medical-records-giant-epic-pauses-product-development-to-fix-security-bugs-that-risk-patients-data/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/10/faulkner-1825451690.jpg?resize=1200,800" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>ساعدت R2 من ريفيان للتو في تحقيق رقم قياسي جديد للمبيعات</title>
+      <link>https://techcrunch.com/2026/10/02/rivians-r2-just-helped-it-set-a-new-sales-record/</link>
+      <pubDate>Fri, 02 Oct 2026 13:17:05 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>سجلت شركة ريفيان ارتفاعاً ملحوظاً في عدد السيارات الكهربائية التي سلمتها خلال الربع الحالي، إذ ارتفعت الشحنات بنحو 45٪ مقارنةً بنفس الفترة من العام الماضي، لتتجاوز عدد الوحدات الموصلة أكثر من 19,000 مركبة. يعكس هذا النمو التوسع السريع للطلب على سيارات ريفيان الكهربائية وتوسع نطاق إنتاجها. وتؤكد الشركة من خلال هذه الزيادة التزامها بتعزيز حضورها في السوق الأمريكية وتلبية توقعات المستثمرين.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/rivians-r2-just-helped-it-set-a-new-sales-record/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/03/R2_CatalinaBlueExterior8.jpg?resize=1200,800" type="image/jpeg"/>
+    </item>
+    <item>
       <title>ريفيان تصدر استدعاء R2 لحزم البطاريات المشدودة بشكل غير جيد</title>
       <link>https://techcrunch.com/2026/10/02/rivian-issues-r2-recall-for-poorly-tightened-battery-packs/</link>
       <pubDate>Fri, 02 Oct 2026 12:50:11 +0000</pubDate>
       <source>techcrunch</source>
       <description>أعلنت الشركة أن ما يقرب من أربعة عشر مركبة قد تتأثر بمشكلة تم اكتشافها مؤخراً، لكنها أكدت أن فريق الصيانة تمكن من معالجة العيب على خط التجميع بشكل كامل، مما يضمن استئناف الإنتاج دون أي تأخير إضافي أو تأثير على جودة السيارات المتوفرة للمستهلكين. كما ستتابع الشركة الوضع عن كثب وتصدر تحديثات دورية لضمان شفافية المعلومات وحماية مصالح العملاء.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/rivian-issues-r2-recall-for-poorly-tightened-battery-packs/&quot;&gt;techcrunch&lt;/a&gt;</description>
       <enclosure url="https://techcrunch.com/wp-content/uploads/2026/03/rivian-r2.jpeg?resize=1200,797" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>ريفيان تصدر استدعاء R2 للبطاريات المشدودة بشكل غير صحيح</title>
+      <link>https://techcrunch.com/2026/10/02/rivian-issues-r2-recall-for-poorly-tightened-battery-packs/</link>
+      <pubDate>Fri, 02 Oct 2026 12:50:11 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>أفادت الشركة أن حوالي أربعة عشر مركبة قد تكون متأثرة بمشكلة في خط التجميع، لكن تم تصحيح العطل وإصلاحه بالكامل داخل المصنع، مما يضمن عودة الإنتاج إلى وضعه الطبيعي دون أي تأخير إضافي على العملاء. وقد أكدت الإدارة أن جميع السيارات المتأثرة ستخضع للفحص والضمان قبل تسليمها. كما تم إبلاغ الوكلاء باتخاذ الإجراءات الوقائية، وستستمر المتابعة التقنية لضمان عدم تكرار المشكلة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/rivian-issues-r2-recall-for-poorly-tightened-battery-packs/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/03/rivian-r2.jpeg?resize=1200,797" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>مبدعو Beehiiv يتحدثون بحماس عن الزيادة الجديدة في الأسعار</title>
+      <link>https://www.theverge.com/tech/1004133/beehiiv-price-increase-reactions</link>
+      <pubDate>2026-10-02T12:51:49-04:00</pubDate>
+      <source>the_verge</source>
+      <description>أعلنت منصة Beehiiv للنشر، التي تصاعد شعبيتها كبديل لـ Substack، عن رفع أسعار الاشتراكات، مما أثار استياء جزء كبير من المستخدمين. في بيان نشره المؤسس المشارك والرئيس التنفيذي تايلر دينك، أوضح أن الزيادة ستُمكّن الشركة من مواصلة الاستثمار في تحسين تجربة المنصة الأساسية وإضافة ميزات جديدة. كما أعلنت عن تعديل في خطة الاستخدام المجانية وإدخال مستويات سعرية جديدة لتلبية احتياجات الناشرين.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/tech/1004133/beehiiv-price-increase-reactions&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/beehiiv-logo.png?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C5.9555861814204%2C100%2C88.088827637159&amp;amp;w=1200" type="image/jpeg"/>
     </item>
     <item>
       <title>تعافي تسلا يواجه عرقوبة</title>
