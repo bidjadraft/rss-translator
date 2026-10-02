@@ -10,6 +10,7 @@ from urllib.parse import urlparse
 from datetime import datetime
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
+from substack_note import publish_note
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
