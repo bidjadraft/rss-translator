@@ -5,29 +5,7 @@
     <description>All news from 11 sources</description>
     <link>https://github.com/bidjadraft/rss-translator</link>
     <language>arabic</language>
-    <lastBuildDate>Thu, 01 Oct 2026 22:11:53 GMT</lastBuildDate>
-    <item>
-      <title>نوتسنوك موبايل v3.4.13</title>
-      <link>https://notesnook.com/blog/notesnook-mobile-v3.4.13</link>
-      <pubDate>Tue, 15 Sep 2026 11:20:56 GMT</pubDate>
-      <source>notesnook_blog</source>
-      <description>إصدار Notesnook Mobile v3.4.13 يقدّم تحسينات ملحوظة في معالجة المرفقات وتبادلها، كما يُصلّح مشكلة نسخ عناوين URL إلى الحافظة، ويحدّث مكتبة React Native sodium إلى نسخة أحدث لضمان أمان أفضل وأداء أكثر استقرارًا. يشمل التحديث تحسين استجابة واجهة المستخدم عند تحميل الملفات الكبيرة، وإضافة إشعارات فورية عند اكتمال المشاركة، بالإضافة إلى تحسين توافق التطبيق مع أنظمة iOS وAndroid الأخيرة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://notesnook.com/blog/notesnook-mobile-v3.4.13&quot;&gt;notesnook_blog&lt;/a&gt;</description>
-    </item>
-    <item>
-      <title>الصندوق واللمحات، أغسطس 2026</title>
-      <link>https://blog.joinmastodon.org/2026/09/trunk-tidbits-august-2026/</link>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <source>mastodon_blog</source>
-      <description>في الإصدار الـ 29 من Trunks &amp; Tidbits يعلن فريق ماستودون عن إطلاق Mastodon 4.7 مع تحسينات تقنية غير مرئية، وتحديثات الأمان للمصادر 4.7.1 و4.6.7 و4.5.17 و4.4.24. يُستعد الإصدار 5.0 بواجهة جديدة، وتم دمج 197 طلب تعديل من 11 مساهمًا في أغسطس 2026، بما فيها تحسينات للبحث، وإدارة حذف الحسابات، وتحديثات لتطبيقات iOS وAndroid. يدعو الفريق إلى الدعم المالي.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://blog.joinmastodon.org/2026/09/trunk-tidbits-august-2026/&quot;&gt;mastodon_blog&lt;/a&gt;</description>
-    </item>
-    <item>
-      <title>Kagi Translate عاد (مُحدَّث)</title>
-      <link>https://blog.kagi.com/translate-is-back</link>
-      <pubDate>Thu, 10 Sep 2026 11:13:10 GMT</pubDate>
-      <source>kagi_blog</source>
-      <description>نُقدّر جميع التعليقات التي وصلتنا حول تغييرات خدمة Kagi Translate. بعد مراجعة ملاحظات المستخدمين، أُعلن أن خاصية الترجمة ستظل متوفرة ضمن الخطط Starter وProfessional وFamily وTeam وUltimate، وستُطبّق وفق سياسة الاستخدام العادل لضمان استمراريتها دون رسوم إضافية. تم تعديل هذا المنشور لتوضيح هذا القرار وتأكيد التزامنا بسياسة الاستخدام العادل، وبهذا يضمن جميع المشتركين الاستفادة من الترجمة دون قيود صارمة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://blog.kagi.com/translate-is-back&quot;&gt;kagi_blog&lt;/a&gt;</description>
-      <enclosure url="https://blog.kagi.com/og-image.png" type="image/jpeg"/>
-    </item>
+    <lastBuildDate>Fri, 02 Oct 2026 03:19:56 GMT</lastBuildDate>
     <item>
       <title>ما يكشفه هاكاثون طلب البيتزا عن ربط وكلاء الذكاء الاصطناعي بالإنترنت</title>
       <link>https://brave.com/blog/alphasignal-hackathon/</link>
@@ -235,6 +213,30 @@
       <source>signal_blog</source>
       <description>في سبتمبر الماضي قدمنا طريقة اختيارية جديدة لعمل نسخ احتياطي آمن ومُآلي لبيانات سيجنال، كي تستعيد الرسائل والذكريات إذا فقدت جهازاً. بعد استماعنا لملاحظات المستخدمين، أجرينا تحسينات كثيرة طوال العام. الآن أُطلقت نسخة iOS 8.30 التي تُفعّل النسخ الاحتياطي الآمن على جميع المنصات، وتضم تحسينات في الأداء وسهولة استعادة النسخ، مع ملخص للتغييرات منذ الإطلاق الأول.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://signal.org/blog/backup-improvements/&quot;&gt;signal_blog&lt;/a&gt;</description>
       <enclosure url="https://signal.org/blog/images/backup-improvements-opengraph.png" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>سيواجه مشغلو الروبوتاكسى غرامات لعرقلة قوات الطوارئ</title>
+      <link>https://techcrunch.com/2026/10/01/robotaxi-operators-will-face-fines-for-blocking-first-responders/</link>
+      <pubDate>Fri, 02 Oct 2026 00:57:57 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>أصدرت ولاية كاليفورنيا قانونًا جديدًا يفرض على مشغلي المركبات الذاتية القيادة مجموعة من القواعد الصارمة، تشمل الحصول على تراخيص خاصة، إجراء اختبارات السلامة الدورية، تقديم تقارير فورية عن أي حوادث أو أعطال، الالتزام بمعايير تقنية محددة، وتطبيق غرامات على المخالفين؛ الهدف تعزيز أمن الطريق وحماية الركاب. كما يتطلب التعاون مع الجهات التنظيمية لتحديث البرمجيات بانتظام.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/01/robotaxi-operators-will-face-fines-for-blocking-first-responders/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/07/waymo-SF-getty.jpg?resize=1200,800" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>دليل المؤسس لـ TechCrunch Disrupt 2026: كل ما تحتاج إلى معرفته</title>
+      <link>https://techcrunch.com/2026/10/01/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/</link>
+      <pubDate>Fri, 02 Oct 2026 00:03:23 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>يُعقد مؤتمر TechCrunch Disrupt 2026 حول سؤال رئيسي: كيف تبني شركة مستدامة في عصر الذكاء الاصطناعي؟ يضمن البرنامج والمتحدثون المختارون من خبراء الصناعة ورواد الشركات الناجحة مناقشات عميقة حول استراتيجيات النمو، الابتكار التقني، الإدارة الرشيدة، وتحديات التنافس في بيئة تتسارع فيها التطورات، وتستعرض أحدث تقنيات الذكاء الاصطناعي لتزويد رواد الأعمال بأدوات عملية لتحقيق استقرار ونجاح طويل الأمد.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/01/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/08/54885169397_78fc033af7_k-1.jpg?resize=1200,800" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>تقارير تفيد أن أبل تطور كاميرا منزلية ذكية لا تسجل الفيديو</title>
+      <link>https://www.theverge.com/tech/1003877/apple-security-camera-no-video</link>
+      <pubDate>2026-10-01T18:51:36-04:00</pubDate>
+      <source>the_verge</source>
+      <description>تشير الشائعات إلى أن شركة أبل ستدخل مجال تقنيات المنزل الذكي بمنتج جديد يتضمن كاميرا أمان لا تعرض لقطات فيديو بل تُرسل للمستخدمين أوصافاً نصية للحدث. وذكر مارك غورمان في الحلقة الأولى من بودكاست Power On أن الكاميرا ستندمج في &quot;نظام أبل الجديد للمنزل الذكي&quot;، إلى جانب منتجات منزلية ذكية أخرى متوقعة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/tech/1003877/apple-security-camera-no-video&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK071_APPLE_I.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;amp;w=1200" type="image/jpeg"/>
     </item>
     <item>
       <title>الميزة الجديدة “Guided Vision” من جوجل يمكنها مساعدتك على قراءة النص الصغير</title>
