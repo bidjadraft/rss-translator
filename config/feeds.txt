@@ -1,11 +1,1 @@
-https://proton.me/blog/feed.xml
-https://ente.com/rss.xml
-https://f-droid.org/feed.xml
-https://brave.com/blog/index.xml
-https://notesnook.com/feed.xml
-https://blog.kagi.com/rss.xml
-https://signal.org/blog/rss.xml
-https://blog.joinmastodon.org/index.xml
-https://feed.itsfoss.com/
-https://techcrunch.com/feed/
-https://www.theverge.com/rss/index.xml
+https://alternativeto.net/feeds/news/
