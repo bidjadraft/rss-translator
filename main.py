@@ -11,8 +11,6 @@ from datetime import datetime
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 
-from substack_note import publish_note
-
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -30,22 +28,20 @@ config = configparser.ConfigParser()
 config.read(CONFIG_FILE, encoding='utf-8')
 
 # ===== المفاتيح: من متغيرات البيئة (GitHub Secrets) فقط =====
-
 OLLAMA_API_KEY = os.getenv("OLLAMA_API_KEY")
 MASTODON_ACCESS_TOKEN = os.getenv("MASTODON_ACCESS_TOKEN")
 
 # ===== إعدادات Mastodon: الخادم الرسمي مثبّت في الكود =====
-
 MASTODON_API_BASE_URL = "https://mastodon.social"
 MASTODON_CHAR_LIMIT = 500
 
 # ===== النماذج =====
-
 models_raw = config.get('models', 'ollama_models', fallback='gpt-oss:120b-cloud')
 if ',' in models_raw:
     OLLAMA_MODELS = [m.strip() for m in models_raw.split(',') if m.strip()]
 elif '\n' in models_raw:
-    OLLAMA_MODELS = [m.strip() for m in models_raw.split('\n') if m.strip() and not m.strip().startswith('[')]
+    OLLAMA_MODELS = [m.strip() for m in models_raw.split('\n')
+                     if m.strip() and not m.strip().startswith('[')]
 else:
     OLLAMA_MODELS = [models_raw.strip()] if models_raw.strip() else []
 
@@ -56,7 +52,6 @@ if not OLLAMA_MODELS:
 logging.info(f"📋 Loaded {len(OLLAMA_MODELS)} Ollama models")
 
 # ===== الإعدادات =====
-
 LANGUAGE = config.get('settings', 'language', fallback='arabic')
 CONTENT_TYPE = config.get('settings', 'type', fallback='summary')
 MAX_POSTS = config.getint('settings', 'max_post', fallback=20)
@@ -66,7 +61,6 @@ logging.info(f"🌐 Language: {LANGUAGE} | Type: {CONTENT_TYPE}")
 logging.info(f"📊 Max posts: {MAX_POSTS} | Merge: {MERGE_FEEDS}")
 
 # ===== الخلاصات =====
-
 RSS_FEEDS = []
 if os.path.exists(FEEDS_FILE):
     with open(FEEDS_FILE, 'r', encoding='utf-8') as f:
@@ -87,6 +81,7 @@ if not RSS_FEEDS:
 logging.info(f"📡 Loaded {len(RSS_FEEDS)} RSS feeds")
 
 USER_AGENT_HEADER = {'User-Agent': 'Mozilla/5.0'}
+
 
 # ===================== أدوات =====================
 
@@ -110,6 +105,7 @@ class OllamaModelSwitcher:
         self.current_index = 0
         self.all_models_failed = False
 
+
 def load_tracker():
     if os.path.exists(TRACKER_FILE):
         try:
@@ -119,12 +115,14 @@ def load_tracker():
             logging.error(f"❌ Error reading tracker: {e}")
     return {}
 
+
 def save_tracker(tracker_data):
     try:
         with open(TRACKER_FILE, 'w', encoding='utf-8') as f:
             json.dump(tracker_data, f, indent=2, ensure_ascii=False)
     except Exception as e:
         logging.error(f"❌ Failed to write tracker: {e}")
+
 
 def normalize_url(url):
     if not url or not isinstance(url, str):
@@ -135,6 +133,7 @@ def normalize_url(url):
     if url.endswith('/'):
         url = url[:-1]
     return url
+
 
 def extract_feed_name(feed_url, feed_data=None):
     try:
@@ -159,8 +158,10 @@ def extract_feed_name(feed_url, feed_data=None):
         logging.warning(f"⚠️ Failed to extract feed name: {e}")
         return f"feed_{abs(hash(feed_url)) % 10000}"
 
+
 def clean_html(raw_html):
     return re.sub(r'<[^>]+>', '', raw_html).strip()
+
 
 def load_existing_entries(feed_name):
     if MERGE_FEEDS:
@@ -178,6 +179,7 @@ def load_existing_entries(feed_name):
             if channel is not None:
                 for item in channel.findall('item'):
                     desc_raw = item.findtext('description', '')
+                    # إزالة سطر المصدر المضاف سابقًا حتى لا يتكرر
                     desc_clean = desc_raw.split('<br><br>المصدر:')[0]
 
                     entry = {
@@ -200,6 +202,7 @@ def load_existing_entries(feed_name):
             logging.error(f"❌ Error loading existing XML: {e}")
 
     return existing_entries
+
 
 def extract_image_from_url(url):
     try:
@@ -226,6 +229,7 @@ def extract_image_from_url(url):
     except Exception as e:
         logging.error(f"❌ Failed to extract image from {url}: {e}")
         return None
+
 
 # ===================== Ollama =====================
 
@@ -263,6 +267,7 @@ def translate_title(title, model_switcher):
 
     return title
 
+
 def process_with_ollama(text, model_switcher):
     if not OLLAMA_API_KEY:
         logging.error("OLLAMA_API_KEY is not set.")
@@ -291,9 +296,7 @@ IMPORTANT RULES:
 4. Keep the total text under 500 characters
 5. If summarizing in Arabic, start with an Arabic word, not an English word or company name
 
-Example for Arabic summary:
-Correct: "أعلنت شركة جوجل اليوم عن تحديث جديد لمتصفح كروم يضيف ميزات أمان متطورة…"
-Wrong: "Google أعلنت اليوم عن تحديث…"
+Example for Arabic summary: Correct: "أعلنت شركة جوجل اليوم عن تحديث جديد لمتصفح كروم يضيف ميزات أمان متطورة…" Wrong: "Google أعلنت اليوم عن تحديث…"
 
 Original text: {text}"""
 
@@ -325,6 +328,7 @@ Original text: {text}"""
                     return None
                 continue
 
+            # إزالة أي هاشتاغات تسللت
             result = re.sub(r'#\w+\s*', '', result).strip()
 
             if len(result) > 500:
@@ -341,6 +345,7 @@ Original text: {text}"""
             continue
 
     return None
+
 
 # ===================== Mastodon (منشورات خاصة direct) =====================
 
@@ -364,6 +369,7 @@ def upload_media_to_mastodon(image_url):
         logging.error(f"❌ Failed to upload Mastodon media: {e}")
         return None
 
+
 def post_to_mastodon(text, image_url=None):
     """نشر النص على mastodon.social كمنشور مباشر (direct) لا يراه أحد سواك
     - النص فقط (processed_text) بدون سطر المصدر وبدون اسم الخلاصة
@@ -373,6 +379,7 @@ def post_to_mastodon(text, image_url=None):
         logging.warning("⚠️ Mastodon not configured (MASTODON_ACCESS_TOKEN missing). Skipping post.")
         return False
 
+    # إزالة أي @مذكرات لضمان عدم رؤية أي حساب آخر للمنشور المباشر
     text = re.sub(r'(?<!\w)@[\w\-]+', '', text).strip()
 
     if len(text) > MASTODON_CHAR_LIMIT:
@@ -384,7 +391,7 @@ def post_to_mastodon(text, image_url=None):
     headers = {"Authorization": f"Bearer {MASTODON_ACCESS_TOKEN}"}
     data = {
         "status": text,
-        "visibility": "direct",
+        "visibility": "direct",   # 👈 لا يراه أحد سواك
     }
 
     if image_url:
@@ -405,6 +412,7 @@ def post_to_mastodon(text, image_url=None):
     except Exception as e:
         logging.error(f"❌ Failed to post to Mastodon: {e}")
         return False
+
 
 # ===================== RSS XML =====================
 
@@ -447,6 +455,7 @@ def create_rss_xml(feed_name, entries):
         if entry.get('feed_source'):
             ET.SubElement(item, 'source').text = entry['feed_source']
 
+        # الوصف + سطر المصدر (يبقى في RSS — لا يُنشر في Mastodon)
         description = entry.get('processed_text', '')
 
         source_name = entry.get('feed_source', '')
@@ -472,6 +481,7 @@ def create_rss_xml(feed_name, entries):
     logging.info(f"📄 Created RSS XML with {len(entries)} entries: {xml_file}")
     return xml_file
 
+
 # ===================== المعالجة الرئيسية =====================
 
 def process_feed(feed_url):
@@ -493,7 +503,7 @@ def process_feed(feed_url):
         logging.info(f"📌 Last processed ID for {feed_name}: '{last_id}'")
 
         entries_sorted = sorted(feed.entries,
-                                key=lambda e: e.get('published_parsed') or e.get('updated_parsed') or (0,))
+                               key=lambda e: e.get('published_parsed') or e.get('updated_parsed') or (0,))
 
         existing_entries = load_existing_entries(feed_name)
         new_entries_to_process = []
@@ -529,6 +539,7 @@ def process_feed(feed_url):
                     desc = entry.get('summary', '') or entry.get('description', '')
                     desc_text = clean_html(desc)
 
+                    # التلخيص/الترجمة عبر Ollama
                     model_switcher = OllamaModelSwitcher(OLLAMA_MODELS)
                     processed_text = process_with_ollama(desc_text, model_switcher)
 
@@ -537,9 +548,11 @@ def process_feed(feed_url):
                         skipped_count += 1
                         continue
 
+                    # ترجمة العنوان
                     title_switcher = OllamaModelSwitcher(OLLAMA_MODELS)
                     translated_title = translate_title(entry.get('title', 'No Title'), title_switcher)
 
+                    # استخراج الصورة (بدون فلترة)
                     image_url = None
                     media_content = entry.get('media_content', [])
                     if media_content:
@@ -550,14 +563,6 @@ def process_feed(feed_url):
 
                     # ===== النشر إلى Mastodon: النص فقط (بلا مصدر وبلا اسم خلاصة) مع الصورة =====
                     post_to_mastodon(processed_text, image_url)
-
-                    # ===== النشر إلى Substack: فقط لخلاصة alternativeto، مع رابط المصدر =====
-                    if "alternativeto" in feed_url:
-                        publish_note(
-                            processed_text,
-                            source_url=post_url,
-                            source_name="المصدر: AlternativeTo",
-                        )
 
                     processed_entry = {
                         'title': entry.get('title', 'No Title'),
@@ -592,6 +597,7 @@ def process_feed(feed_url):
     except Exception as e:
         logging.error(f"❌ Failed to process feed {feed_url}: {e}")
 
+
 def main():
     logging.info("🚀 Starting Apps Bot with Ollama…")
     logging.info(f"📋 Models: {OLLAMA_MODELS}")
@@ -605,6 +611,7 @@ def main():
     logging.info("🎉 All feeds processed successfully!")
     logging.info(f"📄 RSS files saved in: {RSS_DIR}")
     logging.info(f"💾 Tracker file: {TRACKER_FILE}")
+
 
 if __name__ == "__main__":
     main()
