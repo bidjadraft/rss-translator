@@ -1,2 +1,4 @@
 feedparser
 requests
+configparser
+curl_cffi
