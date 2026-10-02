@@ -5,7 +5,7 @@
     <description>All news from 11 sources</description>
     <link>https://github.com/bidjadraft/rss-translator</link>
     <language>arabic</language>
-    <lastBuildDate>Fri, 02 Oct 2026 17:09:16 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 21:39:24 GMT</lastBuildDate>
     <item>
       <title>أرسل وكيل Muse AI من ميتا شخصًا غريبًا تمامًا إلى منزل المستخدم</title>
       <link>https://proton.me/blog/meta-muse-ai-home-address</link>
@@ -83,6 +83,46 @@
       <source>signal_blog</source>
       <description>في سبتمبر الماضي قدمنا طريقة اختيارية جديدة لعمل نسخة احتياطية تلقائية وآمنة لبيانات Signal، لتسهيل استعادة الرسائل والذكريات إذا فقد أحد أجهزتك. بعد عام من الاستماع إلى ملاحظات المستخدمين والعمل على تحسينات متعددة، أُطلقت الآن الميزات المستقبلية على جميع الأنظمة مع إصدار iOS 8.30. يُقَدِّم هذا التحديث ملخصاً لكل التغييرات التي أُجريت منذ الإطلاق الأول.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://signal.org/blog/backup-improvements/&quot;&gt;signal_blog&lt;/a&gt;</description>
       <enclosure url="https://signal.org/blog/images/backup-improvements-opengraph.png" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>شون باركر يعيد بناء Stability AI حول الموسيقى</title>
+      <link>https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/</link>
+      <pubDate>Fri, 02 Oct 2026 21:09:14 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>يعود شون باركر، الذي سبق أن علّم صناعة الموسيقى كيفية طلب المغفرة بعد الأخطاء، إلى الساحة الآن بدعم ومال من شركات التسجيلات. بعد أن أثار جدلاً واسعاً عندما أطلق مبادرات مستفزة، يحصل الآن على موافقة ومساهمة مالية من العلامات التجارية، مما يفتح أمامه فرصاً جديدة في عالم الموسيقى الرقمية العالمية.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/10/Sean-Parker.jpg?w=1024" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>متأثر بعمليات الفصل؟ لا تفوت هذه الصفقة بـ75 دولار لتأشيرة TechCrunch Disrupt 2026 Expo+</title>
+      <link>https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/</link>
+      <pubDate>Fri, 02 Oct 2026 19:15:51 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>فرصتك القادمة قد تكون مجرد محادثة واحدة فقط، وقد تفتح لك أبوابًا جديدة في مجال عملك أو دراستك. لذا لا تتردد في الحصول على بطاقة Expo+ بسعر 75 دولارًا فقط، وهي متاحة لأول مئة شخص يلبون الشروط المطلوبة. سارع بالحجز الآن لتأمين مكانك والاستفادة من هذا العرض الحصري قبل نفاد الكمية.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2024/05/breakout_1200x600.png?w=1200" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>تقول Apple إنها تشدّد ضوابط «الوصول الكامل إلى القرص» في macOS بسبب المخاطر الجديدة من وكلاء الذكاء الاصطناعي</title>
+      <link>https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/</link>
+      <pubDate>Fri, 02 Oct 2026 18:11:27 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>أعلنت شركة آبل أنها ستضيف ضوابط جديدة لإذن الوصول الكامل إلى القرص في نظام macOS، مُحذرةً من أن الوكلاء الذكائيين المتطورين يزدادون قدرةً على الوصول إلى ملفات المستخدمين، رسائله، بريده الإلكتروني وتاريخ تصفحه، مما يجعل هذه الصلاحية تشكل مخاطرة أكبر للخصوصية والأمان. وتؤكد آبل أن الإعدادات الجديدة ستتيح للمستخدمين التحكم الدقيق في التطبيقات المسموح لها بالوصول، لتقليل خطر الاستغلال.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2022/07/CMC_1580.jpg?resize=1200,800" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>لم يعد ذكاءً اصطناعيًا، بل «ذكاءً فائقًا» (حسب البيت الأبيض)</title>
+      <link>https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/</link>
+      <pubDate>Fri, 02 Oct 2026 17:48:16 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>اجتمع الرئيس ترامب مع أبرز التنفيذيين في التقنية—زوكربيرغ، بيزوس، ماسك، وداريو أموداي من أنثروبيك—في البيت الأبيض لتوقيع تعهد سلامة الذكاء الاصطناعي الذي وصفه بـ«ملزم أخلاقياً». كما أصدر أمرًا تنفيذيًا يطلق على الذكاء الاصطناعي مصطلح «الذكاء الفائق». وفي الوقت نفسه، تسعى ميتا وأوبن إيه آي لتقديم واجهات أكثر ودية لمنتجاتهما رغم الضخامة المالية المتوقعة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2297764008.jpg?w=1024" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>TechCrunch Disrupt 2026: جاس خايرا من بلاكستون حول بناء الجيل القادم من عمالقة الذكاء الاصطناعي</title>
+      <link>https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/</link>
+      <pubDate>Fri, 02 Oct 2026 17:32:05 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>سيتولى جاس خيرا من بلاكستون إلقاء كلمة على منصة Builders في مؤتمر TechCrunch Disrupt 2026 ليتحدث عن تطوير الذكاء الاصطناعي من الجيل التالي. سيستعرض رؤى حول الابتكارات التقنية، ويُدعى رواد الأعمال والمستثمرين للمشاركة. يمكن للجمهور التسجيل الآن للحصول على تذكرة الدخول، مع عرض يوفر خصم 50٪ على التذكرة الثانية. سيتاح للحضور فرص التواصل مع كبار القادة في الصناعة وتبادل الخبرات.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/10/TCD26_1-Jas-Khaira_Speaker-16x9-Dark.png?resize=1200,675" type="image/jpeg"/>
     </item>
     <item>
       <title>مختبرات سيركت بريكر تأمل في جعل الذكاء الاصطناعي أكثر أمانًا لأطفالك (ولك)</title>
@@ -195,6 +235,62 @@
       <source>techcrunch</source>
       <description>أفادت الشركة أن حوالي أربعة عشر مركبة قد تكون متأثرة بمشكلة في خط التجميع، لكن تم تصحيح العطل وإصلاحه بالكامل داخل المصنع، مما يضمن عودة الإنتاج إلى وضعه الطبيعي دون أي تأخير إضافي على العملاء. وقد أكدت الإدارة أن جميع السيارات المتأثرة ستخضع للفحص والضمان قبل تسليمها. كما تم إبلاغ الوكلاء باتخاذ الإجراءات الوقائية، وستستمر المتابعة التقنية لضمان عدم تكرار المشكلة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/rivian-issues-r2-recall-for-poorly-tightened-battery-packs/&quot;&gt;techcrunch&lt;/a&gt;</description>
       <enclosure url="https://techcrunch.com/wp-content/uploads/2026/03/rivian-r2.jpeg?resize=1200,797" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>ميتا تفتح الكود كمصدر مفتوح لتتمكن من صنع أدوات Muse AI</title>
+      <link>https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link</link>
+      <pubDate>2026-10-02T17:08:37-04:00</pubDate>
+      <source>the_verge</source>
+      <description>أطلقت ميتا الآن إمكانية إنشاء أجهزة ميوز مخصصة، تستخدم الوكيل الذكي الجديد للشركة وتستند إلى الشيفرة المفتوحة المصدر. تقترح ميتا مشاريع مثل تثبيت ميوز على شاشة إينك ملونة لعرض التذكيرات، أو دمجه مع عصا HDMI لتشغيل المساعد على شاشة كبيرة، بالإضافة إلى أفكار أخرى لتخصيص الوظائف. يمكن للمطورين تعديل الأكواد لتناسب أجهزة مثل الساعات الذكية أو اللوحات الإلكترونية، مما يفتح آفاقاً للإبداع في تطبيقات الذكاء الاصطناعي اليومية.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_B.png?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C9.9676601489831%2C100%2C80.064679702034&amp;amp;w=1200" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>نتفليكس تتحول بعيدًا عن الهيبة</title>
+      <link>https://www.theverge.com/streaming/1004323/netflix-david-fincher-shawn-levy-mike-flanagan-duffer-brothers-greta-gerwig</link>
+      <pubDate>2026-10-02T16:30:26-04:00</pubDate>
+      <source>the_verge</source>
+      <description>أظهرت نتفليكس أن أبرز نجاحاتها النقدية، مثل أعمال ديفيد فينشر وشون ليفي، جاءت من اتفاقيات إنتاج طويلة الأمد مع مخرجين مشهورين. إلا أن الأسابيع الأخيرة شهدت إنهاء جزء من هذه الشراكات، ما يُظهر تحولاً استراتيجياً كبيراً للشركة في مواجهة المنافسين، حيث تسعى إلى إعادة توزيع الموارد والتركيز على محتوى أصلي مختلف.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/streaming/1004323/netflix-david-fincher-shawn-levy-mike-flanagan-duffer-brothers-greta-gerwig&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK072_VRG_Illo_N_Barclay_7_netflix.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;amp;w=1200" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>آبل ستقيد الوصول إلى قرص ماك مع زيادة خطر الوكلاء الذكاء الاصطناعي بشكل كبير</title>
+      <link>https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents</link>
+      <pubDate>2026-10-02T16:08:40-04:00</pubDate>
+      <source>the_verge</source>
+      <description>ستضيف شركة آبل حدودًا جديدة للوصول الكامل إلى القرص على نظام ماك ردًا على المخاطر التي يسببها وكلاء الذكاء الاصطناعي. وفقًا لتقارير TechCrunch وتحديثها الأخير يوم الجمعة، ستُطبّق آبل ضوابط تضمن أن المستخدمين الذين يرغبون فعلاً بمنح تطبيق ما صلاحية استثنائية يمكنهم فعل ذلك فقط عبر خطوات محددة، مما يعزز الأمان ويحدّ من الاستغلال.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268759_Mac_Mini_AKrales_0079.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;amp;w=1200" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Sling TV يوقف بطاقات الكابل اليومية</title>
+      <link>https://www.theverge.com/streaming/1004300/sling-tv-pass-cable-drops</link>
+      <pubDate>2026-10-02T16:00:20-04:00</pubDate>
+      <source>the_verge</source>
+      <description>أعلنت شركة ديش المالكة لخدمة Sling TV أن ميزة Sling Pass التي مكنت المشاهدين من شراء برامج الكابل ليوم واحد أو عطلة نهاية أسبوع أو أسبوع كامل ستتوقف عن العمل. تمّ إطلاق هذه الخدمة العام الماضي لتوفير مرونة في المشاهدة عبر باقات يومية وأسبوعية، ولكن وفقًا لتقارير The Desk ستُلغى قريبًا.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/streaming/1004300/sling-tv-pass-cable-drops&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/11/STKB311_SLING_TV_B.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;amp;w=1200" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>وكيل Dot من OpenAI هو برنامج مؤسسي يمكنه أيضًا طلب عشاءك</title>
+      <link>https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent</link>
+      <pubDate>2026-10-02T14:00:00-04:00</pubDate>
+      <source>the_verge</source>
+      <description>أعلنت شركة أوبن أي آي عن منصة الوكلاء الجديدة التي أطلقتها تحت اسم Dots، وتضم مجموعة من الوكلاء الصغار القادرين على تنفيذ المهام المتنوعة بما فيها طلب الطعام، لكن تجربتها تشبه أكثر برمجية عمل مكتبية تُضاف إليها وظائف إضافية، مما يختلف عن تطبيق Meta Muse الأكثر سهولة وسلاسة في الاستخدام.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DSC04281_processed.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.723165084465%2C100%2C78.55366983107&amp;amp;w=1200" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>الانفصال (عن إيلون ماسك) صعب</title>
+      <link>https://www.theverge.com/tech/1004177/elon-musk-unfollows-shivon-zilis</link>
+      <pubDate>2026-10-02T13:37:36-04:00</pubDate>
+      <source>the_verge</source>
+      <description>في مشهد درامي يذكرنا بإنستغرام القديم، أعلنت شيفون زيلس على منصة X عن انفصالها عن إيلون ماسك، أبو أربعة أطفالها، من خلال اقتباس تغريدة من حساب &quot;Big Tech Alert&quot; المتخصص في رصد متابعات وإلغاء المتابعات بين الحسابات، مما أثار موجة تساؤلات ومناقشات على السوشيال ميديا العالمية والرقمية وأثرت ردود فعل واسعة بين المتابعين.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/tech/1004177/elon-musk-unfollows-shivon-zilis&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STPK222_SHIVON_ZILIS2.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;amp;w=1200" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>ارتفاع مبيعات ريفيان مع بدء جني ثمار رهانها الكبير على R2</title>
+      <link>https://www.theverge.com/transportation/1004127/rivian-q3-2026-production-delivery-r2</link>
+      <pubDate>2026-10-02T13:15:03-04:00</pubDate>
+      <source>the_verge</source>
+      <description>أعلنت شركة ريفيان عن أرقام الإنتاج والتسليم للربع الثالث، حيث بلغت الإنتاجية 19,751 مركبة وتم توصيل 19,248 منها، مسجلة ارتفاعاً بنسبة 85٪ في الإنتاج مقارنةً بالعام السابق وارتفاعاً بنسبة 45٪ في التسليمات. وتُظهر هذه النتائج نجاح السيارة الأكثر تكلفةً R2 التي ارتكزت الشركة على توقعات عالية لها. وكانت الشركة تأمل أن تكون R2 خياراً ميسوراً يجذب المستهلكين.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/transportation/1004127/rivian-q3-2026-production-delivery-r2&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/268434_Rivian_Factory_ATahlier_0019.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;amp;w=1200" type="image/jpeg"/>
     </item>
     <item>
       <title>مبدعو Beehiiv يتحدثون بحماس عن الزيادة الجديدة في الأسعار</title>
