@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>All News</title>
+    <description>All news from 11 sources</description>
+    <link>https://github.com/bidjadraft/rss-translator</link>
+    <language>arabic</language>
+    <lastBuildDate>Fri, 02 Oct 2026 13:10:00 GMT</lastBuildDate>
+    <item>
+      <title>وثائقك الورقية تنتمي إلى اللوكر أيضًا</title>
+      <link>https://ente.com/blog/locker-document-scanner/</link>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+      <source>ente_-_feed</source>
+      <description>أطلقت تطبيق Locker ميزة جديدة تسمح للمستخدمين بمسح المستندات الورقية وتحويلها إلى ملفات PDF مباشرة داخل التطبيق، دون الحاجة لاستخدام برنامج خارجي أو الخروج من الواجهة. تسهّل هذه الخاصية حفظ المستندات وإدارتها بسرعة، وتُعزّز من كفاءة العمل الرقمي للمستخدمين. كما تدعم ضبط جودة الصورة وتحديد حجم الملف، وتتيح مشاركة الـPDF عبر البريد الإلكتروني أو التخزين السحابي بمجرد الانتهاء.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://ente.com/blog/locker-document-scanner/&quot;&gt;ente_-_feed&lt;/a&gt;</description>
+      <enclosure url="https://ente.com/og-images/locker-document-scanner.png" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>أدوات تقنية القراصنة: ما تفعله وكيفية البقاء آمنًا</title>
+      <link>https://proton.me/blog/hacker-tech-tools</link>
+      <pubDate>Tue, 29 Sep 2026 18:07:00 GMT</pubDate>
+      <source>the_proton_blog</source>
+      <description>تتعرف على كيفية استخدام القراصنة لأدوات مثل كابلات USB الضارة، مسجلات المفاتيح (keyloggers) وقارئات RFID لاستهداف الأنظمة، مع شرح للثغرات التي تستغلها هذه الأجهزة. يُقترح اتخاذ إجراءات وقائية تشمل فحص الأجهزة قبل توصيلها، استخدام برامج مضادة للبرمجيات الخبيثة، تفعيل المصادقة الثنائية وتشفير البيانات لتقليل مخاطر الاختراق، كما يُنصح بتحديث نظام التشغيل وتعطيل الخدمات غير الضرورية وتطبيق سياسات للتحكم بتوصيل الأجهزة الخارجية.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://proton.me/blog/hacker-tech-tools&quot;&gt;the_proton_blog&lt;/a&gt;</description>
+      <enclosure url="https://pmecdn.protonweb.com/image-transformation/?s=c&amp;amp;image=images/w_2560,h_1440,c_scale/f_auto,q_auto/v1790697967/wp-pme/hacker-tools-01d/hacker-tools-01d.jpg?_i=AA" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>نوتسنوك موبايل v3.4.13</title>
+      <link>https://notesnook.com/blog/notesnook-mobile-v3.4.13</link>
+      <pubDate>Tue, 15 Sep 2026 11:20:56 GMT</pubDate>
+      <source>notesnook_blog</source>
+      <description>أصدرت Notesnook نسخة الجوال 3.4.13 مع تحسين كبير في معالجة المرفقات وتسهيل مشاركتها، كما تم إصلاح عطل نسخ الروابط إلى الحافظة، وتم تحديث مكتبة React Native sodium لضمان أمان أعلى وأداء أكثر استقراراً. يسهم هذا التحديث في تحسين تجربة المستخدم عبر تقليل الأخطاء أثناء الإرفاق ومشاركة الملفات، كما يعزز استقرار التطبيق على أنظمة iOS وAndroid بفضل التحديثات البرمجية الحديثة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://notesnook.com/blog/notesnook-mobile-v3.4.13&quot;&gt;notesnook_blog&lt;/a&gt;</description>
+    </item>
+    <item>
+      <title>الصندوق واللمحات، أغسطس ٢٠٢٦</title>
+      <link>https://blog.joinmastodon.org/2026/09/trunk-tidbits-august-2026/</link>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+      <source>mastodon_blog</source>
+      <description>أطلقت Mastodon نسخة 4.7 بحلول أغسطس، تركز على تحسينات تقنية، وتتوفر الآن إصدارات 4.7.1، 4.6.7، 4.5.17 و4.4.24 مع تصحيحات أمان. النسخة 5.0 القادمة ستقدم تغييرات واجهة كبيرة. تم دمج 197 طلب سحب من 11 مساهمًا، وتحسينات في Fediscoverer ودمج Rails/Vite. أُصدر تصحيح أمان iOS 2026.07 وتحديث Android 2.13.3، وتُستكمل تحديثات التصميم.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://blog.joinmastodon.org/2026/09/trunk-tidbits-august-2026/&quot;&gt;mastodon_blog&lt;/a&gt;</description>
+    </item>
+    <item>
+      <title>Kagi Translate عاد (محدّث)</title>
+      <link>https://blog.kagi.com/translate-is-back</link>
+      <pubDate>Thu, 10 Sep 2026 11:13:10 GMT</pubDate>
+      <source>kagi_blog</source>
+      <description>نشكر جميع المستخدمين على ملاحظاتهم حول تعديل خدمة Kagi Translate. بناءً على هذه التعليقات، تم تحديث هذا المنشور لتأكيد أن الترجمة ستستمر في الاندماج ضمن خطط Starter وProfessional وFamily وTeam وUltimate، وستظل متاحة وفق سياسة الاستخدام العادل التي نتبعها لضمان تجربة متوازنة وعادلة للجميع، مما يعزز شفافية الخدمة وتلبية احتياجات المستخدمين.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://blog.kagi.com/translate-is-back&quot;&gt;kagi_blog&lt;/a&gt;</description>
+      <enclosure url="https://blog.kagi.com/og-image.png" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>ما يكشفه هاكاثون طلب البيتزا عن ربط وكلاء الذكاء الاصطناعي بالويب</title>
+      <link>https://brave.com/blog/alphasignal-hackathon/</link>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <source>braves_latest_news_on_brave</source>
+      <description>شارك المتسابقون في الهاكاثون الذي نظمته النشرة الإخبارية الشهيرة للذكاء الاصطناعي AlphaSignal باستخدام واجهة برمجة تطبيقات Brave Search لبناء وكيل ذكي ذاتي القدرة، ونجحوا في تمكين هذا الوكيل من تنفيذ مهام واقعية بشكل موثوق في العالم الفعلي، مما أظهر إمكانيات التكامل بين البحث الآلي والأنظمة المستقلة. وتم اختبار الوكيل على سيناريوهات متعددة تشمل استعلامات معقدة وتفاعل مع خدمات الويب، مع تحقيق استجابة سريعة ودقيقة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://brave.com/blog/alphasignal-hackathon/&quot;&gt;braves_latest_news_on_brave&lt;/a&gt;</description>
+      <enclosure url="https://brave.com/blog/alphasignal-hackathon/images/featured.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>يتم اعتبار YT‑DLP أداة قرصنة من قبل IFPI</title>
+      <link>https://feed.itsfoss.com/link/24361/17483251/yt-dlp-ifpi-piracy-watchlist</link>
+      <pubDate>Thu, 01 Oct 2026 20:55:37 +0530</pubDate>
+      <source>its_foss</source>
+      <description>قامت الشركة بتقديم أداة مفتوحة المصدر إلى القائمة الأوروبية لمكافحة القرصنة، ما أدى إلى تصنيفها إلى جانب المواقع التي تُعنى بالتحميل غير القانوني. يثير هذا الإجراء جدلاً حول ما إذا كانت الأداة تُستغل لسرقة المحتوى أو تُستخدم لأغراض مشروعة، مما يستدعي مراجعة سياسات الاتحاد الأوروبي وتحديد حدود المسؤولية. كما أدت إلى دعوات من المجتمع التقني لإعادة تقييم تأثير القوانين على الابتكار.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://feed.itsfoss.com/link/24361/17483251/yt-dlp-ifpi-piracy-watchlist&quot;&gt;its_foss&lt;/a&gt;</description>
+      <enclosure url="https://itsfoss.com/content/images/2026/10/yt-dlp-ifpi-banner.png" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>العودة إلى النسخ الاحتياطية: عام في المراجعة</title>
+      <link>https://signal.org/blog/backup-improvements/</link>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <source>signal_blog</source>
+      <description>في سبتمبر الماضي قدمنا طريقة اختيارية جديدة لعمل نسخة احتياطية تلقائية وآمنة لبيانات Signal، لتسهيل استعادة الرسائل والذكريات إذا فقد أحد أجهزتك. بعد عام من الاستماع إلى ملاحظات المستخدمين والعمل على تحسينات متعددة، أُطلقت الآن الميزات المستقبلية على جميع الأنظمة مع إصدار iOS 8.30. يُقَدِّم هذا التحديث ملخصاً لكل التغييرات التي أُجريت منذ الإطلاق الأول.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://signal.org/blog/backup-improvements/&quot;&gt;signal_blog&lt;/a&gt;</description>
+      <enclosure url="https://signal.org/blog/images/backup-improvements-opengraph.png" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>ريفيان تصدر استدعاء R2 لحزم البطاريات المشدودة بشكل غير جيد</title>
+      <link>https://techcrunch.com/2026/10/02/rivian-issues-r2-recall-for-poorly-tightened-battery-packs/</link>
+      <pubDate>Fri, 02 Oct 2026 12:50:11 +0000</pubDate>
+      <source>techcrunch</source>
+      <description>أعلنت الشركة أن ما يقرب من أربعة عشر مركبة قد تتأثر بمشكلة تم اكتشافها مؤخراً، لكنها أكدت أن فريق الصيانة تمكن من معالجة العيب على خط التجميع بشكل كامل، مما يضمن استئناف الإنتاج دون أي تأخير إضافي أو تأثير على جودة السيارات المتوفرة للمستهلكين. كما ستتابع الشركة الوضع عن كثب وتصدر تحديثات دورية لضمان شفافية المعلومات وحماية مصالح العملاء.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/rivian-issues-r2-recall-for-poorly-tightened-battery-packs/&quot;&gt;techcrunch&lt;/a&gt;</description>
+      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/03/rivian-r2.jpeg?resize=1200,797" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>تعافي تسلا يواجه عرقوبة</title>
+      <link>https://www.theverge.com/transportation/1003601/teslas-recovery-hits-a-speed-bump</link>
+      <pubDate>2026-10-02T09:08:16-04:00</pubDate>
+      <source>the_verge</source>
+      <description>أفلتت تسلا مبيعاتها في الربع الثالث مقارنة بالعام السابق، حيث كان المستهلكون يسرعون للاستفادة من ائتمانات الضرائب الفيدرالية المتقادمة لشراء المركبات الكهربائية. ونتيجةً لذلك، يشكل تقرير الإنتاج والتسليم الصادر اليوم عائقًا مؤقتًا في مسار تعافي الشركة بعد الانخفاض في حجم المبيعات. كما أعلنت أن إنتاجها انخفض إلى حوالي 480 ألف وحدة مقارنةً بـ 500 ألف في الربع السابق، مضيفةً أن ضغوط سلاسل الإمداد وتذبذب الطلب تُعقّبان استراتيجيتها.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/transportation/1003601/teslas-recovery-hits-a-speed-bump&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2290772795.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.515821310401%2C100%2C78.968357379198&amp;amp;w=1200" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>F-Droid 2.0: فصل جديد لحرية أندرويد</title>
+      <link>https://f-droid.org/en/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html</link>
+      <pubDate>2026-09-24T00:00:00+00:00</pubDate>
+      <source>f-droid</source>
+      <description>أعلنت فريق F‑Droid بعد أكثر من عام من التطوير عن إطلاق النسخة 2.0، والتي تمثل إعادة تصميم كاملة للتطبيق الرسمي بأحدث واجهة Material Design ومبنية بـ Kotlin Compose. تحسينات تشمل تبسيط التنقل إلى ثلاث أقسام (اكتشاف، بحث، تطبيقاتي)، فئات متخصصة، بحث شامل، تصفية متقدمة، تثبيت أسرع، دعم Tor وميزات طوارئ، وإزالة الاعتماد على FPE. سيبدأ التوزيع تدريجياً مع دعوة المجتمع للمشاركة والتبرع.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://f-droid.org/en/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html&quot;&gt;f-droid&lt;/a&gt;</description>
+      <enclosure url="https://f-droid.org/assets/fdroid-logo_bfHl7nsLHOUQxzdU8-rGIhn4bAgl6z7k2mA3fWoCyT4=.png" type="image/jpeg"/>
+    </item>
+  </channel>
+</rss>
