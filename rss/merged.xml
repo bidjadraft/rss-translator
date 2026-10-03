@@ -5,7 +5,7 @@
     <description>All news from 11 sources</description>
     <link>https://github.com/bidjadraft/rss-translator</link>
     <language>arabic</language>
-    <lastBuildDate>Sat, 03 Oct 2026 03:06:12 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 10:52:52 GMT</lastBuildDate>
     <item>
       <title>أرسل وكيل Muse AI من ميتا شخصًا غريبًا تمامًا إلى منزل المستخدم</title>
       <link>https://proton.me/blog/meta-muse-ai-home-address</link>
@@ -77,6 +77,14 @@
       <enclosure url="https://pmecdn.protonweb.com/image-transformation/?s=c&amp;amp;image=images/f_auto,q_auto/v1790834701/wp-pme/20260928-what-is-proactive-ai_/20260928-what-is-proactive-ai_.jpg?_i=AA" type="image/jpeg"/>
     </item>
     <item>
+      <title>نحن نعتبر بيانات المستهلكين نفايات سامة</title>
+      <link>https://feed.itsfoss.com/link/24361/17484548/obscura-carl-dong</link>
+      <pubDate>Sat, 03 Oct 2026 13:17:16 +0530</pubDate>
+      <source>its_foss</source>
+      <description>يفصل Obscura VPN هوية المستخدم عن سجل تصفحه عبر شركتين مستقلتين بحيث لا تتمكن أيٌ منهما من ربطهما معًا. يوضح المؤسس كارل دونغ أهمية الثقة في البروتوكول QUIC، وإمكانية بناء البرمجيات القابلة لإعادة الإنتاج، ويُناقش لماذا لم يعد وعد عدم حفظ السجلات كافيًا لضمان الخصوصية. كما يشرح كيف يضمن الفصل بين الشرکتين عدم تجميع البيانات، ويُبرز التحديات التي تفرضها الشبكات الحديثة على سياسات الخصوصية.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://feed.itsfoss.com/link/24361/17484548/obscura-carl-dong&quot;&gt;its_foss&lt;/a&gt;</description>
+      <enclosure url="https://itsfoss.com/content/images/2026/10/obscura-carl-dong-1-.webp" type="image/jpeg"/>
+    </item>
+    <item>
       <title>ميتا تريد أن يكون جهازك التالي مُدمجًا مع Muse</title>
       <link>https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/</link>
       <pubDate>Sat, 03 Oct 2026 00:45:39 +0000</pubDate>
@@ -115,6 +123,14 @@
       <source>techcrunch</source>
       <description>فرصتك القادمة قد تكون مجرد محادثة واحدة فقط، وقد تفتح لك أبوابًا جديدة في مجال عملك أو دراستك. لذا لا تتردد في الحصول على بطاقة Expo+ بسعر 75 دولارًا فقط، وهي متاحة لأول مئة شخص يلبون الشروط المطلوبة. سارع بالحجز الآن لتأمين مكانك والاستفادة من هذا العرض الحصري قبل نفاد الكمية.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/&quot;&gt;techcrunch&lt;/a&gt;</description>
       <enclosure url="https://techcrunch.com/wp-content/uploads/2024/05/breakout_1200x600.png?w=1200" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>تحديث حول أورايون لنظامي لينكس وويندوز</title>
+      <link>https://blog.kagi.com/update-orion-linux-windows</link>
+      <pubDate>Fri, 02 Oct 2026 18:35:39 GMT</pubDate>
+      <source>kagi_blog</source>
+      <description>أعلنت شركة Kagi أنها ستوقف تطوير متصفح Orion لأنظمة لينكس وويندوز وتفتح شفرة المصدر لكلا الإصدارين، مما يتيح للمجتمع متابعة صيانتهما وتطويرهما. سيتجه فريق الشركة الصغير الآن بالكامل نحو تحسين Orion لنظامي macOS وiOS، مع التركيز على زيادة السرعة، تعزيز الاستقرار، وإضافة ميزات جديدة لتوسيع قدراته. سيتم توفير الكود على منصة GitHub مع توثيق يسهّل على المطورين الانضمام للمشروع.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://blog.kagi.com/update-orion-linux-windows&quot;&gt;kagi_blog&lt;/a&gt;</description>
+      <enclosure url="https://blog.kagi.com/og-image.png" type="image/jpeg"/>
     </item>
     <item>
       <title>تقول Apple إنها تشدّد ضوابط «الوصول الكامل إلى القرص» في macOS بسبب المخاطر الجديدة من وكلاء الذكاء الاصطناعي</title>
