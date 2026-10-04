@@ -5,15 +5,7 @@
     <description>All news from 11 sources</description>
     <link>https://github.com/bidjadraft/rss-translator</link>
     <language>arabic</language>
-    <lastBuildDate>Sun, 04 Oct 2026 03:33:51 GMT</lastBuildDate>
-    <item>
-      <title>ما يكشفه هاكاثون طلب البيتزا عن ربط وكلاء الذكاء الاصطناعي بالويب</title>
-      <link>https://brave.com/blog/alphasignal-hackathon/</link>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-      <source>braves_latest_news_on_brave</source>
-      <description>شارك المتسابقون في الهاكاثون الذي نظمته النشرة الإخبارية الشهيرة للذكاء الاصطناعي AlphaSignal باستخدام واجهة برمجة تطبيقات Brave Search لبناء وكيل ذكي ذاتي القدرة، ونجحوا في تمكين هذا الوكيل من تنفيذ مهام واقعية بشكل موثوق في العالم الفعلي، مما أظهر إمكانيات التكامل بين البحث الآلي والأنظمة المستقلة. وتم اختبار الوكيل على سيناريوهات متعددة تشمل استعلامات معقدة وتفاعل مع خدمات الويب، مع تحقيق استجابة سريعة ودقيقة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://brave.com/blog/alphasignal-hackathon/&quot;&gt;braves_latest_news_on_brave&lt;/a&gt;</description>
-      <enclosure url="https://brave.com/blog/alphasignal-hackathon/images/featured.jpg" type="image/jpeg"/>
-    </item>
+    <lastBuildDate>Sun, 04 Oct 2026 11:34:49 GMT</lastBuildDate>
     <item>
       <title>يتم اعتبار YT‑DLP أداة قرصنة من قبل IFPI</title>
       <link>https://feed.itsfoss.com/link/24361/17483251/yt-dlp-ifpi-piracy-watchlist</link>
@@ -29,6 +21,14 @@
       <source>the_proton_blog</source>
       <description>الذكاء الاصطناعي الاستباقي يعمل دون طلب مسبق ويستمد قوته لتشغيل نظامي Muse وInstinct من ميتا، حيث يرسل مقترحات وإجراءات تلقائية للمستخدمين. يشرح النص آلية عمل الوكلاء الاستباقيين وكيفية تجميعهم للبيانات، موضحًا أن هذا النوع من الذكاء قد يهدد الخصوصية عبر مراقبة سلوكيات المستخدم وتخزين معلومات حساسة. وتشير التقديرات إلى أن تكاليف الخصوصية قد ترتفع بصورة ملحوظة، بينما لا يزال المستخدمون يواجهون صعوبة في التحكم بالبيانات التي يجمعها هذا الذكاء.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://proton.me/blog/proactive-ai&quot;&gt;the_proton_blog&lt;/a&gt;</description>
       <enclosure url="https://pmecdn.protonweb.com/image-transformation/?s=c&amp;amp;image=images/f_auto,q_auto/v1790834701/wp-pme/20260928-what-is-proactive-ai_/20260928-what-is-proactive-ai_.jpg?_i=AA" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>ديجيتال أوشن ينهي بهدوء برنامج ائتمانات المصدر المفتوح</title>
+      <link>https://feed.itsfoss.com/link/24361/17486227/digitalocean-open-source-credits-end</link>
+      <pubDate>Sun, 04 Oct 2026 12:41:37 +0530</pubDate>
+      <source>its_foss</source>
+      <description>تلقى عدد من مشرفي المشاريع رسائل بريد إلكتروني تفيد بأنهم لم يعودوا مؤهلين للحصول على أي رصيد مجاني إضافي من شركة Digital Ocean، مما يعني أنه سيتعين عليهم الاعتماد على مواردهم الخاصة أو البحث عن حلول سحابية بديلة لتشغيل تطبيقاتهم ومشاريعهم المستقبلية. هذا الإجراء يأتي ضمن سياسات الشركة لتقليل الاعتماد على العروض التجريبية، وقد يثير قلقًا لدى المطورين الذين يعتمدون على هذه المنصات لتقليل التكاليف.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://feed.itsfoss.com/link/24361/17486227/digitalocean-open-source-credits-end&quot;&gt;its_foss&lt;/a&gt;</description>
+      <enclosure url="https://itsfoss.com/content/images/2026/10/do-end-open-source-credit-program.webp" type="image/jpeg"/>
     </item>
     <item>
       <title>قاضٍ فيدرالي يصف Flock بـ«المراقبة الجماعية غير التمييزية»</title>
