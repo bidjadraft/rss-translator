@@ -5,15 +5,7 @@
     <description>All news from 11 sources</description>
     <link>https://github.com/bidjadraft/rss-translator</link>
     <language>arabic</language>
-    <lastBuildDate>Mon, 05 Oct 2026 13:09:14 GMT</lastBuildDate>
-    <item>
-      <title>متأثر بعمليات الفصل؟ لا تفوت هذه الصفقة بـ75 دولار لتأشيرة TechCrunch Disrupt 2026 Expo+</title>
-      <link>https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/</link>
-      <pubDate>Fri, 02 Oct 2026 19:15:51 +0000</pubDate>
-      <source>techcrunch</source>
-      <description>فرصتك القادمة قد تكون مجرد محادثة واحدة فقط، وقد تفتح لك أبوابًا جديدة في مجال عملك أو دراستك. لذا لا تتردد في الحصول على بطاقة Expo+ بسعر 75 دولارًا فقط، وهي متاحة لأول مئة شخص يلبون الشروط المطلوبة. سارع بالحجز الآن لتأمين مكانك والاستفادة من هذا العرض الحصري قبل نفاد الكمية.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/&quot;&gt;techcrunch&lt;/a&gt;</description>
-      <enclosure url="https://techcrunch.com/wp-content/uploads/2024/05/breakout_1200x600.png?w=1200" type="image/jpeg"/>
-    </item>
+    <lastBuildDate>Mon, 05 Oct 2026 21:46:55 GMT</lastBuildDate>
     <item>
       <title>تحديث حول أورايون لنظامي لينكس وويندوز</title>
       <link>https://blog.kagi.com/update-orion-linux-windows</link>
@@ -157,6 +149,14 @@
       <source>techcrunch</source>
       <description>أفادت الشركة أن حوالي أربعة عشر مركبة قد تكون متأثرة بمشكلة في خط التجميع، لكن تم تصحيح العطل وإصلاحه بالكامل داخل المصنع، مما يضمن عودة الإنتاج إلى وضعه الطبيعي دون أي تأخير إضافي على العملاء. وقد أكدت الإدارة أن جميع السيارات المتأثرة ستخضع للفحص والضمان قبل تسليمها. كما تم إبلاغ الوكلاء باتخاذ الإجراءات الوقائية، وستستمر المتابعة التقنية لضمان عدم تكرار المشكلة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/rivian-issues-r2-recall-for-poorly-tightened-battery-packs/&quot;&gt;techcrunch&lt;/a&gt;</description>
       <enclosure url="https://techcrunch.com/wp-content/uploads/2026/03/rivian-r2.jpeg?resize=1200,797" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>الألعاب المعكوسة الهندسة: كل الأخبار حول تفكيك وإعادة تجميع ألعاب الفيديو، والواقع الافتراضي، والويب ونسخ ثلاثية الأبعاد</title>
+      <link>https://www.theverge.com/games/1004869/reverse-engineered-games-all-the-news-on-video-game-decomps-recomps-vr-and-web-and-3d-ports</link>
+      <pubDate>2026-10-05T17:17:45-04:00</pubDate>
+      <source>the_verge</source>
+      <description>تشهد ألعاب الريترو طفرة غير مسبوقة بفضل عمليات فك وإعادة تجميع الكود الخاص بالألعاب الكلاسيكية، ما يتيح تحريرها من قيود الأجهزة الأصلية وتحويلها إلى منصات جديدة أو تعديلها بطرق تغير تجربة اللعب بالكامل؛ فكّر في إمكانية ركوب الألواح داخل Call of Duty أو تشغيل نسخة Halo الأصلية على هواتف ذكية.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/games/1004869/reverse-engineered-games-all-the-news-on-video-game-decomps-recomps-vr-and-web-and-3d-ports&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25403266/STK465_VIDEO_GAMES_EMULATOR__CVirginia_B.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;amp;w=1200" type="image/jpeg"/>
     </item>
     <item>
       <title>الهاتف OLED الشبيه بالورق من TCL جعلني أكثر حماسًا لـ iPhone Duo</title>
