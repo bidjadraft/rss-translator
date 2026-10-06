@@ -5,47 +5,7 @@
     <description>All news from 11 sources</description>
     <link>https://github.com/bidjadraft/rss-translator</link>
     <language>arabic</language>
-    <lastBuildDate>Tue, 06 Oct 2026 04:03:02 GMT</lastBuildDate>
-    <item>
-      <title>تقول Apple إنها تشدّد ضوابط «الوصول الكامل إلى القرص» في macOS بسبب المخاطر الجديدة من وكلاء الذكاء الاصطناعي</title>
-      <link>https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/</link>
-      <pubDate>Fri, 02 Oct 2026 18:11:27 +0000</pubDate>
-      <source>techcrunch</source>
-      <description>أعلنت شركة آبل أنها ستضيف ضوابط جديدة لإذن الوصول الكامل إلى القرص في نظام macOS، مُحذرةً من أن الوكلاء الذكائيين المتطورين يزدادون قدرةً على الوصول إلى ملفات المستخدمين، رسائله، بريده الإلكتروني وتاريخ تصفحه، مما يجعل هذه الصلاحية تشكل مخاطرة أكبر للخصوصية والأمان. وتؤكد آبل أن الإعدادات الجديدة ستتيح للمستخدمين التحكم الدقيق في التطبيقات المسموح لها بالوصول، لتقليل خطر الاستغلال.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/&quot;&gt;techcrunch&lt;/a&gt;</description>
-      <enclosure url="https://techcrunch.com/wp-content/uploads/2022/07/CMC_1580.jpg?resize=1200,800" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>لم يعد ذكاءً اصطناعيًا، بل «ذكاءً فائقًا» (حسب البيت الأبيض)</title>
-      <link>https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/</link>
-      <pubDate>Fri, 02 Oct 2026 17:48:16 +0000</pubDate>
-      <source>techcrunch</source>
-      <description>اجتمع الرئيس ترامب مع أبرز التنفيذيين في التقنية—زوكربيرغ، بيزوس، ماسك، وداريو أموداي من أنثروبيك—في البيت الأبيض لتوقيع تعهد سلامة الذكاء الاصطناعي الذي وصفه بـ«ملزم أخلاقياً». كما أصدر أمرًا تنفيذيًا يطلق على الذكاء الاصطناعي مصطلح «الذكاء الفائق». وفي الوقت نفسه، تسعى ميتا وأوبن إيه آي لتقديم واجهات أكثر ودية لمنتجاتهما رغم الضخامة المالية المتوقعة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/&quot;&gt;techcrunch&lt;/a&gt;</description>
-      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2297764008.jpg?w=1024" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>TechCrunch Disrupt 2026: جاس خايرا من بلاكستون حول بناء الجيل القادم من عمالقة الذكاء الاصطناعي</title>
-      <link>https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/</link>
-      <pubDate>Fri, 02 Oct 2026 17:32:05 +0000</pubDate>
-      <source>techcrunch</source>
-      <description>سيتولى جاس خيرا من بلاكستون إلقاء كلمة على منصة Builders في مؤتمر TechCrunch Disrupt 2026 ليتحدث عن تطوير الذكاء الاصطناعي من الجيل التالي. سيستعرض رؤى حول الابتكارات التقنية، ويُدعى رواد الأعمال والمستثمرين للمشاركة. يمكن للجمهور التسجيل الآن للحصول على تذكرة الدخول، مع عرض يوفر خصم 50٪ على التذكرة الثانية. سيتاح للحضور فرص التواصل مع كبار القادة في الصناعة وتبادل الخبرات.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/&quot;&gt;techcrunch&lt;/a&gt;</description>
-      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/10/TCD26_1-Jas-Khaira_Speaker-16x9-Dark.png?resize=1200,675" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>مختبرات سيركت بريكر تأمل في جعل الذكاء الاصطناعي أكثر أمانًا لأطفالك (ولك)</title>
-      <link>https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/</link>
-      <pubDate>Fri, 02 Oct 2026 17:00:00 +0000</pubDate>
-      <source>techcrunch</source>
-      <description>في ظل النقاش المتزايد حول خطر الذكاء الاصطناعي على مستقبل البشرية، ينسى البعض أن التكنولوجيا قد ألقت بظلالها سابقةً على الصحة النفسية لبعض الأفراد. شركة Circuit Breaker Labs استجابت لهذا القلق بابتكار &quot;دمى اختبار الاصطدام&quot; التي صُممت لمحاكاة التأثيرات النفسية للذكاء الاصطناعي وتوفير بيئة آمنة للبحث والتطوير؛ هدفها تقليل الضرر النفسي وتقييم ردود الفعل في سيناريوهات مختلفة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/&quot;&gt;techcrunch&lt;/a&gt;</description>
-      <enclosure url="https://techcrunch.com/wp-content/uploads/2026/10/Circuit-Labs-founders-2.jpeg?resize=1200,1037" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>بارامونت ووارنر بروس ديسكوفري ستصبحان سكاي دانس</title>
-      <link>https://techcrunch.com/2026/10/02/paramount-and-warner-bros-discovery-to-become-skydance/</link>
-      <pubDate>Fri, 02 Oct 2026 15:53:50 +0000</pubDate>
-      <source>techcrunch</source>
-      <description>تُقدر قيمة الصفقة بحوالى 110 مليار دولار وتُعد من أكبر الصفقات الاقتصادية العالمية. وفقًا للمصادر، من المتوقع إتمامها في السادس من أكتوبر، ما سيسمح للشركات المعنية بالبدء في تنفيذ الخطط المشتركة والاستفادة من التمويل الضخم. تبقى الموافقات التنظيمية الأخيرة هي العائق الوحيد قبل إغلاق الصفقة. ستؤثر هذه الصفقة بشكل كبير على الأسواق المالية وتفتح آفاقًا جديدة للتعاون الدولي.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/paramount-and-warner-bros-discovery-to-become-skydance/&quot;&gt;techcrunch&lt;/a&gt;</description>
-      <enclosure url="https://techcrunch.com/wp-content/uploads/2023/02/GettyImages-1334236014.jpg?resize=1200,804" type="image/jpeg"/>
-    </item>
+    <lastBuildDate>Tue, 06 Oct 2026 12:31:12 GMT</lastBuildDate>
     <item>
       <title>البابا ليو الرابع عشر ليس من محبي الفن المُنتج بالذكاء الاصطناعي</title>
       <link>https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art/</link>
@@ -141,6 +101,46 @@
       <source>techcrunch</source>
       <description>أفادت الشركة أن حوالي أربعة عشر مركبة قد تكون متأثرة بمشكلة في خط التجميع، لكن تم تصحيح العطل وإصلاحه بالكامل داخل المصنع، مما يضمن عودة الإنتاج إلى وضعه الطبيعي دون أي تأخير إضافي على العملاء. وقد أكدت الإدارة أن جميع السيارات المتأثرة ستخضع للفحص والضمان قبل تسليمها. كما تم إبلاغ الوكلاء باتخاذ الإجراءات الوقائية، وستستمر المتابعة التقنية لضمان عدم تكرار المشكلة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/rivian-issues-r2-recall-for-poorly-tightened-battery-packs/&quot;&gt;techcrunch&lt;/a&gt;</description>
       <enclosure url="https://techcrunch.com/wp-content/uploads/2026/03/rivian-r2.jpeg?resize=1200,797" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>خصم 250 دولار على هواتف بيكسل 11 برو وبرو XL</title>
+      <link>https://www.theverge.com/gadgets/1003856/pixel-11-pro-xl-amazon-prime-day-deal-sale</link>
+      <pubDate>2026-10-06T07:30:00-04:00</pubDate>
+      <source>the_verge</source>
+      <description>أعلنت أمازون خلال عرضها لشهر أكتوبر عن تخفيضات كبيرة على هواتف بيكسل 11 برو وبيكسل 11 برو إكس إل، حيث يُخفض سعر البيكسل 11 برو بذاكرة 256 جيجابايت إلى 849 دولارًا بدلًا من 1,099 دولارًا، أي خصم يزيد عن 250 دولارًا، بينما يُباع بيكسل 11 برو إكس إل بسعة 256 جيجابايت بـ 999 دولارًا، أي توفير يصل إلى 300 دولار.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/gadgets/1003856/pixel-11-pro-xl-amazon-prime-day-deal-sale&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Pixel-11-Pro-HiLight-using-HiLight-Studio-Rainbow.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.730155461286%2C100%2C78.539689077427&amp;amp;w=1200" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>دليل The Verge لأفضل صفقات Prime Day في أكتوبر</title>
+      <link>https://www.theverge.com/tech/1004783/october-prime-day-deals-guide</link>
+      <pubDate>2026-10-06T07:01:52-04:00</pubDate>
+      <source>the_verge</source>
+      <description>تقدم أمازون فعاليات Prime Big Deal Days، المعروفة أيضًا بيوم بر PRIME أكتوبر، كتمهيد لتخفيضات الجمعة السوداء وإثنين السايبر. تشمل الحملة مجموعة ضخمة من العروض المميزة، وتسهّل تجميعها في حزمة واحدة التحكم في تدفق المعلومات المتزايد. العروض مخصصة لأعضاء Prime فقط وتستمر طوال أيام الحدث، وتشمل إلكترونيات، أدوات منزلية، وأزياء. إليكم القائمة الكاملة لجميع الصفقات المتاحة خلال هذه الفترة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/tech/1004783/october-prime-day-deals-guide&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268775_October_Prime_Day_PACKAGE_CVirginia.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;amp;w=1200" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>أفضل صفقات التكنولوجيا في يوم برايم أكتوبر التي وجدناها</title>
+      <link>https://www.theverge.com/gadgets/996983/best-october-prime-day-deal-sale-tech</link>
+      <pubDate>2026-10-06T06:55:05-04:00</pubDate>
+      <source>the_verge</source>
+      <description>بدأت فعالية Prime Big Deal Days من أمازون وستستمر حتى الساعة الثالثة صباحًا بتوقيت شرق الولايات المتحدة يوم الخميس 8 أكتوبر. جمع فريقنا مجموعة مختارة من أبرز العروض لتناسب قرّاء فيرج، وتشمل صفقات متعددة على السماعات، ومنتجات ترفيه منزلي مثل أجهزة البث، مكبرات الصوت، وأجهزة الألعاب، إلى جانب عروض على ملحقات أخرى تناسب مختلف الاهتمامات.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/gadgets/996983/best-october-prime-day-deal-sale-tech&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268775_October_Prime_Day_DAY_1_CVirginia.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;amp;w=1200" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>أمازون أليكسا بلس يواصل غناء «لالالا» بشكل مخيف لعدة دقائق متواصلة</title>
+      <link>https://www.theverge.com/tech/1005342/amazon-alexa-plus-keeps-creepily-singing-lalala-for-minutes-on-end</link>
+      <pubDate>2026-10-06T06:53:11-04:00</pubDate>
+      <source>the_verge</source>
+      <description>انتشر عطل غير متوقع في نظام أليكسا بلس جعل بعض سماعات أمازون إيكو المنزلية تردد أصلاً واحدًا فقط وهو «لالالا» أو تغنيه لفترات تصل إلى دقائق، وغالبًا ما يحدث ذلك وسط محادثات المستخدمين. وعند استجواب أليكسا عن السبب، تبين أنها لا تملك أي علم بحدوث هذا السلوك. يعمل المطورون الآن على تحديد جذور المشكلة وإصلاحها في أقرب تحديث للبرمجيات.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/tech/1005342/amazon-alexa-plus-keeps-creepily-singing-lalala-for-minutes-on-end&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/258035_Alexa_Studio_2025_JHiggins_0017.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;amp;w=1200" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>هذه العربة المتحكم فيها عن بُعد سخيفة لكنها مفيدة للغاية</title>
+      <link>https://www.theverge.com/tech/1004820/this-remote-controlled-wagon-is-silly-but-useful</link>
+      <pubDate>2026-10-06T04:00:00-04:00</pubDate>
+      <source>the_verge</source>
+      <description>أعترف أنني عندما أخبرني BougeRV عن عربته المتحكم فيها عن بُعد مع إضاءة متحركة، طلبت تجربتها لتسخر منها، لكن DuneRover أثبت كفاءته بقدرة عزم عالية تمكنه من اجتياز التلال حتى مع حمل أكثر من 200 رطلاً من المعدات، إضافة إلى نظام إضاءة ديناميكي وتحكم سهل يضمن تجربة موثوقة وممتعة ومريحة حتى في الظروف الصعبة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/tech/1004820/this-remote-controlled-wagon-is-silly-but-useful&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/IMG_5043.jpeg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C25.737652705061%2C100%2C69.808027923211&amp;amp;w=1200" type="image/jpeg"/>
     </item>
     <item>
       <title>مكالمة Gemini لي قد تخبر والدتك بأنك متأخر</title>
