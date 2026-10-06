@@ -5,15 +5,7 @@
     <description>All news from 11 sources</description>
     <link>https://github.com/bidjadraft/rss-translator</link>
     <language>arabic</language>
-    <lastBuildDate>Mon, 05 Oct 2026 21:46:55 GMT</lastBuildDate>
-    <item>
-      <title>تحديث حول أورايون لنظامي لينكس وويندوز</title>
-      <link>https://blog.kagi.com/update-orion-linux-windows</link>
-      <pubDate>Fri, 02 Oct 2026 18:35:39 GMT</pubDate>
-      <source>kagi_blog</source>
-      <description>أعلنت شركة Kagi أنها ستوقف تطوير متصفح Orion لأنظمة لينكس وويندوز وتفتح شفرة المصدر لكلا الإصدارين، مما يتيح للمجتمع متابعة صيانتهما وتطويرهما. سيتجه فريق الشركة الصغير الآن بالكامل نحو تحسين Orion لنظامي macOS وiOS، مع التركيز على زيادة السرعة، تعزيز الاستقرار، وإضافة ميزات جديدة لتوسيع قدراته. سيتم توفير الكود على منصة GitHub مع توثيق يسهّل على المطورين الانضمام للمشروع.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://blog.kagi.com/update-orion-linux-windows&quot;&gt;kagi_blog&lt;/a&gt;</description>
-      <enclosure url="https://blog.kagi.com/og-image.png" type="image/jpeg"/>
-    </item>
+    <lastBuildDate>Tue, 06 Oct 2026 04:03:02 GMT</lastBuildDate>
     <item>
       <title>تقول Apple إنها تشدّد ضوابط «الوصول الكامل إلى القرص» في macOS بسبب المخاطر الجديدة من وكلاء الذكاء الاصطناعي</title>
       <link>https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/</link>
@@ -149,6 +141,14 @@
       <source>techcrunch</source>
       <description>أفادت الشركة أن حوالي أربعة عشر مركبة قد تكون متأثرة بمشكلة في خط التجميع، لكن تم تصحيح العطل وإصلاحه بالكامل داخل المصنع، مما يضمن عودة الإنتاج إلى وضعه الطبيعي دون أي تأخير إضافي على العملاء. وقد أكدت الإدارة أن جميع السيارات المتأثرة ستخضع للفحص والضمان قبل تسليمها. كما تم إبلاغ الوكلاء باتخاذ الإجراءات الوقائية، وستستمر المتابعة التقنية لضمان عدم تكرار المشكلة.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://techcrunch.com/2026/10/02/rivian-issues-r2-recall-for-poorly-tightened-battery-packs/&quot;&gt;techcrunch&lt;/a&gt;</description>
       <enclosure url="https://techcrunch.com/wp-content/uploads/2026/03/rivian-r2.jpeg?resize=1200,797" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>مكالمة Gemini لي قد تخبر والدتك بأنك متأخر</title>
+      <link>https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors</link>
+      <pubDate>2026-10-05T19:09:55-04:00</pubDate>
+      <source>the_verge</source>
+      <description>أشارت تقارير Android Authority إلى أن جوجل قد توسّع ميزتها الذكية “Call for Me” لتشمل المكالمات الشخصية، ما يسمح للمستخدمين بإرسال رسائل صوتية للأصدقاء والعائلة. تم اكتشاف شاشة تمهيدية باسم “Gemini Calling” داخل ملف APK، تحتوي على أمثلة مثل “اتصل بأمي وقل لها أنني سأتأخر 15 دقيقة” و”اتصل …”. كما يمكن للمستخدمين طلب الاتصال بجهات عملهم عبر نفس التقنية.&lt;br&gt;&lt;br&gt;المصدر: &lt;a href=&quot;https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors&quot;&gt;the_verge&lt;/a&gt;</description>
+      <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Google-Pixel-11-Pro-Photos-of-Phone-7.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.731298651824%2C100%2C78.537402696352&amp;amp;w=1200" type="image/jpeg"/>
     </item>
     <item>
       <title>الألعاب المعكوسة الهندسة: كل الأخبار حول تفكيك وإعادة تجميع ألعاب الفيديو، والواقع الافتراضي، والويب ونسخ ثلاثية الأبعاد</title>
