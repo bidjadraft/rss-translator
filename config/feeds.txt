@@ -1,3 +1,4 @@
+https://alternativeto.net/feeds/news/
 https://proton.me/blog/feed.xml
 https://ente.com/rss.xml
 https://f-droid.org/feed.xml
@@ -8,4 +9,3 @@ https://signal.org/blog/rss.xml
 https://blog.joinmastodon.org/index.xml
 https://feed.itsfoss.com/
 https://techcrunch.com/feed/
-https://www.theverge.com/rss/index.xml
